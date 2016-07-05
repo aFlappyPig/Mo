@@ -87,12 +87,12 @@ var COMMAND_GET_All_GROUPS = (64 << 20) | 118;
 
 var COMMAND_GET_FILE_UPLOADSIZE = (952 << 20) | 5;
 
-var locationurl = "http://180.153.248.133:8080/MonitorApp/";
-var wsip = "180.153.248.133";//for test: 172.16.75.83; for product: 180.153.248.133
+var locationurl = "http://172.16.75.83:8080/MonitorApp/";
+var wsip = "172.16.75.83";//for test: 172.16.75.83; for product: 180.153.248.133
 var wsport = "8080";
 
 var wsLocation = wsip + ":" + wsport;
 var path = "/Gateway/SocketServer";
-var pictureLocation = "http://qmfile.idbhost.com:8888/data";//for test: http://172.16.15.92:8888/data; for product: http://qmfile.idbhost.com:8888/data
-var renamelocation = "http://127.0.0.1:8888/data";//for test:http://172.16.15.92:8888/data; for product: http://127.0.0.1:8888/data;
+var pictureLocation = "http://172.16.15.92:8888/data";//for test: http://172.16.15.92:8888/data; for product: http://qmfile.idbhost.com:8888/data
+var renamelocation = "http://172.16.15.92:8888/data";//for test:http://172.16.15.92:8888/data; for product: http://127.0.0.1:8888/data;
 var databus = new $.fn.Databus();
