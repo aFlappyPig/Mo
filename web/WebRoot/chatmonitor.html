@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Access-Control-Allow-Origin" content="*">
+	<title>合规2.4.2 -- QM Monitor</title>
+	<link href="jqueryui/jquery-ui.css" rel="stylesheet">
+	<!--custom ui-->
+	<link rel="stylesheet" href="css/bond.css">
+	<link rel="stylesheet" href="css/monitor.css">
+	<link rel="stylesheet" href="css/zebra_datepicker.css">
+</head>
+<body>
+	<div id="login_panel">
+		<div class="login-wrapper">
+			<div class="login-header">
+				<span class="login-header-logo">QM Monitor(2.4.2)</span>
+			</div>
+
+			<div class="login-form">
+				<div class="login-form-input">
+					<span class="login-form-error"></span>
+				</div>
+				<div class="login-form-input">
+					<input id="username_input" type="text" placeholder="输入用户名">
+				</div>
+				<div class="login-form-input">
+					<input id="password_input" type="password" placeholder="输入密码">
+				</div>
+				<div class="login-form-checkbox">
+					<span class="checkbox-container"><input type="checkbox"></span>记住密码
+				</div>
+				<button id="login_btn" class="login-form-button clickable" type="submit">登录</button>
+			</div>
+		</div>
+	</div>
+
+	<div id="monitor_panel" style="display: none;">
+		<div class="monitor-head">
+			<div class="logo"></div>
+			<div class="nav">
+				<span class="dialogue-type active real" title="real">实时对话</span>
+				<span class="dialogue-type history" title="history">历史对话</span>
+			</div>
+			<div class="opt">
+				<span class="monitor-head-quit">退出系统</span>
+				<span class="monitor-head-password">修改密码</span>
+				<span class="monitor-head-alert" style="display:none;">预警设置</span>
+			</div>
+		</div>
+
+		<div class="monitor-body">
+			<div class="lefttab">
+				<div class="tab-title group half inline" type="group">查看群</div>
+				<div class="tab-title person half inline active" type="person">查看个人</div>
+				<div class="all">
+					<span class="group" style="display:none;">全部群</span>
+					<span class="person active">全部人</span>
+				</div>
+				<div class="searcharea">
+					<input id="searchinput" class="txtinput" type="text" placeholder="搜索特定对象" />
+					<span class="monitor-operate-del" style="display: none;"></span>
+				</div>
+				<ul class="monitor-member-list group" style="display:none;"></ul>
+				<ul class="monitor-member-list person"></ul>
+			</div>
+
+			<div class="monitor-operate">
+				<div class="filter" style="display:none;">
+					<div class="form-input">
+						<input class="txtinput" id="keyword" type="text" placeholder="输入关键字回车搜索" value="">
+						<div class="signbtn" id="search-btn-clear"></div>
+					</div>
+					<div id="result"></div>
+				</div>
+				<div id="conditions"><span>筛选条件：</span><span class="condi">所有人 与 所有人 说的话</span></div>
+				<div class="opt">
+					<div id="forexport" class="inline" style="display:none;"><input type="button" class="optbtn export" value="导出" /><span class="export optspan"></span></div>
+					<div class="shr inline" style="display:none;"></div>
+					<div id="forserach" class="inline"><input type="button" class="optbtn" value="&#60;&nbsp;筛选" /></div>
+				</div>
+
+			</div>
+			<div id="real-group" class="monitor-search real group">
+				<div style="text-align:right"><span class="green showall">Show All</span> <input type="button" class="optbtn search" value="&#62;&nbsp;确定" /></div>
+				<br />
+				<br />
+				<div class="monitor-date-container">
+					<label>只看本公司人说的话</label>&nbsp;&nbsp;<span class="switch"></span>
+					<br />
+					<br />
+					<label>人物 </label>
+					<div class="monitor-input-container">
+						<input class="input_first monitor-operate-input" name="one" type="text" placeholder="搜索特定对象">
+						<span class="monitor-operate-del" style="display: none;"></span>
+						<div class="dropdown-container none">
+							<ul class="dropdown-list">
+							</ul>
+						</div>
+					</div>
+				</div>
+				<br />
+				<br />
+				<div class="monitor-input-container"> <span class="errorinfo" style="color:Red;font-size:12px;"></span></div>
+			</div>
+			<div id="real-person" class="monitor-search real person">
+				<div style="text-align:right"><span class="green showall">Show All</span> <input type="button" class="optbtn search" value="&#62;&nbsp;确定" /></div>
+				<br />
+				<br />
+				<div class="monitor-date-container">
+					<label>人物 </label>
+					<div class="monitor-input-container">
+						<input class="input_first monitor-operate-input" name="one" type="text" placeholder="搜索特定对象">
+						<span class="monitor-operate-del" style="display: none;"></span>
+						<div class="dropdown-container none">
+							<ul class="dropdown-list">
+							</ul>
+						</div>
+					</div>
+
+					<span class="monitor-operate-relation">与</span>
+
+					<div class="monitor-input-container">
+						<input class="input_second monitor-operate-input" disabled="disabled" name="another" type="text" placeholder="搜索特定对象" value="">
+						<span class="monitor-operate-del"></span>
+						<div class="dropdown-container none">
+							<ul class="dropdown-list">
+							</ul>
+						</div>
+					</div>
+				</div>
+				<br />
+				<br />
+				<div class="monitor-input-container"> <span class="errorinfo" style="color:Red;font-size:12px;"></span></div>
+			</div>
+			<div id="history-group" class="monitor-search history group">
+				<div style="text-align:right"><span class="green showall">Show All</span> <input type="button" class="optbtn search" value="&#62;&nbsp;确定" /></div>
+				<br />
+				<br />
+				<div class="monitor-date-container">
+					<label>只看本公司人说的话</label>&nbsp;&nbsp;<span class="switch"></span>
+					<br />
+					<br />
+					<label>人物 </label>
+					<div class="monitor-input-container">
+						<input class="input_first monitor-operate-input" name="one" type="text" placeholder="搜索特定对象">
+						<span class="monitor-operate-del" style="display: none;"></span>
+						<div class="dropdown-container none">
+							<ul class="dropdown-list">
+							</ul>
+						</div>
+					</div>
+				</div>
+				<br />
+				<br />
+				<div class="monitor-date-container">
+					<label>时间 </label>
+					<div class="monitor-input-container">
+						<input id="monitor_start_time_group" class="monitor_start_time monitor-operate-date">
+						<span class="monitor-operate-del" style="display: none;"></span>
+					</div>
+					<label class="monitor-operate-relation">至</label>
+					<div class="monitor-input-container">
+						<input id="monitor_end_time_group" class="monitor_end_time monitor-operate-date">
+						<span class="monitor-operate-del" style="display: none;"></span>
+					</div>
+				</div>
+				<div class="monitor-input-container"> <span class="errorinfo" style="color:Red;font-size:12px;"></span></div>
+			</div>
+			<div id="history-person" class="monitor-search history person">
+				<div style="text-align:right"><span class="green showall">Show All</span> <input type="button" class="optbtn search" value="&#62;&nbsp;确定" /></div>
+				<br />
+				<br />
+				<div class="monitor-date-container">
+					<label>人物 </label>
+					<div class="monitor-input-container">
+						<input class="input_first monitor-operate-input" name="one" type="text" placeholder="搜索特定对象">
+						<span class="monitor-operate-del" style="display: none;"></span>
+						<div class="dropdown-container none">
+							<ul class="dropdown-list">
+							</ul>
+						</div>
+					</div>
+
+					<span class="monitor-operate-relation">与</span>
+
+					<div class="monitor-input-container">
+						<input class="input_second monitor-operate-input" disabled="disabled" name="another" type="text" placeholder="搜索特定对象" value="">
+						<span class="monitor-operate-del"></span>
+						<div class="dropdown-container none">
+							<ul class="dropdown-list">
+							</ul>
+						</div>
+					</div>
+				</div>
+				<br />
+				<br />
+				<div class="monitor-date-container">
+					<label>时间</label>
+					<input id="monitor_start_time_person" class="monitor_start_time monitor-operate-date">
+					<label class="monitor-operate-relation">至</label>
+					<input id="monitor_end_time_person" class="monitor_end_time monitor-operate-date">
+				</div>
+				<div class="monitor-input-container"> <span class="errorinfo" style="color:Red;font-size:12px;"></span></div>
+			</div>
+
+			<div class="messages">
+				<ul class="monitor-message-list real group" style="display: none;"></ul>
+				<ul class="monitor-message-list real person"></ul>
+				<ul class="monitor-message-list history group" style="display: none;"></ul>
+				<ul class="monitor-message-list history person" style="display: none;"></ul>
+			</div>
+			<div class="pulldown" title="点击滚动到底部"></div>
+		</div>
+	</div>
+
+	<div class="popwin none" id="popwin_editPassword">
+		<p class="popwin_title">修改密码</p>
+		<div class="popwin_content">
+			<div class="popwinInfo_item">
+				<div class="form_error" style="margin:0 0 0 100px;color:Red;"></div>
+			</div>
+			<div class="popwinInfo_item">
+				<label class="popwinInfo_title">输入原密码</label>
+				<input class="popwinInfo_input input_oldPassword" type="password">
+				<div class="clearB"></div>
+			</div>
+			<div class="popwinInfo_item">
+				<label class="popwinInfo_title">设置新密码</label>
+				<input class="popwinInfo_input input_newPassword" type="password">
+				<div class="clearB"></div>
+			</div>
+			<div class="popwinInfo_item">
+				<label class="popwinInfo_title">确认新密码</label>
+				<input class="popwinInfo_input input_repeatPassword" type="password">
+				<div class="clearB"></div>
+			</div>
+		</div>
+		<div class="popwin_btn">
+			<a class="popwin_confirm">确 认</a> <a class="popwin_cancel">取 消</a>
+		</div>
+	</div>
+
+	<div class="popwin none" id="popwin_resetAlert">
+		<p class="popwin_title">预警设置</p>
+		<div class="popwin_content">
+			<div class="alert-switch">
+				<label class="alert-switch-title">开启预警功能</label>
+				<div class="alert-switch-icon">
+					<span></span>
+				</div>
+			</div>
+			<div class="alert-operate">
+				<input type="text" placeholder="请输入预警关键字"> <a>新 增</a>
+			</div>
+			<div class="alert-content"></div>
+		</div>
+		<div class="popwin_btn">
+			<a class="popwin_confirm">确 认</a> <a class="popwin_cancel">取 消</a>
+		</div>
+	</div>
+
+	<div class="popwin none" id="popwin_exportExcel">
+		<p class="popwin_title">导出备份</p>
+		<div class="popwin_content">
+			<span>点击下载到本地</span>
+		</div>
+		<div class="popwin_btn">
+			<a class="popwin_confirm linkurl white" target="_blank">下 载</a> <a class="popwin_cancel">关 闭</a>
+		</div>
+	</div>
+
+	<div class="popwin none" id="popwin_error">
+		<p class="popwin_title">文件下载出错</p>
+		<div class="popwin_content">
+			<span>文件下载失败，请稍候再试。</span>
+		</div>
+		<div class="popwin_btn">
+			<a class="popwin_cancel">关 闭</a>
+		</div>
+	</div>
+	<iframe id="downframe" name="downframe" class="none"></iframe>
+
+
+	<!-- jquery & bootstrap core js-->
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="jqueryui/jquery-ui.js"></script>
+	<script src="js/jquery.cookie.js"></script>
+
+	<script src="js/tinybox.js"></script>
+	<script src="js/MGchosen.js"></script>
+	<script src="js/formValidate.js"></script>
+
+	<script src="js/md5.js"></script>
+	<script src="js/jquery.json.js"></script>
+	<script src="js/Long.min.js"></script>
+	<script src="js/ByteBufferAB.min.js"></script>
+	<script src="js/ProtoBuf.js"></script>
+	<script src="js/observer.js"></script>
+	<script src="js/databus.js"></script>
+
+	<script src="js/jquery.nicescroll.js"></script>
+
+	<script src="js/jquery.lazyload.js"></script>
+
+	<script type="text/javascript" src="js/template.js"></script>
+	<script type="text/javascript" src="js/util.js"></script>
+
+	<script type="text/javascript" src="js/config.js"></script>
+	<script type="text/javascript" src="js/func.js"></script>
+	<script type="text/javascript" src="js/monitor.js"></script>
+</body>
+</html>

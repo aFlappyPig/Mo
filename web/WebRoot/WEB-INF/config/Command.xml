@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppList>
+  <AppServer id="0" name="DataBus" desc="Data Bus">
+    <function id="0" request="MsgExpress.ErrMessage" response="MsgExpress.ErrMessage" desc=""></function>
+    <function id="1" request="MsgExpress.StartupApplication" response="MsgExpress.CommonResponse" desc=""></function>
+    <function id="2" request="MsgExpress.PublishData" response="MsgExpress.CommonResponse" desc=""></function>
+    <function id="3" request="MsgExpress.LoginInfo" response="MsgExpress.LoginResponse" desc=""></function>
+    <function id="4" request="MsgExpress.Logout" response="MsgExpress.CommonResponse" desc=""></function>
+    <function id="5" request="MsgExpress.HeartBeat" response="MsgExpress.HeartBeatResponse"></function>
+    <function id="6" request="MsgExpress.StopBroker" response="MsgExpress.CommonResponse" desc=""></function>
+
+    <function id="12" request="MsgExpress.SubscribeData" response="MsgExpress.CommonResponse" desc=""></function>
+    <function id="13" request="MsgExpress.UnSubscribeData" response="MsgExpress.CommonResponse" desc=""></function>
+    <function id="14" request="MsgExpress.ComplexSubscribeData" response="MsgExpress.CommonResponse"></function>
+    <function id="15" request="MsgExpress.GetAppList" response="MsgExpress.AppList"></function>
+    <function id="16" request="MsgExpress.GetAppInfo" response="MsgExpress.AppInfo"></function>
+    <function id="17" request="MsgExpress.UpdateAppStatus" response="MsgExpress.CommonResponse"></function>
+    <function id="18" request="MsgExpress.KickOffApp" response="MsgExpress.CommonResponse" desc=""></function>
+    <function id="19" request="MsgExpress.RestartApp" response="MsgExpress.CommonResponse" desc=""></function>
+
+  </AppServer>
+  <AppServer id="1" name="Gateway" desc="">
+    <function id="1" request="Gateway.Login" response="Gateway.CommonResponse" desc=""></function>
+    <function id="2" request="Gateway.Logout" response="Gateway.CommonResponse" desc=""></function>
+    <function id="3" request="Gateway.Subscribe" response="Gateway.SubscribeResult" desc=""></function>
+  </AppServer>
+  <AppServer id="2" name="Security" desc="">
+    <function id="1" request="Security.ReqSessionValid" response="Security.ResSessionValid" desc=""></function>
+  </AppServer> 
+  <AppServer id="3" name="Update" desc="">
+    <function id="1" request="Update.GetFilesMd5Req" response="Update.GetFilesMd5Rsp" desc="" />
+    <function id="2" request="Update.GetFileInfoReq" response="Update.GetFileInfoRsp" desc="" />
+    <function id="3" request="Update.DownLoadFileReq" response="Update.DownLoadFileRsp" desc="" />
+    <function id="4" request="Update.UpdateResultReportReq" response="Update.UpdateResultReportRsp" desc="" />
+    <function id="5" request="Update.GetMobileUpdateInfoReq" response="Update.GetMobileUpdateInfoRsp" desc="" />
+    <function id="6" request="Update.GetProductVersionReq" response="Update.GetProductVersionRsp" desc="" />
+    <function id="7" request="Update.GetDelInfoReq" response="Update.GetDelInfoRsp" desc="" />
+    <function id="8" request="Update.GetFileVersionReq" response="Update.GetFileVersionRsp" desc="" />
+    <function id="9" request="Update.GetFileInfoListReq" response="Update.GetFileInfoListRsp" desc="" />
+    <function id="10" request="Update.SetMobileUpdateInfoReq" response="Update.SetMobileUpdateInfoRsp" desc="" />
+    <function id="11" request="Update.GetAllMobileUpdateInfoReq" response="Update.GetAllMobileUpdateInfoRsp" desc="" />
+  </AppServer>
+  <AppServer id="4" name="StorageService" desc="">
+    <function id="1" request="Storage.SaveDataRequest" response="Storage.SaveDataResponse" desc=""></function>
+    <function id="2" request="Storage.SetInfoRequest" response="Storage.SetInfoResponse" desc=""></function>
+    <function id="3" request="Storage.QueryDataRequest" response="Storage.QueryDataResponse" desc=""></function>
+    <function id="4" request="Storage.DeleteDataRequest" response="Storage.DeleteDataResponse" desc=""></function>
+  </AppServer>
+  <AppServer id="5" name="AccountServer" desc="">
+    <function id="1" request="AccountServer.ReqLogin" response="AccountServer.ResLogin" desc="login"></function>
+    <function id="2" request="AccountServer.ReqLogout" response="AccountServer.ResLogout" desc="logout"></function>
+    <function id="3" request="AccountServer.ReqSessionValid" response="AccountServer.ResSessionValid" desc="session authenticate"></function>
+    <function id="4" request="AccountServer.ReqCity" response="AccountServer.ResCity" desc="get city name list"></function>
+    <function id="5" request="AccountServer.ReqFinancialCompany" response="AccountServer.ResFinancialCompany" desc="get financial company name list"></function>
+    <function id="6" request="AccountServer.ReqGetNatureList" response="AccountServer.ResGetNatureList" desc="get nature list"></function>
+    <function id="7" request="AccountServer.ReqGetUserIdBySession" response="AccountServer.ResGetUserIdBySession" desc="get userId by session"></function>
+    <function id="8" request="AccountServer.ReqNewLogin" response="AccountServer.ResNewLogin" desc="New Login interface"></function>
+    <function id="9" request="AccountServer.ReqGetCDC" response="AccountServer.ResGetCDC" desc="get account cdc"></function>
+    <function id="10" request="AccountServer.ReqGetCDCAndCompany" response="AccountServer.ResGetCDCAndCompany" desc="get account cdc and broker company list by session"></function>
+    <function id="11" request="AccountServer.ReqBrokerCompanyList" response="AccountServer.ResBrokerCompanyList" desc="get broker company list"></function>
+    <function id="12" request="AccountServer.ReqGetAccountInfo" response="AccountServer.ResGetAccountInfo" desc="get account info"></function>
+    <function id="13" request="AccountServer.ReqActiveAccount" response="AccountServer.ResActiveAccount" desc="activate account"></function>
+    <function id="14" request="AccountServer.ReqAccountValid" response="AccountServer.ResAccountValid" desc="check username and password valid"></function>
+    <function id="15" request="AccountServer.ReqSortBrokerCompany" response="AccountServer.ResSortBrokerCompany" desc="sort broker company"></function>
+    <function id="16" request="AccountServer.ReqClientManagerInfo" response="AccountServer.ResClientManagerInfo" desc="get client manager info"></function>
+    <function id="17" request="AccountServer.ReqGetAccountIdBySession" response="AccountServer.ResGetAccountIdBySession" desc="get account id by session"></function>
+    <function id="18" request="AccountServer.ReqGetMobile" response="AccountServer.ResGetMobile" desc="get account mobile"></function>
+    <function id="19" request="AccountServer.ReqCDCAndCompanyList" response="AccountServer.ResCDCAndCompanyList" desc="get account cdc and broker company list by accountId"></function>
+    <function id="20" request="AccountServer.ReqRemoveAccountUnlimited" response="AccountServer.ResRemoveAccountUnlimited" desc="Remove Account unlimited device"></function>
+	<function id="21" request="AccountServer.ReqUpdateMobileStatus" response="AccountServer.ResUpdateMobileStatus" desc=""></function>
+	<function id="22" request="AccountServer.ReqRemoveMobileDevice" response="AccountServer.ResRemoveMobileDevice" desc=""></function>
+	<function id="23" request="AccountServer.ReqCreateMonitor" response="AccountServer.ResCreateMonitor" desc=""></function>
+	<function id="24" request="AccountServer.ReqUpdateMonitor" response="AccountServer.ResUpdateMonitor" desc=""></function>
+	<function id="25" request="AccountServer.ReqGetMonitorInfo" response="AccountServer.ResGetMonitorInfo" desc=""></function>
+	<function id="26" request="AccountServer.ReqGetUserIdByName" response="AccountServer.ResGetUserIdByName" desc=""></function>
+	<function id="27" request="AccountServer.ReqGetUserNameByUserId" response="AccountServer.ResGetUserNameByUserId" desc=""></function>
+	<function id="28" request="AccountServer.ReqGetMonitorList" response="AccountServer.ResGetMonitorList" desc=""></function>
+	<function id="29" request="AccountServer.ReqAccountPermission" response="AccountServer.ResAccountPermission" desc=""></function>
+  </AppServer>
+  <AppServer id="6" name="ResourceServer" desc="">
+	<function id="1" request="ResourceServer.GetResourceListReq" response="ResourceServer.GetResourceListRsp" desc=""></function>
+	<function id="2" request="ResourceServer.SetResourceInfoReq" response="ResourceServer.SetResourceInfoRsp" desc=""></function>
+	<function id="3" request="ResourceServer.DelResourceInfoReq" response="ResourceServer.DelResourceInfoRsp" desc=""></function>
+  </AppServer>
+  <AppServer id="60" name="msgserver" desc="">
+    <function id="1" request="MsgServer.MSReqKeyId" response="MsgServer.MSResKeyId" desc=""></function>
+    <function id="2" request="MsgServer.MSReqSaveMsg" response="MsgServer.MSResSaveMsg" desc=""></function>
+    <function id="3" request="MsgServer.MSReqSaveRoomMsg" response="MsgServer.MSResSaveRoomMsg" desc=""></function>
+    <function id="4" request="MsgServer.MSReqSaveGroupMsg" response="MsgServer.MSResSaveGroupMsg" desc=""></function>
+    <function id="5" request="MsgServer.MSReqMessageRead" response="MsgServer.MSResMessageRead" desc=""></function>
+    <function id="6" request="MsgServer.MSReqMessage" response="MsgServer.MSResMessage" desc=""></function>
+    <function id="7" request="MsgServer.MSReqUnReadMsg" response="MsgServer.MSResUnReadMsg" desc=""></function>
+  </AppServer>
+  <AppServer id="11" name="QM.SessionManager" desc="">
+    <function id="1" request="SM.SMReqSession" response="SM.SMResSession" desc=""></function>
+    <function id="2" request="SM.SMReqUserInfo" response="SM.SMResUserInfo" desc=""></function>
+    <function id="3" request="SM.SMReqUserInfoSet" response="SM.SMResUserInfoSet" desc=""></function>
+    <function id="4" request="SM.SMReqRoster" response="SM.SMResRoster" desc=""></function>
+    <function id="5" request="SM.SMReqGroup" response="SM.SMResGroup" desc=""></function>
+    <function id="6" request="SM.SMReqRoom" response="SM.SMResRoom" desc=""></function>
+    <function id="7" request="SM.SMReqRoomMemberPresence" response="SM.SMResRoomMemberPresence" desc=""></function>
+    <function id="8" request="SM.SMReqPresence" response="SM.SMResPresence" desc=""></function>
+    <function id="9" request="SM.SMReqPresenceBatch" response="SM.SMResPresenceBatch" desc=""></function>
+    <function id="10" request="SM.SMReqMessageSend" response="SM.SMResMessageSend" desc=""></function>
+    <function id="11" request="SM.SMReqConversation" response="SM.SMResConversation" desc=""></function>
+    <function id="12" request="SM.SMReqMessage" response="SM.SMResMessage" desc=""></function>
+    <function id="13" request="SM.SMReqConfigSave" response="SM.SMResConfigSave" desc=""></function>
+    <function id="14" request="SM.SMReqConfigGet" response="SM.SMResConfigGet" desc=""></function>
+    <function id="15" request="SM.SMReqGetFileSendMsgId" response="SM.SMResGetFileSendMsgId" desc=""></function>
+    <function id="16" request="SM.SMReqQueryFileSendMsg" response="SM.SMResQueryFileSendMsg" desc=""></function>
+    <function id="17" request="SM.SMReqFileRcvCompleted" response="SM.SMResFileRcvCompleted" desc=""></function>
+    <function id="18" request="SM.SMReqFile" response="SM.SMResFile" desc=""></function>
+    <function id="19" request="SM.SMReqCompany" response="SM.SMResCompany" desc=""></function>
+    <function id="20" request="SM.SMReqTime" response="SM.SMResTime" desc=""></function>
+    <function id="22" request="SM.SMReqFriendAdd" response="SM.SMResFriendAdd" desc=""></function>
+    <function id="23" request="SM.SMReqFriendRemove" response="SM.SMResFriendRemove" desc=""></function>
+    <function id="24" request="SM.SMReqFriendAccept" response="SM.SMResFriendAccept" desc=""></function>
+    <function id="25" request="SM.SMReqFriendIgnore" response="SM.SMResFriendIgnore" desc=""></function>
+    <function id="26" request="SM.SMReqBlock" response="SM.SMResBlock" desc=""></function>
+    <function id="27" request="SM.SMReqChangeNick" response="SM.SMResChangeNick" desc=""></function>
+    <function id="28" request="SM.SMReqGroupCreate" response="SM.SMResGroupCreate" desc=""></function>
+    <function id="29" request="SM.SMReqGroupRemove" response="SM.SMResGroupRemove" desc=""></function>
+    <function id="30" request="SM.SMReqGroupName" response="SM.SMResGroupName" desc=""></function>
+    <function id="31" request="SM.SMReqGroupOrder" response="SM.SMResGroupOrder" desc=""></function>
+    <function id="32" request="SM.SMReqGroupMemberMove" response="SM.SMResGroupMemberMove" desc=""></function>
+    <function id="33" request="SM.SMReqRoomCreate" response="SM.SMResRoomCreate" desc=""></function>
+    <function id="34" request="SM.SMReqRoomRemove" response="SM.SMResRoomRemove" desc=""></function>
+    <function id="35" request="SM.SMReqRoomInfoUpdate" response="SM.SMResRoomInfoUpdate" desc=""></function>
+    <function id="36" request="SM.SMReqRoomManage" response="SM.SMResRoomManage" desc=""></function>
+    <function id="37" request="SM.SMReqRoomJoin" response="SM.SMResRoomJoin" desc=""></function>
+    <function id="38" request="SM.SMReqRoomQuit" response="SM.SMResRoomQuit" desc=""></function>
+    <function id="39" request="SM.SMReqRoomAccept" response="SM.SMResRoomAccept" desc=""></function>
+    <function id="40" request="SM.SMReqRoomIgnore" response="SM.SMResRoomIgnore" desc=""></function>
+    <function id="41" request="SM.SMReqConversationNew" response="SM.SMResConversationNew" desc=""></function>
+    <function id="42" request="SM.SMReqChatTyping" response="SM.SMResChatTyping" desc=""></function>
+    <function id="43" request="SM.SMReqMessageRead" response="SM.SMResMessageRead" desc=""></function>
+    <function id="44" request="SM.SMReqQuerySysMsg" response="SM.SMResQuerySysMsg" desc=""></function>
+    <function id="45" request="SM.SMReqQuerySysMsgOne" response="SM.SMResQuerySysMsgOne" desc=""></function>
+    <function id="46" request="SM.SMReqSearch" response="SM.SMResSearch" desc="" />
+    <function id="47" request="SM.SMReqHeartbeat" response="SM.SMResHeartbeat" desc="" />
+    <function id="48" request="SM.SMReqStrangerAdd" response="SM.SMResStrangerAdd" desc="" />
+    <function id="49" request="SM.SMReqRoomCreate2" response="SM.SMResRoomCreate2" desc="" />
+    <function id="50" request="SM.SMReqQueryOrgType" response="SM.SMResQueryOrgType" desc="" />
+    <function id="51" request="SM.SMReqLogin" response="SM.SMResLogin" desc="" />
+    <function id="52" request="SM.SMReqRoomInvite" response="SM.SMResRoomInvite" desc="" />
+    <function id="53" request="SM.SMReqRoomInviteAccept" response="SM.SMResRoomInviteAccept" desc="" />
+    <function id="54" request="SM.SMReqRoomInviteIgnore" response="SM.SMResRoomInviteIgnore" desc="" />
+    <function id="55" request="SM.SMReqRoomList" response="SM.SMResRoomList" desc="" />
+    <function id="56" request="SM.SMReqQuerySysMsgUnReadCount" response="SM.SMResQuerySysMsgUnReadCount" desc="" />
+    <function id="57" request="SM.SMReqModFileSendMsg" response="SM.SMResModFileSendMsg" desc="" />
+    <function id="58" request="SM.SMReqQueryLocation" response="SM.SMResQueryLocation" desc="" />
+    <function id="59" request="SM.SMReqSendGroup" response="SM.SMResSendGroup" desc="" />
+    <function id="60" request="SM.SMReqSendGroupCreate" response="SM.SMResSendGroupCreate" desc="" />
+    <function id="61" request="SM.SMReqSendGroupRemove" response="SM.SMResSendGroupRemove" desc="" />
+    <function id="62" request="SM.SMReqSendGroupInfoUpdate" response="SM.SMResSendGroupInfoUpdate" desc="" />
+    <function id="63" request="SM.SMReqSendGroupManage" response="SM.SMResSendGroupManage" desc="" />
+    <function id="64" request="SM.SMReqQueryApplyRoom" response="SM.SMResQueryApplyRoom" desc="" />
+    <function id="65" request="SM.SMReqQuerySysMsgNoStatus" response="SM.SMResQuerySysMsgNoStatus" desc=""></function>
+    <function id="66" request="SM.SMReqQuerySysMsgOneNoStatus" response="SM.SMResQuerySysMsgOneNoStatus" desc=""></function>
+    <function id="67" request="SM.SMReqQuerySysMsgUnReadCountNoStatus" response="SM.SMResQuerySysMsgUnReadCountNoStatus" desc="" />
+    <function id="68" request="SM.SMReqSysMsgStatusRead" response="SM.SMResSysMsgStatusRead" desc="" />
+    <function id="69" request="SM.SMReqFriendAddBatch" response="SM.SMResFriendAddBatch" desc="" />
+    <function id="70" request="SM.SMReqUserConfigGet" response="SM.SMResUserConfigGet" desc="" />
+    <function id="71" request="SM.SMReqUserConfigSet" response="SM.SMResUserConfigSet" desc="" />
+    <function id="72" request="SM.SMReqServiceMessageSend" response="SM.SMResServiceMessageSend" desc="" />
+    <function id="73" request="SM.SMReqRoomUpdateNotify" response="SM.SMResRoomUpdateNotify" desc="" />
+    <function id="74" request="SM.SMReqRosterUpdateNotify" response="SM.SMResRosterUpdateNotify" desc="" />
+    <function id="75" request="SM.SMGetOnlineUserInfoReq" response="SM.SMGetOnlineUserInfoRsp" desc="" />
+    <function id="76" request="SM.SMLoadMobileRosterReq" response="SM.SMLoadMobileRosterRsp" desc="" />
+	  <function id="77" request="SM.SMReqBatchInviteFriend" response="SM.SMResBatchInviteFriend" desc="" />
+	  <function id="78" request="SM.SMReqAllOnlineUser" response="SM.SMResAllOnlineUser" desc="" />
+	  <function id="79" request="SM.SMReqFriendRemoveBatch" response="SM.SMResFriendRemoveBatch" desc="" />
+	  <function id="80" request="SM.SMReqRoomJoinSpecial" response="SM.SMResRoomJoinSpecial" desc="" />
+	  <function id="81" request="SM.SMReqFinishUploadRoomFile" response="SM.SMResFinishUploadRoomFile" desc="" />
+	  <function id="82" request="SM.SMReqDelRoomFile" response="SM.SMResDelRoomFile" desc="" />
+	  
+  </AppServer>
+  <AppServer id="62" name="hismsgserver" desc="">
+    <function id="1" request="HisMsgServer.MSReqMessageId" response="HisMsgServer.MSResMessageId" desc=""></function>
+    <function id="2" request="HisMsgServer.MSReqMessageByTime" response="HisMsgServer.MSResMessageByTime" desc=""></function>
+    <function id="3" request="HisMsgServer.MSReqByMsgIdList" response="HisMsgServer.MSResByMsgIdList" desc=""></function>
+  </AppServer>
+  <AppServer id="63" name="LoginServer" desc="">
+    <function id="1" request="LoginServer.LSReqLogin" response="LoginServer.LSResLogin" desc="" />
+    <function id="2" request="LoginServer.LSReqLogout" response="LoginServer.LSResLogout" desc="" />
+  </AppServer>
+  <AppServer id="64" name="InfoServer" desc="">
+    <function id="1" request="InfoServer.ISReqUserInfo" response="InfoServer.ISResUserInfo" desc="" />
+    <function id="2" request="InfoServer.ISReqUserGroup" response="InfoServer.ISResUserGroup" desc="" />
+    <function id="3" request="InfoServer.ISReqRosterInfo" response="InfoServer.ISResRosterInfo" desc="" />
+    <function id="4" request="InfoServer.ISReqChangeAvatar" response="InfoServer.ISResChangeAvatar" desc="" />
+    <function id="5" request="InfoServer.ISReqUpdateSignature" response="InfoServer.ISResUpdateSignature" desc="" />
+    <function id="6" request="InfoServer.ISReqReNameGroup" response="InfoServer.ISResReNameGroup" desc="" />
+    <function id="7" request="InfoServer.ISReqUpdateGroupOrder" response="InfoServer.ISResUpdateGroupOrder" desc="" />
+    <function id="8" request="InfoServer.ISReqMoveFriend" response="InfoServer.ISResMoveFriend" desc="" />
+    <function id="9" request="InfoServer.ISReqDelFriend" response="InfoServer.ISResDelFriend" desc="" />
+    <function id="10" request="InfoServer.ISReqUpdateNickName" response="InfoServer.ISResUpdateNickName" desc="" />
+    <function id="11" request="InfoServer.ISReqBlockRoster" response="InfoServer.ISResBlockRoster" desc="" />
+    <function id="12" request="InfoServer.ISReqUpdateDisplayName" response="InfoServer.ISResUpdateDisplayName" desc="" />
+    <function id="13" request="InfoServer.ISReqUpdatePrivacy" response="InfoServer.ISResUpdatePrivacy" desc="" />
+    <function id="14" request="InfoServer.ISReqAddFriend" response="InfoServer.ISResAddFriend" desc="" />
+    <function id="15" request="InfoServer.ISReqIgnoreFriend" response="InfoServer.ISResIgnoreFriend" desc="" />
+    <function id="16" request="InfoServer.ISReqAcceptFriend" response="InfoServer.ISResAcceptFriend" desc="" />
+    <function id="17" request="InfoServer.ISReqCompanyInfo" response="InfoServer.ISResCompanyInfo" desc="" />
+    <function id="18" request="InfoServer.ISReqCreateGroup" response="InfoServer.ISResCreateGroup" desc="" />
+    <function id="19" request="InfoServer.ISReqDelGroup" response="InfoServer.ISResDelGroup" desc="" />
+    <function id="20" request="InfoServer.ISReqEnableDisplayName" response="InfoServer.ISResEnableDisplayName" desc="" />
+    <function id="21" request="InfoServer.ISReqQuerySysMsg" response="InfoServer.ISResQuerySysMsg" desc="" />
+    <function id="22" request="InfoServer.ISReqUserRoomInfo" response="InfoServer.ISResUserRoomInfo" desc="" />
+    <function id="23" request="InfoServer.ISReqAddRoom" response="InfoServer.ISResAddRoom" desc="" />
+    <function id="24" request="InfoServer.ISReqUpdateRoom" response="InfoServer.ISResUpdateRoom" desc="" />
+    <function id="25" request="InfoServer.ISReqBlockRoom" response="InfoServer.ISResBlockRoom" desc="" />
+    <function id="26" request="InfoServer.ISReqDelRoom" response="InfoServer.ISResDelRoom" desc="" />
+    <function id="27" request="InfoServer.ISReqQuitRoom" response="InfoServer.ISResQuitRoom" desc="" />
+    <function id="28" request="InfoServer.ISReqJoinRoom" response="InfoServer.ISResJoinRoom" desc="" />
+    <function id="29" request="InfoServer.ISReqIgnoreJoinRoom" response="InfoServer.ISResIgnoreJoinRoom" desc="" />
+    <function id="30" request="InfoServer.ISReqAcceptRoomMember" response="InfoServer.ISResAcceptRoomMember" desc="" />
+    <function id="31" request="InfoServer.ISReqManagerRoom" response="InfoServer.ISResManagerRoom" desc="" />
+    <function id="32" request="InfoServer.ISReqInviteRoom" response="InfoServer.ISResInviteRoom" desc="" />
+    <function id="33" request="InfoServer.ISReqAcceptInviteRoom" response="InfoServer.ISResAcceptInviteRoom" desc="" />
+    <function id="34" request="InfoServer.ISReqChangeConfig" response="InfoServer.ISResChangeConfig" desc="" />
+    <function id="35" request="InfoServer.ISReqConfigInfo" response="InfoServer.ISResConfigInfo" desc="" />
+    <function id="36" request="InfoServer.ISReqIgnoreInviteRoom" response="InfoServer.ISResIgnoreInviteRoom" desc="" />
+    <function id="37" request="InfoServer.ISReqQuerySysMsgOne" response="InfoServer.ISResQuerySysMsgOne" desc="" />
+    <function id="38" request="InfoServer.ISReqUpdateUserInfo" response="InfoServer.ISResUpdateUserInfo" desc="" />
+    <function id="39" request="InfoServer.ISReqAddRoom2" response="InfoServer.ISResAddRoom2" desc="" />
+    <function id="40" request="InfoServer.ISReqOrgType" response="InfoServer.ISResOrgType" desc="" />
+    <function id="41" request="InfoServer.ISReqAddStranger" response="InfoServer.ISResAddStranger" desc="" />
+    <function id="42" request="InfoServer.ISReqRosterId" response="InfoServer.ISResRosterId" desc="" />
+    <function id="43" request="InfoServer.ISReqRoomList" response="InfoServer.ISResRoomList" desc="" />
+    <function id="44" request="InfoServer.ISReqQuerySysMsgUnRead" response="InfoServer.ISResQuerySysMsgUnRead" desc="" />
+    <function id="45" request="InfoServer.ISReqGetFileSendMsgId" response="InfoServer.ISResGetFileSendMsgId" desc="" />
+    <function id="46" request="InfoServer.ISReqQueryFileSendMsg" response="InfoServer.ISResQueryFileSendMsg" desc="" />
+    <function id="47" request="InfoServer.ISReqModFileSendMsg" response="InfoServer.ISResModFileSendMsg" desc="" />
+    <function id="48" request="InfoServer.ISReqLocation" response="InfoServer.ISResLocation" desc="" />
+    <function id="49" request="InfoServer.ISReqUpdateFileByOffline" response="InfoServer.ISResUpdateFileByOffline" desc="" />
+    <function id="50" request="InfoServer.ISReqMassGroupList" response="InfoServer.ISResMassGroupList" desc="" />
+    <function id="51" request="InfoServer.ISReqCreateMassGroup" response="InfoServer.ISResCreateMassGroup" desc="" />
+    <function id="52" request="InfoServer.ISReqUpdateMassGroupName" response="InfoServer.ISResUpdateMassGroupName" desc="" />
+    <function id="53" request="InfoServer.ISReqDelMassGroup" response="InfoServer.ISResDelMassGroup" desc="" />
+    <function id="54" request="InfoServer.ISReqManagerMember" response="InfoServer.ISResManagerMember" desc="" />
+    <function id="55" request="InfoServer.ISReqQueryApplyRoom" response="InfoServer.ISResQueryApplyRoom" desc="" />
+    <function id="56" request="InfoServer.ISReqQuerySysMsgMobile" response="InfoServer.ISResQuerySysMsgMobile" desc="" />
+    <function id="57" request="InfoServer.ISReqQuerySysMsgOneMobile" response="InfoServer.ISResQuerySysMsgOneMobile" desc="" />
+    <function id="58" request="InfoServer.ISReqQuerySysMsgUnReadMobile" response="InfoServer.ISResQuerySysMsgUnReadMobile" desc="" />
+    <function id="59" request="InfoServer.ISReqSetSysMsgReadMobile" response="InfoServer.ISResSetSysMsgReadMobile" desc="" />
+    <function id="60" request="InfoServer.ISReqBatchAddFriend" response="InfoServer.ISResBatchAddFriend" desc="" />
+    <function id="61" request="InfoServer.ISReqFriendLoad" response="InfoServer.ISResFriendLoad" desc="" />
+    <function id="62" request="InfoServer.ISReqUploadFile" response="InfoServer.ISResUploadFile" desc="" />
+    <function id="63" request="InfoServer.ISReqQueryFriendLoadProgress" response="InfoServer.ISResQueryFriendLoadProgress" desc="" />
+    <function id="64" request="InfoServer.ISReqCancelFriendLoad" response="InfoServer.ISResCancelFriendLoad" desc="" />
+    <function id="65" request="InfoServer.ISReqSetUserConfig" response="InfoServer.ISResSetUserConfig" desc="" />
+    <function id="66" request="InfoServer.ISReqGetUserConfig" response="InfoServer.ISResGetUserConfig" desc="" />
+    <function id="67" request="InfoServer.ISReqRelationType" response="InfoServer.ISResRelationType" desc="" />
+    <function id="68" request="InfoServer.ISReqGetUnTreatedSysMsgNum" response="InfoServer.ISResGetUnTreatedSysMsgNum" desc="" />
+    <function id="69" request="InfoServer.ISReqQuerySysMsgWithTime" response="InfoServer.ISResQuerySysMsgWithTime" desc="" />
+    <function id="70" request="InfoServer.ISReqQueryOneSysMsg" response="InfoServer.ISResQueryOneSysMsg" desc="" />
+    <function id="71" request="InfoServer.ISReqInitAccountInfo" response="InfoServer.ISResInitAccountInfo" desc="" />
+    <function id="72" request="InfoServer.ISReqCreatePubAccount" response="InfoServer.ISResCreatePubAccount" desc="" />
+    <function id="73" request="InfoServer.ISReqDelPubAccount" response="InfoServer.ISResDelPubAccount" desc="" />
+    <function id="74" request="InfoServer.ISReqUpdatePubAccount" response="InfoServer.ISResUpdatePubAccount" desc="" />
+    <function id="75" request="InfoServer.ISReqGetPubAccountInfo" response="InfoServer.ISResGetPubAccountInfo" desc="" />
+    <function id="76" request="InfoServer.ISReqAllCompanyMembers" response="InfoServer.ISResAllCompanyMembers" desc="" />
+    <function id="77" request="InfoServer.ISReqFriendInfo" response="InfoServer.ISResFriendInfo" desc="" />
+    <function id="78" request="InfoServer.ISPacketTestReq" response="InfoServer.ISPacketTestRsp" desc="" />
+    <function id="79" request="InfoServer.ISGetRosterInfoReq" response="InfoServer.ISGetRosterInfoRsp" desc="" />
+    <function id="80" request="InfoServer.ISGetUserInfoReq" response="InfoServer.ISGetUserInfoRsp" desc="" />
+    <function id="81" request="InfoServer.ISReqPubAccountFriends" response="InfoServer.ISResPubAccountFriends" desc="" />
+    <function id="82" request="InfoServer.ISGetBindingRoomReq" response="InfoServer.ISGetBindingRoomRsp" desc="" />
+    <function id="83" request="InfoServer.ISSetBindingRoomReq" response="InfoServer.ISSetBindingRoomReq" desc="" />
+    <function id="84" request="InfoServer.ISGetLinkReq" response="InfoServer.ISGetLinkRsp" desc="" />
+    <function id="85" request="InfoServer.ISModUserInfoReq" response="InfoServer.ISModUserInfoRsp" desc="" />
+    <function id="86" request="InfoServer.ISGetModUserInfoReq" response="InfoServer.ISGetModUserInfoRsp" desc="" />
+    <function id="87" request="InfoServer.ISGetAllUserIdReq" response="InfoServer.ISGetAllUserIdRsp" desc="" />
+    <function id="88" request="InfoServer.ISGetRoomInfoReq" response="InfoServer.ISGetRoomInfoRsp" desc="" />
+    <function id="89" request="InfoServer.ISLoadMobileRosterReq" response="InfoServer.ISLoadMobileRosterRsp" desc="" />
+    <function id="90" request="InfoServer.ISGetQQUserReq" response="InfoServer.ISGetQQUserRsp" desc="" />
+    <function id="91" request="InfoServer.ISSetQQRoomBindRoomReq" response="InfoServer.ISSetQQRoomBindRoomRsp" desc="" />
+    <function id="92" request="InfoServer.ISGetQQRoomBindRoomReq" response="InfoServer.ISGetQQRoomBindRoomRsp" desc="" />
+    <function id="93" request="InfoServer.ISSetUserGuideInfoReq" response="InfoServer.ISSetUserGuideInfoRsp" desc="" />
+    <function id="94" request="InfoServer.ISGetUserGuideInfoReq" response="InfoServer.ISGetUserGuideInfoRsp" desc="" />
+    <function id="95" request="InfoServer.ISSetQQNickNameReq" response="InfoServer.ISSetQQNickNameRsp" desc="" />
+	<function id="96" request="InfoServer.ISGetGlobalConfigReq" response="InfoServer.ISGetGlobalConfigRsp" desc="" />
+    <function id="97" request="InfoServer.ISUpdateGlobalConfigReq" response="InfoServer.ISUpdateGlobalConfigRsp" desc="" />
+	<function id="98" request="InfoServer.ISGetAllGlobalConfigReq" response="InfoServer.ISGetAllGlobalConfigRsp" desc="" />
+	<function id="99" request="InfoServer.ISBatchInviteFriendReq" response="InfoServer.ISBatchInviteFriendRsp" desc="" />
+	<function id="100" request="InfoServer.ISGetFriendBlockReq" response="InfoServer.ISGetFriendBlockRsp" desc="" />
+	<function id="101" request="InfoServer.ISGetRoomNoBlockReq" response="InfoServer.ISGetRoomNoBlockRsp" desc="" />
+	<function id="102" request="InfoServer.ISGetAvatarListReq" response="InfoServer.ISGetAvatarListRsp" desc="" />
+	<function id="103" request="InfoServer.ISGetRoomAvatarListReq" response="InfoServer.ISGetRoomAvatarListRsp" desc="" />
+	<function id="104" request="InfoServer.ISUpdateRoomNumberReq" response="InfoServer.ISUpdateRoomNumberRsp" desc="" />
+	<function id="105" request="InfoServer.ISGetRecommendReq" response="InfoServer.ISGetRecommendRsp" desc="" />
+	<function id="106" request="InfoServer.ISUpdateRecommendReq" response="InfoServer.ISUpdateRecommendRsp" desc="" />
+	<function id="107" request="InfoServer.ISGetMsgBoxReq" response="InfoServer.ISGetMsgBoxRsp" desc="" />
+	<function id="108" request="InfoServer.ISUpdateMsgBoxReq" response="InfoServer.ISUpdateMsgBoxRsp" desc="" />
+	<function id="109" request="InfoServer.ISReqMoveFriend2" response="InfoServer.ISResMoveFriend2" desc="" />
+	<function id="110" request="InfoServer.ISReqDelFriend2" response="InfoServer.ISResDelFriend2" desc="" />
+	<function id="111" request="InfoServer.ISReqJoinRoomSpecial" response="InfoServer.ISResJoinRoomSpecial" desc="" />
+	<function id="112" request="InfoServer.ISRemoveGroupMemberReq" response="InfoServer.ISRemoveGroupMemberRsp" desc="" />
+	<function id="113" request="InfoServer.ISAddGroupMemberReq" response="InfoServer.ISAddGroupMemberRsp" desc="" />
+	<function id="114" request="InfoServer.ISGetRoomFileListReq" response="InfoServer.ISGetRoomFileListRsp" desc="" />
+	<function id="115" request="InfoServer.ISUploadRoomFileReq" response="InfoServer.ISUploadRoomFileRsp" desc="" />
+	<function id="116" request="InfoServer.ISFinishUploadRoomFileReq" response="InfoServer.ISFinishUploadRoomFileRsp" desc="" />
+	<function id="117" request="InfoServer.ISDelRoomFileReq" response="InfoServer.ISDelRoomFileRsp" desc="" />
+	<function id="118" request="InfoServer.ISReqAllCompanyRoomIdList" response="InfoServer.ISResAllCompanyRoomIdList" desc="" />
+  </AppServer>
+  <AppServer id="65" name="SearchServer" desc="">
+    <function id="1" request="InfoServer.ISReqSearch" response="InfoServer.ISResSearch" desc="" />
+    <function id="2" request="SearchServer.SSReqSearch" response="SearchServer.SSResSearch" desc="" />
+  </AppServer>
+  <AppServer id="66" name="PushServer" desc="">
+    <function id="1" request="PushServer.PSReqPushMsg" response="PushServer.PSResPushMsg" desc="" />
+    <function id="2" request="PushServer.PSReqPushRoomMsg" response="PushServer.PSResPushRoomMsg" desc="" />
+	<function id="3" request="PushServer.PSReqPushFailMsg" response="PushServer.PSResPushFailMsg" desc="" />
+  </AppServer>
+  <AppServer id="67" name="PNServer" desc="">
+    <function id="1" request="PNServer.PNReqQueryGoods" response="PNServer.PNResQueryGoods" desc="" />
+    <function id="2" request="PNServer.PNReqGoodsSub" response="PNServer.PNResGoodsSub" desc="" />
+	<function id="3" request="PNServer.PNReqGoodsUnSub" response="PNServer.PNResGoodsUnSub" desc="" />
+	<function id="4" request="PNServer.PNReqQueryPublicNumber" response="PNServer.PNResQueryPublicNumber" desc="" />
+	<function id="5" request="PNServer.PNReqFirstLogin" response="PNServer.PNResFirstLogin" desc="" />
+	<function id="6" request="PNServer.PNReqBondInfo" response="PNServer.PNResBondInfo" desc="" />
+	<function id="7" request="PNServer.PNReqFinancialNews" response="PNServer.PNResFinancialNews" desc="" />
+	<function id="8" request="PNServer.PNReqPubNoSubscribe" response="PNServer.PNResPubNoSubscribe" desc="" />
+	<function id="9" request="PNServer.PNReqPubnoNotification" response="PNServer.PNResPubnoNotification" desc="" />
+	<function id="10" request="PNServer.PNReqProductSkill" response="PNServer.PNResProductSkill" desc="" />
+	<function id="11" request="PNServer.PNReqPubnoList" response="PNServer.PNResPubnoList" desc="" />
+	<function id="12" request="PNServer.PNReqAddPubno" response="PNServer.PNResAddPubno" desc="" />
+  </AppServer>
+   <AppServer id="68" name="MonitorServer" desc="">
+    <function id="1" request="MonitorServer.MSReqUserOnlineAndOffline" response="MonitorServer.MSResUserOnlineAndOffline" desc="" />
+    <function id="2" request="MonitorServer.MSReqServerLog" response="MonitorServer.MSResServerLog" desc="" />
+	<function id="3" request="MonitorServer.MSReqServerOnlineAndOffline" response="MonitorServer.MSResServerOnlineAndOffline" desc="" />	
+	<function id="4" request="MonitorServer.MSReqGatewayLog" response="MonitorServer.MSResGatewayLog" desc="" />	
+	<function id="5" request="MonitorServer.MSReqGatewayStatusList" response="MonitorServer.MSResGatewayStatusList" desc="" />	
+	<function id="6" request="MonitorServer.MSReqGetAppinfo" response="MonitorServer.MSResGetAppinfo" desc="" />	
+	<function id="7" request="MonitorServer.MSReqRestartApp" response="MonitorServer.MSResRestartApp" desc="" />	
+	<function id="8" request="MonitorServer.MSReqRestartGateway" response="MonitorServer.MSResRestartGateway" desc="" />	
+	<function id="9" request="MonitorServer.MSReqGetGatewayList" response="MonitorServer.MSResGetGatewayList" desc="" />	
+	<function id="10" request="MonitorServer.MSReqUserInfoChange" response="MonitorServer.MSResUserInfoChange" desc="" />		
+	<function id="11" request="MonitorServer.MSReqUserInfoReview" response="MonitorServer.MSResUserInfoReview" desc="" />	
+	<function id="12" request="MonitorServer.MSReqGetLoginStatistics" response="MonitorServer.MSResGetLoginStatistics" desc="" />	
+	<function id="13" request="MonitorServer.MSReqUpdateRoomNumber" response="MonitorServer.MSResUpdateRoomNumber" desc="" />	
+  </AppServer>
+  <AppServer id="69" name="MsgStatisticsServer" desc="">
+    <function id="1" request="MsgStatisticsServer.MsgStatisticsReq" response="MsgStatisticsServer.MsgStatisticsRes" desc="" />
+    <function id="2" request="MsgStatisticsServer.HisMsgStatisticsReq" response="MsgStatisticsServer.HisMsgStatisticsRes" desc="" />
+  </AppServer>
+  <AppServer id="70" name="qmtestserver" desc="">
+    <function id="1" request="MonitorServer.MSReqGetMonitorStatus" response="MonitorServer.MSResGetMonitorStatus" desc="" />
+    <function id="2" request="MonitorServer.MSReqSetMonitorStatus" response="MonitorServer.MSResSetMonitorStatus" desc="" />
+  </AppServer>
+  <AppServer id="952" name="fileserver" desc="">
+    <function id="1" request="FileServer.FSReqResource" response="FileServer.FSResResource" desc=""></function>
+    <function id="2" request="FileServer.FSReqFileUpload" response="FileServer.FSResFileUpload" desc=""></function>
+    <function id="3" request="FileServer.FSReqFileDownload" response="FileServer.FSResFileDownload" desc=""></function>
+    <function id="4" request="FileServer.FSReqFileOpFinish" response="FileServer.FSResFileOpFinish" desc=""></function>
+    <function id="5" request="FileServer.FSReqFileUploadSize" response="FileServer.FSResFileUploadSize" desc=""></function>
+    <function id="6" request="FileServer.FSReqFileCancel" response="FileServer.FSResFileCancel" desc=""></function>
+    <function id="7" request="FileServer.FSReqFileDel" response="FileServer.FSResFileDel" desc=""></function>
+	<function id="8" request="FileServer.FSReqFileInfo" response="FileServer.FSResFileInfo" desc=""></function>
+	<function id="9" request="FileServer.FSReqUploadSmallFile" response="FileServer.FSResUploadSmallFile" desc=""></function>
+  </AppServer>
+
+  <AppServer id="953" name="queryserver" desc="">
+    <function id="1" request="QueryServer.QSReqQueryGateway" response="QueryServer.QSResQueryGateway" desc=""></function>
+    <function id="2" request="QueryServer.reqtest" response="QueryServer.restest" desc=""></function>
+  </AppServer>
+
+  <AppServer id="954" name="AccountServer" desc="">
+    <function id="1" request="AccountServer.ReqTestConnection" response="AccountServer.ResTestConnection" desc=""></function>
+  </AppServer>
+  <AppServer id="955" name="switcherdemo" desc="">
+    <function id="1" request="SwitcherDemo.ReqDemo1Test" response="SwitcherDemo.ResDemo1Test" desc=""></function>
+    <function id="2" request="SwitcherDemo.ReqDemo2Test" response="SwitcherDemo.ResDemo2Test" desc=""></function>
+  </AppServer>
+  <AppServer id="956" name="msgbusservice" desc="">
+    <function id="1" request="MsgbusService.MsgbusReqMemberRemovedFromRoomNotifier" response="MsgbusService.MsgbusResMemberRemovedFromRoomNotifier" desc=""></function>
+    <function id="2" request="MsgbusService.MsgbusReqPostContent" response="MsgbusService.MsgbusResPostContent" desc=""></function>
+	<function id="3" request="MsgbusService.MsgbusReqPostContents" response="MsgbusService.MsgbusResPostContents" desc=""></function>
+	<function id="4" request="MsgbusService.MsgbusReqQQInfoUpdate" response="MsgbusService.MsgbusResQQInfoUpdate" desc=""></function>
+  </AppServer>
+  <AppServer id="957" name="qqmsgserver" desc="">
+  </AppServer>
+   <AppServer id="958" name="channelserver" desc="">
+  </AppServer>
+  <AppServer id="12" name="QBMessage" desc="">
+    <function id="1" request="AccountInfoRequest" response="AccountInfoResponse" desc=""></function>
+    <function id="2" request="FavoriteRequest" response="FavoriteResponse" desc=""></function>
+    <function id="3" request="UnFavoriteRequest" response="UnFavoriteResponse" desc=""></function>
+    <function id="4" request="BrokerListRequest" response="BrokerListResponse" desc=""></function>
+    <function id="5" request="OtherPlaceLogin" response="OtherPlaceLogin" desc=""></function>
+    <function id="6" request="BrokerSortRequest" response="BrokerSortResponse" desc=""></function>
+    <function id="7" request="ConsumerManagerRequest" response="ConsumerManagerResponse" desc=""></function>
+    <function id="8" request="ActiveBindAccountRequest" response="ActiveBindAccountResponse" desc=""></function>
+    <function id="9" request="VerifyBindAccountRequest" response="VerifyBindAccountResponse" desc=""></function>
+    <function id="10" request="BestQuoteRequest" response="BestQuoteResponse" desc=""></function>
+    <function id="11" request="FavoriteQuoteRequest" response="FavoriteQuoteResponse" desc=""></function>
+    <function id="12" request="MarketTrendRequest" response="MarketTrendResponse" desc=""></function>
+    <function id="13" request="FavoriteTrendRequest" response="FavoriteTrendResponse" desc=""></function>
+    <function id="14" request="BondDetailRequest" response="BondDetailResponse" desc=""></function>
+    <function id="15" request="FavoriteGroupRequest" response="FavoriteGroupResponse" desc=""></function>
+    <function id="16" request="FavoriteBondsRequest" response="FavoriteBondsResponse" desc=""></function>
+    <function id="17" request="BondDataBaseRequest" response="BondDataBaseResponse" desc=""></function>
+    <function id="18" request="BondDataBaseFinishResponse" response="BondDataBaseFinishResponse" desc=""></function>
+    <function id="19" request="FilterPlanBriefRequest" response="FilterPlanBriefResponse" desc=""></function>
+    <function id="20" request="FilterPlanInfoRequest" response="FilterPlanInfoResponse" desc=""></function>
+    <function id="21" request="InDebtValuationRequest" response="InDebtValuationResponse" desc=""></function>
+    <function id="22" request="DebtChangeMessage" response="DebtChangeMessage" desc=""></function>
+    <function id="23" request="UserAuthChangedMessage" response="UserAuthChangedMessage" desc=""></function>
+    <function id="24" request="SubscribeAddOrModifyRequest" response="SubscribeAddOrModifyResponse" desc=""></function>
+    <function id="25" request="IntentionAddOrModifyRequest" response="IntentionAddOrModifyResponse" desc=""></function>
+    <function id="26" request="ContactRequest" response="ContactResponse" desc=""></function>
+    <function id="27" request="GetSubscribeOrIntentListByUnderWriterRequest" response="GetSubscribeOrIntentListByUnderWriterResponse" desc=""></function>
+    <function id="28" request="GetIntentionListByBondRequest" response="GetIntentionListByBondResponse" desc=""></function>
+    <function id="29" request="GetSubscribeListByBondRequest" response="GetSubscribeListByBondResponse" desc=""></function>
+    <function id="30" request="GetSubscribeListByUserRequest" response="GetSubscribeListByUserResponse" desc=""></function>
+    <function id="31" request="GetUserInfoRequest" response="GetUserInfoResponse" desc=""></function>
+    <function id="32" request="CreateFavoriteGroupRequest" response="CreateFavoriteGroupResponse" desc=""></function>
+	<function id="50" request="MarketQuotationOfferRequest" response="MarketQuotationOfferResponse" desc=""></function>
+	<function id="51" request="QueryPublishedQuotationByFilterRequest" response="QueryPublishedQuotationByFilterResponse" desc=""></function>
+	<function id="52" request="QueryReceivedQuotationByFilterRequest" response="QueryReceivedQuotationByFilterResponse" desc=""></function>
+	<function id="53" request="MarketQuotationTypeTermRequest" response="MarketQuotationTypeTermResponse" desc=""></function>
+	<function id="60" request="SubscribeAddOrModifyBatchRequest" response="SubscribeAddOrModifyBatchResponse" desc=""></function>
+    <function id="61" request="ContactQMRequest" response="ContactQMResponse" desc=""></function>
+<function id="70" request="STCreateMMQuotationRequest" response="STCreateMMQuotationResponse" desc=""></function>
+<function id="71" request="STModifyMMQuotationRequest" response="STModifyMMQuotationResponse" desc=""></function>
+<function id="72" request="STOperateMMQuotationRequest" response="STOperateMMQuotationResponse" desc=""></function>
+<function id="73" request="STQueryMMSendQuotationRequest" response="STQueryMMSendQuotationResponse" desc=""></function>
+<function id="74" request="STQueryMMReceiveQuotationRequest" response="STQueryMMReceiveQuotationResponse" desc=""></function>
+<function id="75" request="STQueryMMAssetRequest" response="STQueryMMAssetResponse" desc=""></function>
+<function id="76" request="STQueryMMAssetTagRequest" response="STQueryMMAssetTagResponse" desc=""></function>
+  </AppServer>
+ 
+  <AppServer id="13" name="QBProxy" desc="">
+    <function id="1" request="QBMessage" response="QBMessage" desc=""></function>
+  </AppServer>
+  <AppServer id="15" name="LogServer" desc="">
+    <function id="1" request="StatisticsRequest" response="StatisticsResponse" desc="User behavior statistics"></function>
+	<function id="2" request="BurialStatisticsReq" response="BurialStatisticsRes" desc="User QM behavior statistics"></function>
+  </AppServer>
+</AppList>
