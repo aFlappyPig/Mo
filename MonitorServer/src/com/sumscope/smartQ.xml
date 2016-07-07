@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<library>
+	<faces width="58" height="58" columns="4" describe="小Q表情包">
+		<face name=":/smartQ/hx.png" pathname="hx.png" shortcut="/hx" order="1" describe="害羞" />
+		<face name=":/smartQ/jx.png" pathname="jx.png" shortcut="/jx" order="2" describe="奸笑" />
+		<face name=":/smartQ/wen.png" pathname="wen.png" shortcut="/wen" order="3" describe="吻" />
+		<face name=":/smartQ/han.png" pathname="han.png" shortcut="/han" order="4" describe="汗" />
+		<face name=":/smartQ/jj.png" pathname="jj.png" shortcut="/jj" order="5" describe="纠结" />
+		<face name=":/smartQ/cjing.png" pathname="cjing.png" shortcut="/cjing" order="6" describe="吃惊" />
+		<face name=":/smartQ/k.png" pathname="k.png" shortcut="/ku" order="7" describe="哭" />
+		<face name=":/smartQ/yun.png" pathname="yun.png" shortcut="/yun" order="8" describe="晕" />
+		<face name=":/smartQ/kj.png" pathname="kj.png" shortcut="/kj" order="9" describe="恐惧" />
+		<face name=":/smartQ/kbs.png" pathname="kbs.png" shortcut="/kbs" order="10" describe="扣鼻屎" />
+		<face name=":/smartQ/ys.png" pathname="ys.png" shortcut="/ys" order="11" describe="忧伤" />
+		<face name=":/smartQ/pg.png" pathname="pg.png" shortcut="/pg" order="12" describe="飘过" />
+		<face name=":/smartQ/dks.png" pathname="dks.png" shortcut="/dks" order="13" describe="打瞌睡" />
+		<face name=":/smartQ/cy.png" pathname="cy.png" shortcut="/cy" order="14" describe="吃药" />
+		<face name=":/smartQ/bs.png" pathname="bs.png" shortcut="/bs" order="15" describe="鄙视" />
+		<face name=":/smartQ/zan.png" pathname="zan.png" shortcut="/zan" order="16" describe="赞" />
+		<face name=":/smartQ/kz.png" pathname="kz.png" shortcut="/kz" order="17" describe="狂赞" />
+		<face name=":/smartQ/eg.png" pathname="eg.png" shortcut="/eg" order="18" describe="耳光" />
+		<face name=":/smartQ/jxia.png" pathname="jxia.png" shortcut="/jxia" order="19" describe="惊吓" />
+		<face name=":/smartQ/fs.png" pathname="fs.png" shortcut="/fs" order="20" describe="放水" />
+		<face name=":/smartQ/bdt.png" pathname="bdt.png" shortcut="/bdt" order="21" describe="抱大腿" />
+		<face name=":/smartQ/jyy.png" pathname="jyy.png" shortcut="/jyy" order="22" describe="叫爷爷" />
+		<face name=":/smartQ/bcj.png" pathname="bcj.png" shortcut="/bcj" order="23" describe="白菜价" />
+		<face name=":/smartQ/s.png" pathname="s.png" shortcut="/shou" order="24" describe="收" />
+		<face name=":/smartQ/qd.png" pathname="qd.png" shortcut="/qd" order="25" describe="签到" />
+		<face name=":/smartQ/sw.png" pathname="sw.png" shortcut="/sw" order="26" describe="私我" />
+		<face name=":/smartQ/cyc.png" pathname="cyc.png" shortcut="/cyc" order="27" describe="诚意出" />
+		<face name=":/smartQ/qwg.png" pathname="qwg.png" shortcut="/qwg" order="28" describe="求围观" />
+		<face name=":/smartQ/qzzs.png" pathname="qzzs.png" shortcut="/qzzs" order="29" describe="钱在账上" />
+		<face name=":/smartQ/xbl.png" pathname="xbl.png" shortcut="/xbl" order="30" describe="下班啦" />
+		<face name=":/smartQ/cj.png" pathname="cj.png" shortcut="/cj" order="31" describe="诚借" />
+		<face name=":/smartQ/jcdsfy.png" pathname="jcdsfy.png" shortcut="/jcdsfy" order="32" describe="节操都是浮云" />
+		<face name=":/smartQ/dsj.png" pathname="dsj.png" shortcut="/dsj" order="33" describe="剁手价" />
+		<face name=":/smartQ/dj.png" pathname="dj.png" shortcut="/dj" order="34" describe="打劫" />
+		<face name=":/smartQ/zkw.png" pathname="zkw.png" shortcut="/zkw" order="35" describe="重口味" />
+		<face name=":/smartQ/qingdan.png" pathname="qingdan.png" shortcut="/qingdan" order="36" describe="清淡" />
+		<face name=":/smartQ/tt.png" pathname="tt.png" shortcut="/tt" order="37" describe="天台" />
+		<face name=":/smartQ/zzne.png" pathname="zzne.png" shortcut="/zzne" order="38" describe="债在哪儿" />
+		<face name=":/smartQ/qzne.png" pathname="qzne.png" shortcut="/qzne" order="39" describe="钱在哪儿" />
+		<face name=":/smartQ/dcd.png" pathname="dcd.png" shortcut="/dcd" order="40" describe="大尺度" />
+		<face name=":/smartQ/nbl.png" pathname="nbl.png" shortcut="/nbl" order="41" describe="拿不了" />
+		<face name=":/smartQ/ym.png" pathname="ym.png" shortcut="/ym" order="42" describe="央妈" />
+		<face name=":/smartQ/ky.png" pathname="ky.png" shortcut="/ky" order="43" describe="开姨" />
+		<face name=":/smartQ/gs.png" pathname="gs.png" shortcut="/gs" order="44" describe="光叔" />
+		<face name=":/smartQ/zs.png" pathname="zs.png" shortcut="/zs" order="45" describe="证叔" />
+	</faces>
+</library>

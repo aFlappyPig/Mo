@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/jbus_new"/>
+	<classpathentry kind="lib" path="lib/mysql-jdbc.jar"/>
+	<classpathentry kind="lib" path="lib/ormlite-core-4.49-SNAPSHOT.jar" sourcepath="/AnaysisServer/libs/ormlite-core-4.49-SNAPSHOT-sources.jar"/>
+	<classpathentry kind="lib" path="lib/ormlite-jdbc-4.49-SNAPSHOT.jar" sourcepath="/AnaysisServer/libs/ormlite-jdbc-4.49-SNAPSHOT-sources.jar"/>
+	<classpathentry kind="lib" path="lib/itext-asian.jar"/>
+	<classpathentry kind="lib" path="lib/itext-pdfa-5.5.8.jar"/>
+	<classpathentry kind="lib" path="lib/itext-xtra-5.5.8.jar"/>
+	<classpathentry kind="lib" path="lib/itextpdf-5.5.8.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

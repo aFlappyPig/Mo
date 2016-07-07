@@ -1,0 +1,1486 @@
+2016-01-20 17:03:31,951 [0x00001840] INFO   - id=68,Thread 6208 for sequence message handle
+2016-01-20 17:03:31,952 [0x00001840] INFO   - id=68,Thread 6208,queue:0X560034e0
+2016-01-20 17:03:31,952 [0x000011e4] INFO   - id=68,Thread 4580,queue:0X56003540
+2016-01-20 17:03:31,952 [0x000014a0] INFO   - id=68,Start heartbeat
+2016-01-20 17:03:31,961 [0x00001b10] INFO   - id=68,Thread 6928,queue:0X56003540
+2016-01-20 17:03:31,961 [0x00001870] INFO   - id=68,Thread 6256,queue:0X56003540
+2016-01-20 17:03:32,016 [0x000011e4] INFO   - id=68,Login success, appServer address:0x9f
+2016-01-20 17:03:32,032 [0x000011e4] INFO   - id=68,subscribe success:sub { subid: 10000 topic: 11534337 } sub { subid: 10001 topic: 11534338 } sub { subid: 10002 topic: 11534339 } sub { subid: 10003 topic: 11534340 } sub { subid: 10004 topic: 11534341 } sub { subid: 10005 topic: 11534342 }
+2016-01-20 17:03:38,023 [0x00000ce0] WARN   - Big msg,body size=439281,header:Response-serial:65541,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:439281,src:0x8f,dst:0x9f,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 17:03:38,063 [0x00000ce0] WARN   - Finished receive Big msg,body size=439281,header:Response-serial:65541,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:439281,src:0x8f,dst:0x9f,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 17:03:38,160 [0x00001890] WARN   - id=68,Prepare sending big message,size=439311
+
+2016-01-20 17:03:38,163 [0x00001890] WARN   - id=68,Finished sending big message,size=439311
+
+2016-01-20 17:03:40,621 [0x00000ce0] WARN   - Big msg,body size=153189,header:Response-serial:65551,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:153189,src:0x8f,dst:0x9f,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 17:03:40,635 [0x00000ce0] WARN   - Finished receive Big msg,body size=153189,header:Response-serial:65551,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:153189,src:0x8f,dst:0x9f,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 17:04:15,840 [0x00001b38] INFO   - config file:clientcfg.xml
+
+2016-01-20 17:04:15,841 [0x00001b38] INFO   - xml path: D:\cocos_ws\MonitorServer\config\clientcfg.xml
+2016-01-20 17:04:15,841 [0x00001b38] INFO   - Parse xml file,ip=172.16.17.178,port=9999
+2016-01-20 17:04:15,841 [0x00001b38] INFO   - load xml config file success,xml:clientcfg.xml
+2016-01-20 17:04:15,841 [0x00001b38] INFO   - id=11,Initailize,libVersion=20150610
+2016-01-20 17:04:15,841 [0x00001b38] INFO   - xml path: D:\cocos_ws\MonitorServer\config\Command.xml
+2016-01-20 17:04:15,843 [0x00001b38] INFO   - id=11,client connect to Data Bus Server(172.16.17.178:9999)
+2016-01-20 17:04:15,843 [0x00001b38] INFO   - id=11,connect Server,IP: 172.16.17.178,Port: 9999
+2016-01-20 17:04:15,845 [0x00001b38] INFO   - id=11,client connect to Data Bus Server success
+2016-01-20 17:04:15,845 [0x00001b38] INFO   - id=11,Sequence queue: 0X5703ce10,none sequence queue:0X5703ce70
+2016-01-20 17:04:15,845 [0x00001b38] INFO   - id=11,Thread #5164 has been created to read socket
+2016-01-20 17:04:15,845 [0x00001b38] INFO   - id=11,Thread #4812 has been created to send message
+2016-01-20 17:04:15,845 [0x00001b38] INFO   - id=11,Thread #5832 has been created to timeout message
+2016-01-20 17:04:15,845 [0x00001b38] INFO   - id=11,Thread #5032 has been created to process message
+2016-01-20 17:04:15,845 [0x000013a8] INFO   - id=11,Thread 5032 for sequence message handle
+2016-01-20 17:04:15,845 [0x000013a8] INFO   - id=11,Thread 5032,queue:0X5703ce10
+2016-01-20 17:04:15,846 [0x00001b38] INFO   - id=11,Thread #1168 has been created to process message
+2016-01-20 17:04:15,846 [0x00001b38] INFO   - id=11,Thread #6708 has been created to process message
+2016-01-20 17:04:15,846 [0x00001a34] INFO   - id=11,Thread 6708,queue:0X5703ce70
+2016-01-20 17:04:15,846 [0x00001b38] INFO   - id=11,Thread #3976 has been created to process message
+2016-01-20 17:04:15,846 [0x00001b38] INFO   - id=11,AppServer appname:QMMonitor
+2016-01-20 17:04:15,846 [0x00000490] INFO   - id=11,Thread 1168,queue:0X5703ce70
+2016-01-20 17:04:15,846 [0x00000f88] INFO   - id=11,Thread 3976,queue:0X5703ce70
+2016-01-20 17:04:15,846 [0x00001b38] INFO   - id=11,AppServer reg:type: 1 name: "QMMonitor" group: 1 uuid: "rywyetyu24535" auth: "test" starttime: 1453280655 serviceid: 500 ip: "00000000000000000000000"
+2016-01-20 17:04:15,847 [0x00001b38] INFO   - id=11,Begin logining
+2016-01-20 17:04:15,847 [0x00001b38] INFO   - id=11,Thread #7000 has been created to send heart beat
+2016-01-20 17:04:15,848 [0x00001b58] INFO   - id=11,Start heartbeat
+2016-01-20 17:04:15,852 [0x00001a34] INFO   - id=11,Login success, appServer address:0xa0
+2016-01-20 17:04:15,857 [0x00001a34] INFO   - id=11,subscribe success:sub { subid: 10000 topic: 11534337 } sub { subid: 10001 topic: 11534338 } sub { subid: 10002 topic: 11534339 } sub { subid: 10003 topic: 11534340 } sub { subid: 10004 topic: 11534341 } sub { subid: 10005 topic: 11534342 }
+2016-01-20 17:04:35,765 [0x0000142c] WARN   - Big msg,body size=439281,header:Response-serial:65548,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:439281,src:0x8f,dst:0xa0,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 17:04:35,802 [0x0000142c] WARN   - Finished receive Big msg,body size=439281,header:Response-serial:65548,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:439281,src:0x8f,dst:0xa0,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 17:04:35,855 [0x000012cc] WARN   - id=11,Prepare sending big message,size=439311
+
+2016-01-20 17:04:35,858 [0x000012cc] WARN   - id=11,Finished sending big message,size=439311
+
+2016-01-20 17:04:38,097 [0x0000142c] WARN   - Big msg,body size=153189,header:Response-serial:65558,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:153189,src:0x8f,dst:0xa0,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 17:04:38,111 [0x0000142c] WARN   - Finished receive Big msg,body size=153189,header:Response-serial:65558,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:153189,src:0x8f,dst:0xa0,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 17:05:59,377 [0x00001ab4] INFO   - config file:clientcfg.xml
+
+2016-01-20 17:05:59,377 [0x00001ab4] INFO   - xml path: D:\cocos_ws\MonitorServer\config\clientcfg.xml
+2016-01-20 17:05:59,377 [0x00001ab4] INFO   - Parse xml file,ip=172.16.17.178,port=9999
+2016-01-20 17:05:59,377 [0x00001ab4] INFO   - load xml config file success,xml:clientcfg.xml
+2016-01-20 17:05:59,377 [0x00001ab4] INFO   - id=51,Initailize,libVersion=20150610
+2016-01-20 17:05:59,377 [0x00001ab4] INFO   - xml path: D:\cocos_ws\MonitorServer\config\Command.xml
+2016-01-20 17:05:59,380 [0x00001ab4] INFO   - id=51,client connect to Data Bus Server(172.16.17.178:9999)
+2016-01-20 17:05:59,385 [0x00001ab4] INFO   - id=51,connect Server,IP: 172.16.17.178,Port: 9999
+2016-01-20 17:05:59,388 [0x00001ab4] INFO   - id=51,client connect to Data Bus Server success
+2016-01-20 17:05:59,388 [0x00001ab4] INFO   - id=51,Sequence queue: 0X5607cf40,none sequence queue:0X5607cfa0
+2016-01-20 17:05:59,392 [0x00001ab4] INFO   - id=51,Thread #6740 has been created to read socket
+2016-01-20 17:05:59,393 [0x00001ab4] INFO   - id=51,Thread #7084 has been created to send message
+2016-01-20 17:05:59,393 [0x00001ab4] INFO   - id=51,Thread #6772 has been created to timeout message
+2016-01-20 17:05:59,393 [0x00001ab4] INFO   - id=51,Thread #6712 has been created to process message
+2016-01-20 17:05:59,393 [0x00001ab4] INFO   - id=51,Thread #6720 has been created to process message
+2016-01-20 17:05:59,393 [0x00001a38] INFO   - id=51,Thread 6712 for sequence message handle
+2016-01-20 17:05:59,393 [0x00001a38] INFO   - id=51,Thread 6712,queue:0X5607cf40
+2016-01-20 17:05:59,393 [0x00001ab4] INFO   - id=51,Thread #6640 has been created to process message
+2016-01-20 17:05:59,393 [0x000019f0] INFO   - id=51,Thread 6640,queue:0X5607cfa0
+2016-01-20 17:05:59,393 [0x00001ab4] INFO   - id=51,Thread #748 has been created to process message
+2016-01-20 17:05:59,393 [0x00001ab4] INFO   - id=51,AppServer appname:QMMonitor
+2016-01-20 17:05:59,394 [0x00001ab4] INFO   - id=51,AppServer reg:type: 1 name: "QMMonitor" group: 1 uuid: "rywyetyu24535" auth: "test" starttime: 1453280759 serviceid: 500 ip: "00000000000000000000000"
+2016-01-20 17:05:59,394 [0x00001ab4] INFO   - id=51,Begin logining
+2016-01-20 17:05:59,394 [0x00001ab4] INFO   - id=51,Thread #5544 has been created to send heart beat
+2016-01-20 17:05:59,394 [0x000015a8] INFO   - id=51,Start heartbeat
+2016-01-20 17:05:59,395 [0x00001a40] INFO   - id=51,Thread 6720,queue:0X5607cfa0
+2016-01-20 17:05:59,395 [0x000002ec] INFO   - id=51,Thread 748,queue:0X5607cfa0
+2016-01-20 17:05:59,397 [0x000019f0] INFO   - id=51,Login success, appServer address:0xa1
+2016-01-20 17:05:59,399 [0x000019f0] INFO   - id=51,subscribe success:sub { subid: 10000 topic: 11534337 } sub { subid: 10001 topic: 11534338 } sub { subid: 10002 topic: 11534339 } sub { subid: 10003 topic: 11534340 } sub { subid: 10004 topic: 11534341 } sub { subid: 10005 topic: 11534342 }
+2016-01-20 17:06:05,212 [0x00001a54] WARN   - Big msg,body size=439281,header:Response-serial:65541,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:439281,src:0x8f,dst:0xa1,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 17:06:05,249 [0x00001a54] WARN   - Finished receive Big msg,body size=439281,header:Response-serial:65541,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:439281,src:0x8f,dst:0xa1,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 17:06:05,304 [0x00001bac] WARN   - id=51,Prepare sending big message,size=439311
+
+2016-01-20 17:06:05,306 [0x00001bac] WARN   - id=51,Finished sending big message,size=439311
+
+2016-01-20 17:06:07,531 [0x00001a54] WARN   - Big msg,body size=153189,header:Response-serial:65551,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:153189,src:0x8f,dst:0xa1,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 17:06:07,545 [0x00001a54] WARN   - Finished receive Big msg,body size=153189,header:Response-serial:65551,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:153189,src:0x8f,dst:0xa1,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 17:07:14,832 [0x00001bac] WARN   - id=51,Prepare sending big message,size=47261
+
+2016-01-20 17:07:14,833 [0x00001bac] WARN   - id=51,Finished sending big message,size=47261
+
+2016-01-20 17:07:23,100 [0x00001bac] WARN   - id=51,Prepare sending big message,size=13106
+
+2016-01-20 17:07:23,101 [0x00001bac] WARN   - id=51,Finished sending big message,size=13106
+
+2016-01-20 17:08:50,965 [0x00001a54] WARN   - Big msg,body size=439281,header:Response-serial:65645,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:439281,src:0x8f,dst:0xa1,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 17:08:51,001 [0x00001a54] WARN   - Finished receive Big msg,body size=439281,header:Response-serial:65645,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:439281,src:0x8f,dst:0xa1,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 17:08:51,016 [0x00001bac] WARN   - id=51,Prepare sending big message,size=439311
+
+2016-01-20 17:08:51,023 [0x00001bac] WARN   - id=51,Finished sending big message,size=439311
+
+2016-01-20 17:08:52,637 [0x00001a54] WARN   - Big msg,body size=153189,header:Response-serial:65654,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:153189,src:0x8f,dst:0xa1,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 17:08:52,652 [0x00001a54] WARN   - Finished receive Big msg,body size=153189,header:Response-serial:65654,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:153189,src:0x8f,dst:0xa1,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 17:08:59,726 [0x00001bac] WARN   - id=51,Prepare sending big message,size=47261
+
+2016-01-20 17:08:59,728 [0x00001bac] WARN   - id=51,Finished sending big message,size=47261
+
+2016-01-20 17:19:16,670 [0x00001afc] INFO   - config file:clientcfg.xml
+
+2016-01-20 17:19:16,670 [0x00001afc] INFO   - xml path: D:\cocos_ws\MonitorServer\config\clientcfg.xml
+2016-01-20 17:19:16,671 [0x00001afc] INFO   - Parse xml file,ip=172.16.17.178,port=9999
+2016-01-20 17:19:16,671 [0x00001afc] INFO   - load xml config file success,xml:clientcfg.xml
+2016-01-20 17:19:16,671 [0x00001afc] INFO   - id=53,Initailize,libVersion=20150610
+2016-01-20 17:19:16,671 [0x00001afc] INFO   - xml path: D:\cocos_ws\MonitorServer\config\Command.xml
+2016-01-20 17:19:16,673 [0x00001afc] INFO   - id=53,client connect to Data Bus Server(172.16.17.178:9999)
+2016-01-20 17:19:16,679 [0x00001afc] INFO   - id=53,connect Server,IP: 172.16.17.178,Port: 9999
+2016-01-20 17:19:16,684 [0x00001afc] INFO   - id=53,client connect to Data Bus Server success
+2016-01-20 17:19:16,684 [0x00001afc] INFO   - id=53,Sequence queue: 0X560c9880,none sequence queue:0X560c98e0
+2016-01-20 17:19:16,684 [0x00001afc] INFO   - id=53,Thread #6892 has been created to read socket
+2016-01-20 17:19:16,684 [0x00001afc] INFO   - id=53,Thread #5796 has been created to send message
+2016-01-20 17:19:16,695 [0x00001afc] INFO   - id=53,Thread #6776 has been created to timeout message
+2016-01-20 17:19:16,696 [0x00001afc] INFO   - id=53,Thread #7016 has been created to process message
+2016-01-20 17:19:16,696 [0x00001afc] INFO   - id=53,Thread #6952 has been created to process message
+2016-01-20 17:19:16,696 [0x00001b28] INFO   - id=53,Thread 6952,queue:0X560c98e0
+2016-01-20 17:19:16,696 [0x00001afc] INFO   - id=53,Thread #2208 has been created to process message
+2016-01-20 17:19:16,696 [0x00001afc] INFO   - id=53,Thread #5276 has been created to process message
+2016-01-20 17:19:16,696 [0x00001afc] INFO   - id=53,AppServer appname:QMMonitor
+2016-01-20 17:19:16,697 [0x00001afc] INFO   - id=53,AppServer reg:type: 1 name: "QMMonitor" group: 1 uuid: "rywyetyu24535" auth: "test" starttime: 1453281556 serviceid: 500 ip: "00000000000000000000000"
+2016-01-20 17:19:16,697 [0x00001afc] INFO   - id=53,Begin logining
+2016-01-20 17:19:16,697 [0x0000149c] INFO   - id=53,Thread 5276,queue:0X560c98e0
+2016-01-20 17:19:16,697 [0x00001afc] INFO   - id=53,Thread #1624 has been created to send heart beat
+2016-01-20 17:19:16,699 [0x00001b68] INFO   - id=53,Thread 7016 for sequence message handle
+2016-01-20 17:19:16,700 [0x00001b68] INFO   - id=53,Thread 7016,queue:0X560c9880
+2016-01-20 17:19:16,701 [0x000008a0] INFO   - id=53,Thread 2208,queue:0X560c98e0
+2016-01-20 17:19:16,701 [0x00000658] INFO   - id=53,Start heartbeat
+2016-01-20 17:19:16,701 [0x00001b28] INFO   - id=53,Login success, appServer address:0xa2
+2016-01-20 17:19:16,708 [0x00001b28] INFO   - id=53,subscribe success:sub { subid: 10000 topic: 11534337 } sub { subid: 10001 topic: 11534338 } sub { subid: 10002 topic: 11534339 } sub { subid: 10003 topic: 11534340 } sub { subid: 10004 topic: 11534341 } sub { subid: 10005 topic: 11534342 }
+2016-01-20 17:19:21,063 [0x00001aec] WARN   - Big msg,body size=439281,header:Response-serial:65541,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:439281,src:0x8f,dst:0xa2,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 17:19:21,099 [0x00001aec] WARN   - Finished receive Big msg,body size=439281,header:Response-serial:65541,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:439281,src:0x8f,dst:0xa2,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 17:19:21,169 [0x000016a4] WARN   - id=53,Prepare sending big message,size=439311
+
+2016-01-20 17:19:21,171 [0x000016a4] WARN   - id=53,Finished sending big message,size=439311
+
+2016-01-20 17:19:22,844 [0x000016a4] WARN   - id=53,Prepare sending big message,size=10339
+
+2016-01-20 17:19:22,844 [0x000016a4] WARN   - id=53,Finished sending big message,size=10339
+
+2016-01-20 17:19:23,104 [0x00001aec] WARN   - Big msg,body size=153189,header:Response-serial:65552,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:153189,src:0x8f,dst:0xa2,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 17:19:23,118 [0x00001aec] WARN   - Finished receive Big msg,body size=153189,header:Response-serial:65552,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:153189,src:0x8f,dst:0xa2,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 17:21:16,287 [0x00001458] INFO   - config file:clientcfg.xml
+
+2016-01-20 17:21:16,287 [0x00001458] INFO   - xml path: D:\cocos_ws\MonitorServer\config\clientcfg.xml
+2016-01-20 17:21:16,288 [0x00001458] INFO   - Parse xml file,ip=172.16.17.178,port=9999
+2016-01-20 17:21:16,288 [0x00001458] INFO   - load xml config file success,xml:clientcfg.xml
+2016-01-20 17:21:16,288 [0x00001458] INFO   - id=45,Initailize,libVersion=20150610
+2016-01-20 17:21:16,288 [0x00001458] INFO   - xml path: D:\cocos_ws\MonitorServer\config\Command.xml
+2016-01-20 17:21:16,290 [0x00001458] INFO   - id=45,client connect to Data Bus Server(172.16.17.178:9999)
+2016-01-20 17:21:16,296 [0x00001458] INFO   - id=45,connect Server,IP: 172.16.17.178,Port: 9999
+2016-01-20 17:21:16,302 [0x00001458] INFO   - id=45,client connect to Data Bus Server success
+2016-01-20 17:21:16,303 [0x00001458] INFO   - id=45,Sequence queue: 0X5606a8a0,none sequence queue:0X5606a900
+2016-01-20 17:21:16,303 [0x00001458] INFO   - id=45,Thread #4432 has been created to read socket
+2016-01-20 17:21:16,303 [0x00001458] INFO   - id=45,Thread #1856 has been created to send message
+2016-01-20 17:21:16,303 [0x00001458] INFO   - id=45,Thread #5964 has been created to timeout message
+2016-01-20 17:21:16,303 [0x00001458] INFO   - id=45,Thread #5284 has been created to process message
+2016-01-20 17:21:16,304 [0x00001458] INFO   - id=45,Thread #5732 has been created to process message
+2016-01-20 17:21:16,304 [0x00001664] INFO   - id=45,Thread 5732,queue:0X5606a900
+2016-01-20 17:21:16,304 [0x00001458] INFO   - id=45,Thread #5348 has been created to process message
+2016-01-20 17:21:16,304 [0x00001458] INFO   - id=45,Thread #5948 has been created to process message
+2016-01-20 17:21:16,304 [0x00001458] INFO   - id=45,AppServer appname:QMMonitor
+2016-01-20 17:21:16,304 [0x00001458] INFO   - id=45,AppServer reg:type: 1 name: "QMMonitor" group: 1 uuid: "rywyetyu24535" auth: "test" starttime: 1453281676 serviceid: 500 ip: "00000000000000000000000"
+2016-01-20 17:21:16,304 [0x00001458] INFO   - id=45,Begin logining
+2016-01-20 17:21:16,305 [0x0000173c] INFO   - id=45,Thread 5948,queue:0X5606a900
+2016-01-20 17:21:16,305 [0x00001458] INFO   - id=45,Thread #6880 has been created to send heart beat
+2016-01-20 17:21:16,306 [0x000014a4] INFO   - id=45,Thread 5284 for sequence message handle
+2016-01-20 17:21:16,306 [0x000014a4] INFO   - id=45,Thread 5284,queue:0X5606a8a0
+2016-01-20 17:21:16,306 [0x000014e4] INFO   - id=45,Thread 5348,queue:0X5606a900
+2016-01-20 17:21:16,307 [0x00001ae0] INFO   - id=45,Start heartbeat
+2016-01-20 17:21:16,308 [0x00001664] INFO   - id=45,Login success, appServer address:0xa3
+2016-01-20 17:21:16,308 [0x00001664] INFO   - id=45,subscribe success:sub { subid: 10000 topic: 11534337 } sub { subid: 10001 topic: 11534338 } sub { subid: 10002 topic: 11534339 } sub { subid: 10003 topic: 11534340 } sub { subid: 10004 topic: 11534341 } sub { subid: 10005 topic: 11534342 }
+2016-01-20 17:21:37,031 [0x00001150] WARN   - Big msg,body size=439281,header:Response-serial:65548,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:439281,src:0x8f,dst:0xa3,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 17:21:37,068 [0x00001150] WARN   - Finished receive Big msg,body size=439281,header:Response-serial:65548,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:439281,src:0x8f,dst:0xa3,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 17:21:37,111 [0x00000740] WARN   - id=45,Prepare sending big message,size=439311
+
+2016-01-20 17:21:37,115 [0x00000740] WARN   - id=45,Finished sending big message,size=439311
+
+2016-01-20 17:21:38,504 [0x00000740] WARN   - id=45,Prepare sending big message,size=10339
+
+2016-01-20 17:21:38,505 [0x00000740] WARN   - id=45,Finished sending big message,size=10339
+
+2016-01-20 17:21:38,747 [0x00001150] WARN   - Big msg,body size=153189,header:Response-serial:65560,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:153189,src:0x8f,dst:0xa3,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 17:21:38,761 [0x00001150] WARN   - Finished receive Big msg,body size=153189,header:Response-serial:65560,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:153189,src:0x8f,dst:0xa3,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 17:57:43,502 [0x000016cc] INFO   - config file:clientcfg.xml
+
+2016-01-20 17:57:43,502 [0x000016cc] INFO   - xml path: D:\cocos_ws\MonitorServer\config\clientcfg.xml
+2016-01-20 17:57:43,502 [0x000016cc] INFO   - Parse xml file,ip=172.16.17.178,port=9999
+2016-01-20 17:57:43,502 [0x000016cc] INFO   - load xml config file success,xml:clientcfg.xml
+2016-01-20 17:57:43,502 [0x000016cc] INFO   - id=87,Initailize,libVersion=20150610
+2016-01-20 17:57:43,502 [0x000016cc] INFO   - xml path: D:\cocos_ws\MonitorServer\config\Command.xml
+2016-01-20 17:57:43,504 [0x000016cc] INFO   - id=87,client connect to Data Bus Server(172.16.17.178:9999)
+2016-01-20 17:57:43,517 [0x000016cc] INFO   - id=87,connect Server,IP: 172.16.17.178,Port: 9999
+2016-01-20 17:57:43,527 [0x000016cc] INFO   - id=87,client connect to Data Bus Server success
+2016-01-20 17:57:43,527 [0x000016cc] INFO   - id=87,Sequence queue: 0X5610e610,none sequence queue:0X5610e670
+2016-01-20 17:57:43,531 [0x000016cc] INFO   - id=87,Thread #6852 has been created to read socket
+2016-01-20 17:57:43,532 [0x000016cc] INFO   - id=87,Thread #6232 has been created to send message
+2016-01-20 17:57:43,536 [0x000016cc] INFO   - id=87,Thread #7000 has been created to timeout message
+2016-01-20 17:57:43,536 [0x000016cc] INFO   - id=87,Thread #7156 has been created to process message
+2016-01-20 17:57:43,538 [0x000016cc] INFO   - id=87,Thread #6212 has been created to process message
+2016-01-20 17:57:43,539 [0x00001844] INFO   - id=87,Thread 6212,queue:0X5610e670
+2016-01-20 17:57:43,541 [0x000016cc] INFO   - id=87,Thread #5780 has been created to process message
+2016-01-20 17:57:43,545 [0x000016cc] INFO   - id=87,Thread #3320 has been created to process message
+2016-01-20 17:57:43,545 [0x000016cc] INFO   - id=87,AppServer appname:QMMonitor
+2016-01-20 17:57:43,545 [0x00001bf4] INFO   - id=87,Thread 7156 for sequence message handle
+2016-01-20 17:57:43,545 [0x00001bf4] INFO   - id=87,Thread 7156,queue:0X5610e610
+2016-01-20 17:57:43,545 [0x00001694] INFO   - id=87,Thread 5780,queue:0X5610e670
+2016-01-20 17:57:43,546 [0x000016cc] INFO   - id=87,AppServer reg:type: 1 name: "QMMonitor" group: 1 uuid: "rywyetyu24535" auth: "test" starttime: 1453283863 serviceid: 500 ip: "00000000000000000000000"
+2016-01-20 17:57:43,546 [0x000016cc] INFO   - id=87,Begin logining
+2016-01-20 17:57:43,546 [0x000016cc] INFO   - id=87,Thread #7128 has been created to send heart beat
+2016-01-20 17:57:43,547 [0x00001bd8] INFO   - id=87,Start heartbeat
+2016-01-20 17:57:43,545 [0x00000cf8] INFO   - id=87,Thread 3320,queue:0X5610e670
+2016-01-20 17:57:43,553 [0x00001844] INFO   - id=87,Login success, appServer address:0xa4
+2016-01-20 17:57:43,567 [0x00001844] INFO   - id=87,subscribe success:sub { subid: 10000 topic: 11534337 } sub { subid: 10001 topic: 11534338 } sub { subid: 10002 topic: 11534339 } sub { subid: 10003 topic: 11534340 } sub { subid: 10004 topic: 11534341 } sub { subid: 10005 topic: 11534342 }
+2016-01-20 17:57:54,385 [0x00001ac4] WARN   - Big msg,body size=439281,header:Response-serial:65543,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:439281,src:0x8f,dst:0xa4,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 17:57:54,422 [0x00001ac4] WARN   - Finished receive Big msg,body size=439281,header:Response-serial:65543,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:439281,src:0x8f,dst:0xa4,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 17:57:54,471 [0x00001858] WARN   - id=87,Prepare sending big message,size=439311
+
+2016-01-20 17:57:54,473 [0x00001858] WARN   - id=87,Finished sending big message,size=439311
+
+2016-01-20 17:57:55,939 [0x00001858] WARN   - id=87,Prepare sending big message,size=10577
+
+2016-01-20 17:57:55,939 [0x00001858] WARN   - id=87,Finished sending big message,size=10577
+
+2016-01-20 17:57:56,195 [0x00001ac4] WARN   - Big msg,body size=153189,header:Response-serial:65555,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:153189,src:0x8f,dst:0xa4,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 17:57:56,209 [0x00001ac4] WARN   - Finished receive Big msg,body size=153189,header:Response-serial:65555,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:153189,src:0x8f,dst:0xa4,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 17:58:22,519 [0x0000179c] INFO   - config file:clientcfg.xml
+
+2016-01-20 17:58:22,520 [0x0000179c] INFO   - xml path: D:\cocos_ws\MonitorServer\config\clientcfg.xml
+2016-01-20 17:58:22,520 [0x0000179c] INFO   - Parse xml file,ip=172.16.17.178,port=9999
+2016-01-20 17:58:22,520 [0x0000179c] INFO   - load xml config file success,xml:clientcfg.xml
+2016-01-20 17:58:22,520 [0x0000179c] INFO   - id=15,Initailize,libVersion=20150610
+2016-01-20 17:58:22,520 [0x0000179c] INFO   - xml path: D:\cocos_ws\MonitorServer\config\Command.xml
+2016-01-20 17:58:22,522 [0x0000179c] INFO   - id=15,client connect to Data Bus Server(172.16.17.178:9999)
+2016-01-20 17:58:22,523 [0x0000179c] INFO   - id=15,connect Server,IP: 172.16.17.178,Port: 9999
+2016-01-20 17:58:22,524 [0x0000179c] INFO   - id=15,client connect to Data Bus Server success
+2016-01-20 17:58:22,524 [0x0000179c] INFO   - id=15,Sequence queue: 0X56e7dfb0,none sequence queue:0X56e7e010
+2016-01-20 17:58:22,525 [0x0000179c] INFO   - id=15,Thread #1448 has been created to read socket
+2016-01-20 17:58:22,525 [0x0000179c] INFO   - id=15,Thread #2716 has been created to send message
+2016-01-20 17:58:22,525 [0x0000179c] INFO   - id=15,Thread #7040 has been created to timeout message
+2016-01-20 17:58:22,525 [0x0000179c] INFO   - id=15,Thread #7100 has been created to process message
+2016-01-20 17:58:22,525 [0x0000179c] INFO   - id=15,Thread #4932 has been created to process message
+2016-01-20 17:58:22,525 [0x0000179c] INFO   - id=15,Thread #1632 has been created to process message
+2016-01-20 17:58:22,525 [0x0000179c] INFO   - id=15,Thread #4276 has been created to process message
+2016-01-20 17:58:22,525 [0x0000179c] INFO   - id=15,AppServer appname:QMMonitor
+2016-01-20 17:58:22,526 [0x0000179c] INFO   - id=15,AppServer reg:type: 1 name: "QMMonitor" group: 1 uuid: "rywyetyu24535" auth: "test" starttime: 1453283902 serviceid: 500 ip: "00000000000000000000000"
+2016-01-20 17:58:22,526 [0x0000179c] INFO   - id=15,Begin logining
+2016-01-20 17:58:22,526 [0x0000179c] INFO   - id=15,Thread #4560 has been created to send heart beat
+2016-01-20 17:58:22,528 [0x00001344] INFO   - id=15,Thread 4932,queue:0X56e7e010
+2016-01-20 17:58:22,529 [0x00001bbc] INFO   - id=15,Thread 7100 for sequence message handle
+2016-01-20 17:58:22,529 [0x00001bbc] INFO   - id=15,Thread 7100,queue:0X56e7dfb0
+2016-01-20 17:58:22,529 [0x00000660] INFO   - id=15,Thread 1632,queue:0X56e7e010
+2016-01-20 17:58:22,529 [0x000011d0] INFO   - id=15,Start heartbeat
+2016-01-20 17:58:22,530 [0x000010b4] INFO   - id=15,Thread 4276,queue:0X56e7e010
+2016-01-20 17:58:22,530 [0x00001344] INFO   - id=15,Login success, appServer address:0xa5
+2016-01-20 17:58:22,532 [0x00001344] INFO   - id=15,subscribe success:sub { subid: 10000 topic: 11534337 } sub { subid: 10001 topic: 11534338 } sub { subid: 10002 topic: 11534339 } sub { subid: 10003 topic: 11534340 } sub { subid: 10004 topic: 11534341 } sub { subid: 10005 topic: 11534342 }
+2016-01-20 17:59:00,004 [0x000005a8] WARN   - Big msg,body size=439281,header:Response-serial:65552,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:439281,src:0x8f,dst:0xa5,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 17:59:00,042 [0x000005a8] WARN   - Finished receive Big msg,body size=439281,header:Response-serial:65552,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:439281,src:0x8f,dst:0xa5,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 17:59:00,080 [0x00000a9c] WARN   - id=15,Prepare sending big message,size=439311
+
+2016-01-20 17:59:00,082 [0x00000a9c] WARN   - id=15,Finished sending big message,size=439311
+
+2016-01-20 17:59:01,538 [0x00000a9c] WARN   - id=15,Prepare sending big message,size=10577
+
+2016-01-20 17:59:01,539 [0x00000a9c] WARN   - id=15,Finished sending big message,size=10577
+
+2016-01-20 17:59:01,794 [0x000005a8] WARN   - Big msg,body size=153189,header:Response-serial:65563,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:153189,src:0x8f,dst:0xa5,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 17:59:01,808 [0x000005a8] WARN   - Finished receive Big msg,body size=153189,header:Response-serial:65563,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:153189,src:0x8f,dst:0xa5,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 18:00:02,449 [0x00001a34] INFO   - config file:clientcfg.xml
+
+2016-01-20 18:00:02,449 [0x00001a34] INFO   - xml path: D:\cocos_ws\MonitorServer\config\clientcfg.xml
+2016-01-20 18:00:02,449 [0x00001a34] INFO   - Parse xml file,ip=172.16.17.178,port=9999
+2016-01-20 18:00:02,450 [0x00001a34] INFO   - load xml config file success,xml:clientcfg.xml
+2016-01-20 18:00:02,450 [0x00001a34] INFO   - id=41,Initailize,libVersion=20150610
+2016-01-20 18:00:02,450 [0x00001a34] INFO   - xml path: D:\cocos_ws\MonitorServer\config\Command.xml
+2016-01-20 18:00:02,452 [0x00001a34] INFO   - id=41,client connect to Data Bus Server(172.16.17.178:9999)
+2016-01-20 18:00:02,457 [0x00001a34] INFO   - id=41,connect Server,IP: 172.16.17.178,Port: 9999
+2016-01-20 18:00:02,460 [0x00001a34] INFO   - id=41,client connect to Data Bus Server success
+2016-01-20 18:00:02,460 [0x00001a34] INFO   - id=41,Sequence queue: 0X5640c590,none sequence queue:0X5640c5f0
+2016-01-20 18:00:02,462 [0x00001a34] INFO   - id=41,Thread #6704 has been created to read socket
+2016-01-20 18:00:02,462 [0x00001a34] INFO   - id=41,Thread #6868 has been created to send message
+2016-01-20 18:00:02,462 [0x00001a34] INFO   - id=41,Thread #5324 has been created to timeout message
+2016-01-20 18:00:02,463 [0x00001a34] INFO   - id=41,Thread #6736 has been created to process message
+2016-01-20 18:00:02,463 [0x00001a34] INFO   - id=41,Thread #5912 has been created to process message
+2016-01-20 18:00:02,463 [0x00001a34] INFO   - id=41,Thread #5968 has been created to process message
+2016-01-20 18:00:02,463 [0x00001a34] INFO   - id=41,Thread #4132 has been created to process message
+2016-01-20 18:00:02,463 [0x00001a34] INFO   - id=41,AppServer appname:QMMonitor
+2016-01-20 18:00:02,463 [0x00001a34] INFO   - id=41,AppServer reg:type: 1 name: "QMMonitor" group: 1 uuid: "rywyetyu24535" auth: "test" starttime: 1453284002 serviceid: 500 ip: "00000000000000000000000"
+2016-01-20 18:00:02,463 [0x00001a34] INFO   - id=41,Begin logining
+2016-01-20 18:00:02,464 [0x00001a34] INFO   - id=41,Thread #5260 has been created to send heart beat
+2016-01-20 18:00:02,464 [0x00001a50] INFO   - id=41,Thread 6736 for sequence message handle
+2016-01-20 18:00:02,464 [0x00001a50] INFO   - id=41,Thread 6736,queue:0X5640c590
+2016-01-20 18:00:02,464 [0x00001750] INFO   - id=41,Thread 5968,queue:0X5640c5f0
+2016-01-20 18:00:02,464 [0x0000148c] INFO   - id=41,Start heartbeat
+2016-01-20 18:00:02,465 [0x00001718] INFO   - id=41,Thread 5912,queue:0X5640c5f0
+2016-01-20 18:00:02,465 [0x00001024] INFO   - id=41,Thread 4132,queue:0X5640c5f0
+2016-01-20 18:00:02,469 [0x00001750] INFO   - id=41,Login success, appServer address:0xa6
+2016-01-20 18:00:02,474 [0x00001750] INFO   - id=41,subscribe success:sub { subid: 10000 topic: 11534337 } sub { subid: 10001 topic: 11534338 } sub { subid: 10002 topic: 11534339 } sub { subid: 10003 topic: 11534340 } sub { subid: 10004 topic: 11534341 } sub { subid: 10005 topic: 11534342 }
+2016-01-20 18:00:11,523 [0x00001a30] WARN   - Big msg,body size=439281,header:Response-serial:65542,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:439281,src:0x8f,dst:0xa6,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 18:00:11,561 [0x00001a30] WARN   - Finished receive Big msg,body size=439281,header:Response-serial:65542,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:439281,src:0x8f,dst:0xa6,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 18:00:11,601 [0x00001ad4] WARN   - id=41,Prepare sending big message,size=439311
+
+2016-01-20 18:00:11,603 [0x00001ad4] WARN   - id=41,Finished sending big message,size=439311
+
+2016-01-20 18:00:13,014 [0x00001ad4] WARN   - id=41,Prepare sending big message,size=10577
+
+2016-01-20 18:00:13,015 [0x00001ad4] WARN   - id=41,Finished sending big message,size=10577
+
+2016-01-20 18:00:13,282 [0x00001a30] WARN   - Big msg,body size=153189,header:Response-serial:65554,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:153189,src:0x8f,dst:0xa6,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 18:00:13,295 [0x00001a30] WARN   - Finished receive Big msg,body size=153189,header:Response-serial:65554,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:153189,src:0x8f,dst:0xa6,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 18:01:04,905 [0x00001a30] WARN   - Big msg,body size=439281,header:Response-serial:65584,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:439281,src:0x8f,dst:0xa6,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 18:01:04,943 [0x00001a30] WARN   - Finished receive Big msg,body size=439281,header:Response-serial:65584,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:439281,src:0x8f,dst:0xa6,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 18:01:04,960 [0x00001ad4] WARN   - id=41,Prepare sending big message,size=439311
+
+2016-01-20 18:01:04,965 [0x00001ad4] WARN   - id=41,Finished sending big message,size=439311
+
+2016-01-20 18:01:05,826 [0x00001ad4] WARN   - id=41,Prepare sending big message,size=10577
+
+2016-01-20 18:01:05,826 [0x00001ad4] WARN   - id=41,Finished sending big message,size=10577
+
+2016-01-20 18:01:06,015 [0x00001a30] WARN   - Big msg,body size=153189,header:Response-serial:65595,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:153189,src:0x8f,dst:0xa6,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 18:01:06,028 [0x00001a30] WARN   - Finished receive Big msg,body size=153189,header:Response-serial:65595,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:153189,src:0x8f,dst:0xa6,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 18:01:25,093 [0x00001180] INFO   - config file:clientcfg.xml
+
+2016-01-20 18:01:25,094 [0x00001180] INFO   - xml path: D:\cocos_ws\MonitorServer\config\clientcfg.xml
+2016-01-20 18:01:25,094 [0x00001180] INFO   - Parse xml file,ip=172.16.17.178,port=9999
+2016-01-20 18:01:25,094 [0x00001180] INFO   - load xml config file success,xml:clientcfg.xml
+2016-01-20 18:01:25,094 [0x00001180] INFO   - id=12,Initailize,libVersion=20150610
+2016-01-20 18:01:25,094 [0x00001180] INFO   - xml path: D:\cocos_ws\MonitorServer\config\Command.xml
+2016-01-20 18:01:25,096 [0x00001180] INFO   - id=12,client connect to Data Bus Server(172.16.17.178:9999)
+2016-01-20 18:01:25,096 [0x00001180] INFO   - id=12,connect Server,IP: 172.16.17.178,Port: 9999
+2016-01-20 18:01:25,099 [0x00001180] INFO   - id=12,client connect to Data Bus Server success
+2016-01-20 18:01:25,099 [0x00001180] INFO   - id=12,Sequence queue: 0X56ffee90,none sequence queue:0X56ffeef0
+2016-01-20 18:01:25,099 [0x00001180] INFO   - id=12,Thread #7136 has been created to read socket
+2016-01-20 18:01:25,099 [0x00001180] INFO   - id=12,Thread #6404 has been created to send message
+2016-01-20 18:01:25,100 [0x00001180] INFO   - id=12,Thread #6668 has been created to timeout message
+2016-01-20 18:01:25,100 [0x00001180] INFO   - id=12,Thread #6280 has been created to process message
+2016-01-20 18:01:25,100 [0x00001180] INFO   - id=12,Thread #4180 has been created to process message
+2016-01-20 18:01:25,100 [0x00001180] INFO   - id=12,Thread #4676 has been created to process message
+2016-01-20 18:01:25,100 [0x00001180] INFO   - id=12,Thread #6176 has been created to process message
+2016-01-20 18:01:25,100 [0x00001180] INFO   - id=12,AppServer appname:QMMonitor
+2016-01-20 18:01:25,101 [0x00001180] INFO   - id=12,AppServer reg:type: 1 name: "QMMonitor" group: 1 uuid: "rywyetyu24535" auth: "test" starttime: 1453284085 serviceid: 500 ip: "00000000000000000000000"
+2016-01-20 18:01:25,110 [0x00001180] INFO   - id=12,Begin logining
+2016-01-20 18:01:25,110 [0x00001180] INFO   - id=12,Thread #1512 has been created to send heart beat
+2016-01-20 18:01:25,101 [0x00001054] INFO   - id=12,Thread 4180,queue:0X56ffeef0
+2016-01-20 18:01:25,101 [0x00001820] INFO   - id=12,Thread 6176,queue:0X56ffeef0
+2016-01-20 18:01:25,109 [0x00001888] INFO   - id=12,Thread 6280 for sequence message handle
+2016-01-20 18:01:25,127 [0x00001888] INFO   - id=12,Thread 6280,queue:0X56ffee90
+2016-01-20 18:01:25,110 [0x00001244] INFO   - id=12,Thread 4676,queue:0X56ffeef0
+2016-01-20 18:01:25,128 [0x000005e8] INFO   - id=12,Start heartbeat
+2016-01-20 18:01:25,136 [0x00001054] INFO   - id=12,Login success, appServer address:0xa7
+2016-01-20 18:01:25,141 [0x00001054] INFO   - id=12,subscribe success:sub { subid: 10000 topic: 11534337 } sub { subid: 10001 topic: 11534338 } sub { subid: 10002 topic: 11534339 } sub { subid: 10003 topic: 11534340 } sub { subid: 10004 topic: 11534341 } sub { subid: 10005 topic: 11534342 }
+2016-01-20 18:01:32,815 [0x00001be0] WARN   - Big msg,body size=439281,header:Response-serial:65542,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:439281,src:0x8f,dst:0xa7,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 18:01:32,852 [0x00001be0] WARN   - Finished receive Big msg,body size=439281,header:Response-serial:65542,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:439281,src:0x8f,dst:0xa7,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 18:01:32,901 [0x00001904] WARN   - id=12,Prepare sending big message,size=439311
+
+2016-01-20 18:01:32,903 [0x00001904] WARN   - id=12,Finished sending big message,size=439311
+
+2016-01-20 18:01:34,372 [0x00001904] WARN   - id=12,Prepare sending big message,size=10577
+
+2016-01-20 18:01:34,376 [0x00001904] WARN   - id=12,Finished sending big message,size=10577
+
+2016-01-20 18:01:34,626 [0x00001be0] WARN   - Big msg,body size=153189,header:Response-serial:65553,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:153189,src:0x8f,dst:0xa7,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 18:01:34,640 [0x00001be0] WARN   - Finished receive Big msg,body size=153189,header:Response-serial:65553,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:153189,src:0x8f,dst:0xa7,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 18:02:38,146 [0x00001be0] WARN   - Big msg,body size=439281,header:Response-serial:65586,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:439281,src:0x8f,dst:0xa7,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 18:02:38,183 [0x00001be0] WARN   - Finished receive Big msg,body size=439281,header:Response-serial:65586,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:439281,src:0x8f,dst:0xa7,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 18:02:38,208 [0x00001904] WARN   - id=12,Prepare sending big message,size=439311
+
+2016-01-20 18:02:38,214 [0x00001904] WARN   - id=12,Finished sending big message,size=439311
+
+2016-01-20 18:02:39,013 [0x00001904] WARN   - id=12,Prepare sending big message,size=10577
+
+2016-01-20 18:02:39,013 [0x00001904] WARN   - id=12,Finished sending big message,size=10577
+
+2016-01-20 18:03:01,539 [0x00001be0] WARN   - Big msg,body size=153189,header:Response-serial:65604,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:153189,src:0x8f,dst:0xa7,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 18:03:01,541 [0x00001be0] WARN   - Finished receive Big msg,body size=153189,header:Response-serial:65604,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:153189,src:0x8f,dst:0xa7,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 18:03:39,650 [0x00001be0] WARN   - Big msg,body size=439281,header:Response-serial:65638,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:439281,src:0x8f,dst:0xa7,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 18:03:39,687 [0x00001be0] WARN   - Finished receive Big msg,body size=439281,header:Response-serial:65638,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:439281,src:0x8f,dst:0xa7,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 18:03:39,708 [0x00001904] WARN   - id=12,Prepare sending big message,size=439311
+
+2016-01-20 18:03:39,713 [0x00001904] WARN   - id=12,Finished sending big message,size=439311
+
+2016-01-20 18:03:40,508 [0x00001904] WARN   - id=12,Prepare sending big message,size=10577
+
+2016-01-20 18:03:40,508 [0x00001904] WARN   - id=12,Finished sending big message,size=10577
+
+2016-01-20 18:04:29,530 [0x00001be0] WARN   - Big msg,body size=153189,header:Response-serial:65670,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:153189,src:0x8f,dst:0xa7,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 18:04:29,530 [0x00001be0] WARN   - Finished receive Big msg,body size=153189,header:Response-serial:65670,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:153189,src:0x8f,dst:0xa7,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 18:05:58,287 [0x00001a8c] INFO   - config file:clientcfg.xml
+
+2016-01-20 18:05:58,287 [0x00001a8c] INFO   - xml path: D:\cocos_ws\MonitorServer\config\clientcfg.xml
+2016-01-20 18:05:58,288 [0x00001a8c] INFO   - Parse xml file,ip=172.16.17.178,port=9999
+2016-01-20 18:05:58,289 [0x00001a8c] INFO   - load xml config file success,xml:clientcfg.xml
+2016-01-20 18:05:58,289 [0x00001a8c] INFO   - id=4,Initailize,libVersion=20150610
+2016-01-20 18:05:58,289 [0x00001a8c] INFO   - xml path: D:\cocos_ws\MonitorServer\config\Command.xml
+2016-01-20 18:05:58,292 [0x00001a8c] INFO   - id=4,client connect to Data Bus Server(172.16.17.178:9999)
+2016-01-20 18:05:58,292 [0x00001a8c] INFO   - id=4,connect Server,IP: 172.16.17.178,Port: 9999
+2016-01-20 18:05:58,294 [0x00001a8c] INFO   - id=4,client connect to Data Bus Server success
+2016-01-20 18:05:58,294 [0x00001a8c] INFO   - id=4,Sequence queue: 0X570090c0,none sequence queue:0X57009120
+2016-01-20 18:05:58,294 [0x00001a8c] INFO   - id=4,Thread #7164 has been created to read socket
+2016-01-20 18:05:58,294 [0x00001a8c] INFO   - id=4,Thread #6708 has been created to send message
+2016-01-20 18:05:58,295 [0x00001a8c] INFO   - id=4,Thread #4524 has been created to timeout message
+2016-01-20 18:05:58,295 [0x00001a8c] INFO   - id=4,Thread #5580 has been created to process message
+2016-01-20 18:05:58,295 [0x000015cc] INFO   - id=4,Thread 5580 for sequence message handle
+2016-01-20 18:05:58,295 [0x000015cc] INFO   - id=4,Thread 5580,queue:0X570090c0
+2016-01-20 18:05:58,295 [0x00001a8c] INFO   - id=4,Thread #5332 has been created to process message
+2016-01-20 18:05:58,295 [0x00001a8c] INFO   - id=4,Thread #6508 has been created to process message
+2016-01-20 18:05:58,295 [0x0000196c] INFO   - id=4,Thread 6508,queue:0X57009120
+2016-01-20 18:05:58,295 [0x00001a8c] INFO   - id=4,Thread #7008 has been created to process message
+2016-01-20 18:05:58,295 [0x00001a8c] INFO   - id=4,AppServer appname:QMMonitor
+2016-01-20 18:05:58,295 [0x000014d4] INFO   - id=4,Thread 5332,queue:0X57009120
+2016-01-20 18:05:58,296 [0x00001b60] INFO   - id=4,Thread 7008,queue:0X57009120
+2016-01-20 18:05:58,296 [0x00001a8c] INFO   - id=4,AppServer reg:type: 1 name: "QMMonitor" group: 1 uuid: "rywyetyu24535" auth: "test" starttime: 1453284358 serviceid: 500 ip: "00000000000000000000000"
+2016-01-20 18:05:58,296 [0x00001a8c] INFO   - id=4,Begin logining
+2016-01-20 18:05:58,296 [0x00001a8c] INFO   - id=4,Thread #6756 has been created to send heart beat
+2016-01-20 18:05:58,296 [0x00001a64] INFO   - id=4,Start heartbeat
+2016-01-20 18:05:58,301 [0x0000196c] INFO   - id=4,Login success, appServer address:0xa8
+2016-01-20 18:05:58,307 [0x0000196c] INFO   - id=4,subscribe success:sub { subid: 10000 topic: 11534337 } sub { subid: 10001 topic: 11534338 } sub { subid: 10002 topic: 11534339 } sub { subid: 10003 topic: 11534340 } sub { subid: 10004 topic: 11534341 } sub { subid: 10005 topic: 11534342 }
+2016-01-20 18:06:04,883 [0x00001bfc] WARN   - Big msg,body size=439281,header:Response-serial:65542,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:439281,src:0x8f,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 18:06:04,922 [0x00001bfc] WARN   - Finished receive Big msg,body size=439281,header:Response-serial:65542,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:439281,src:0x8f,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 18:06:04,982 [0x00001a34] WARN   - id=4,Prepare sending big message,size=439311
+
+2016-01-20 18:06:04,986 [0x00001a34] WARN   - id=4,Finished sending big message,size=439311
+
+2016-01-20 18:06:06,539 [0x00001a34] WARN   - id=4,Prepare sending big message,size=10577
+
+2016-01-20 18:06:06,540 [0x00001a34] WARN   - id=4,Finished sending big message,size=10577
+
+2016-01-20 18:06:42,610 [0x00000f40] INFO   - config file:clientcfg.xml
+
+2016-01-20 18:06:42,610 [0x00000f40] INFO   - xml path: D:\cocos_ws\MonitorServer\config\clientcfg.xml
+2016-01-20 18:06:42,611 [0x00000f40] INFO   - Parse xml file,ip=172.16.17.178,port=9999
+2016-01-20 18:06:42,611 [0x00000f40] INFO   - load xml config file success,xml:clientcfg.xml
+2016-01-20 18:06:42,611 [0x00000f40] INFO   - id=47,Initailize,libVersion=20150610
+2016-01-20 18:06:42,611 [0x00000f40] INFO   - xml path: D:\cocos_ws\MonitorServer\config\Command.xml
+2016-01-20 18:06:42,613 [0x00000f40] INFO   - id=47,client connect to Data Bus Server(172.16.17.178:9999)
+2016-01-20 18:06:42,613 [0x00000f40] INFO   - id=47,connect Server,IP: 172.16.17.178,Port: 9999
+2016-01-20 18:06:42,615 [0x00000f40] INFO   - id=47,client connect to Data Bus Server success
+2016-01-20 18:06:42,615 [0x00000f40] INFO   - id=47,Sequence queue: 0X571b5f90,none sequence queue:0X571b5ff0
+2016-01-20 18:06:42,615 [0x00000f40] INFO   - id=47,Thread #5856 has been created to read socket
+2016-01-20 18:06:42,615 [0x00000f40] INFO   - id=47,Thread #4612 has been created to send message
+2016-01-20 18:06:42,615 [0x00000f40] INFO   - id=47,Thread #6256 has been created to timeout message
+2016-01-20 18:06:42,616 [0x00000f40] INFO   - id=47,Thread #7072 has been created to process message
+2016-01-20 18:06:42,616 [0x00000f40] INFO   - id=47,Thread #6844 has been created to process message
+2016-01-20 18:06:42,616 [0x00000f40] INFO   - id=47,Thread #5496 has been created to process message
+2016-01-20 18:06:42,616 [0x00000f40] INFO   - id=47,Thread #6292 has been created to process message
+2016-01-20 18:06:42,616 [0x00000f40] INFO   - id=47,AppServer appname:QMMonitor
+2016-01-20 18:06:42,616 [0x00000f40] INFO   - id=47,AppServer reg:type: 1 name: "QMMonitor" group: 1 uuid: "rywyetyu24535" auth: "test" starttime: 1453284402 serviceid: 500 ip: "00000000000000000000000"
+2016-01-20 18:06:42,617 [0x00000f40] INFO   - id=47,Begin logining
+2016-01-20 18:06:42,617 [0x00000f40] INFO   - id=47,Thread #6664 has been created to send heart beat
+2016-01-20 18:06:42,618 [0x00001abc] INFO   - id=47,Thread 6844,queue:0X571b5ff0
+2016-01-20 18:06:42,618 [0x00001894] INFO   - id=47,Thread 6292,queue:0X571b5ff0
+2016-01-20 18:06:42,619 [0x00001ba0] INFO   - id=47,Thread 7072 for sequence message handle
+2016-01-20 18:06:42,619 [0x00001ba0] INFO   - id=47,Thread 7072,queue:0X571b5f90
+2016-01-20 18:06:42,619 [0x00001578] INFO   - id=47,Thread 5496,queue:0X571b5ff0
+2016-01-20 18:06:42,620 [0x00001a08] INFO   - id=47,Start heartbeat
+2016-01-20 18:06:42,621 [0x00001abc] INFO   - id=47,Login success, appServer address:0xa9
+2016-01-20 18:06:42,623 [0x00001abc] INFO   - id=47,subscribe success:sub { subid: 10000 topic: 11534337 } sub { subid: 10001 topic: 11534338 } sub { subid: 10002 topic: 11534339 } sub { subid: 10003 topic: 11534340 } sub { subid: 10004 topic: 11534341 } sub { subid: 10005 topic: 11534342 }
+2016-01-20 18:06:48,946 [0x000016e0] WARN   - Big msg,body size=439281,header:Response-serial:65541,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:439281,src:0x8f,dst:0xa9,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 18:06:48,983 [0x000016e0] WARN   - Finished receive Big msg,body size=439281,header:Response-serial:65541,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:439281,src:0x8f,dst:0xa9,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 18:06:49,027 [0x00001204] WARN   - id=47,Prepare sending big message,size=439311
+
+2016-01-20 18:06:49,030 [0x00001204] WARN   - id=47,Finished sending big message,size=439311
+
+2016-01-20 18:06:50,599 [0x00001204] WARN   - id=47,Prepare sending big message,size=10577
+
+2016-01-20 18:06:50,600 [0x00001204] WARN   - id=47,Finished sending big message,size=10577
+
+2016-01-20 18:07:17,057 [0x000016e0] WARN   - Big msg,body size=153189,header:Response-serial:65559,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:153189,src:0x8f,dst:0xa9,code:0,options:0,seq:0,codeinfo:0
+2016-01-20 18:07:17,070 [0x000016e0] WARN   - Finished receive Big msg,body size=153189,header:Response-serial:65559,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:153189,src:0x8f,dst:0xa9,code:0,options:0,seq:0,codeinfo:0
+2016-01-25 10:17:42,556 [0x00001774] INFO   - config file:clientcfg.xml
+
+2016-01-25 10:17:42,563 [0x00001774] INFO   - xml path: D:\cocos_ws\MonitorServer\config\clientcfg.xml
+2016-01-25 10:17:42,574 [0x00001774] INFO   - Parse xml file,ip=172.16.17.178,port=9999
+2016-01-25 10:17:42,574 [0x00001774] INFO   - load xml config file success,xml:clientcfg.xml
+2016-01-25 10:17:42,574 [0x00001774] INFO   - id=96,Initailize,libVersion=20150610
+2016-01-25 10:17:42,575 [0x00001774] INFO   - xml path: D:\cocos_ws\MonitorServer\config\Command.xml
+2016-01-25 10:17:42,588 [0x00001774] INFO   - id=96,client connect to Data Bus Server(172.16.17.178:9999)
+2016-01-25 10:17:42,591 [0x00001774] INFO   - id=96,connect Server,IP: 172.16.17.178,Port: 9999
+2016-01-25 10:17:42,592 [0x00001774] INFO   - id=96,client connect to Data Bus Server success
+2016-01-25 10:17:42,592 [0x00001774] INFO   - id=96,Sequence queue: 0X56edb520,none sequence queue:0X56edb580
+2016-01-25 10:17:42,592 [0x00001774] INFO   - id=96,Thread #3068 has been created to read socket
+2016-01-25 10:17:42,593 [0x00001774] INFO   - id=96,Thread #4308 has been created to send message
+2016-01-25 10:17:42,593 [0x00001774] INFO   - id=96,Thread #5360 has been created to timeout message
+2016-01-25 10:17:42,598 [0x00001774] INFO   - id=96,Thread #5712 has been created to process message
+2016-01-25 10:17:42,600 [0x00001650] INFO   - id=96,Thread 5712 for sequence message handle
+2016-01-25 10:17:42,600 [0x00001650] INFO   - id=96,Thread 5712,queue:0X56edb520
+2016-01-25 10:17:42,600 [0x00001774] INFO   - id=96,Thread #3544 has been created to process message
+2016-01-25 10:17:42,600 [0x00001774] INFO   - id=96,Thread #5212 has been created to process message
+2016-01-25 10:17:42,600 [0x0000145c] INFO   - id=96,Thread 5212,queue:0X56edb580
+2016-01-25 10:17:42,601 [0x00001774] INFO   - id=96,Thread #5800 has been created to process message
+2016-01-25 10:17:42,601 [0x00001774] INFO   - id=96,AppServer appname:QMMonitor
+2016-01-25 10:17:42,601 [0x00000dd8] INFO   - id=96,Thread 3544,queue:0X56edb580
+2016-01-25 10:17:42,604 [0x000016a8] INFO   - id=96,Thread 5800,queue:0X56edb580
+2016-01-25 10:17:42,607 [0x00001774] INFO   - id=96,AppServer reg:type: 1 name: "QMMonitor" group: 1 uuid: "rywyetyu24535" auth: "test" starttime: 1453688262 serviceid: 500 ip: "00000000000000000000000"
+2016-01-25 10:17:42,608 [0x00001774] INFO   - id=96,Begin logining
+2016-01-25 10:17:42,610 [0x00001774] INFO   - id=96,Thread #3536 has been created to send heart beat
+2016-01-25 10:17:42,614 [0x0000145c] INFO   - id=96,Login success, appServer address:0xb3
+2016-01-25 10:17:42,616 [0x0000145c] INFO   - id=96,subscribe success:sub { subid: 10000 topic: 11534337 } sub { subid: 10001 topic: 11534338 } sub { subid: 10002 topic: 11534339 } sub { subid: 10003 topic: 11534340 } sub { subid: 10004 topic: 11534341 } sub { subid: 10005 topic: 11534342 }
+2016-01-25 10:17:42,617 [0x00000dd0] INFO   - id=96,Start heartbeat
+2016-01-25 10:20:20,663 [0x00000bfc] WARN   - Big msg,body size=146982,header:Response-serial:65573,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:146982,src:0xb0,dst:0xb3,code:0,options:0,seq:0,codeinfo:0
+2016-01-25 10:20:20,679 [0x00000bfc] WARN   - Finished receive Big msg,body size=146982,header:Response-serial:65573,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:146982,src:0xb0,dst:0xb3,code:0,options:0,seq:0,codeinfo:0
+2016-01-25 10:33:35,933 [0x000015ac] INFO   - config file:clientcfg.xml
+
+2016-01-25 10:33:35,950 [0x000015ac] INFO   - xml path: D:\cocos_ws\MonitorServer\config\clientcfg.xml
+2016-01-25 10:33:35,979 [0x000015ac] INFO   - Parse xml file,ip=172.16.17.178,port=9999
+2016-01-25 10:33:35,979 [0x000015ac] INFO   - load xml config file success,xml:clientcfg.xml
+2016-01-25 10:33:35,979 [0x000015ac] INFO   - id=8,Initailize,libVersion=20150610
+2016-01-25 10:33:35,979 [0x000015ac] INFO   - xml path: D:\cocos_ws\MonitorServer\config\Command.xml
+2016-01-25 10:33:35,994 [0x000015ac] INFO   - id=8,client connect to Data Bus Server(172.16.17.178:9999)
+2016-01-25 10:33:35,994 [0x000015ac] INFO   - id=8,connect Server,IP: 172.16.17.178,Port: 9999
+2016-01-25 10:33:35,995 [0x000015ac] INFO   - id=8,client connect to Data Bus Server success
+2016-01-25 10:33:35,995 [0x000015ac] INFO   - id=8,Sequence queue: 0X56cf6ed0,none sequence queue:0X56cf6f30
+2016-01-25 10:33:35,996 [0x000015ac] INFO   - id=8,Thread #5800 has been created to read socket
+2016-01-25 10:33:35,996 [0x000015ac] INFO   - id=8,Thread #3724 has been created to send message
+2016-01-25 10:33:35,996 [0x000015ac] INFO   - id=8,Thread #6020 has been created to timeout message
+2016-01-25 10:33:35,997 [0x000015ac] INFO   - id=8,Thread #1056 has been created to process message
+2016-01-25 10:33:35,997 [0x000015ac] INFO   - id=8,Thread #5456 has been created to process message
+2016-01-25 10:33:35,997 [0x000015ac] INFO   - id=8,Thread #5868 has been created to process message
+2016-01-25 10:33:35,997 [0x000015ac] INFO   - id=8,Thread #5832 has been created to process message
+2016-01-25 10:33:35,997 [0x000015ac] INFO   - id=8,AppServer appname:QMMonitor
+2016-01-25 10:33:35,998 [0x00001550] INFO   - id=8,Thread 5456,queue:0X56cf6f30
+2016-01-25 10:33:35,998 [0x000016c8] INFO   - id=8,Thread 5832,queue:0X56cf6f30
+2016-01-25 10:33:35,999 [0x00000420] INFO   - id=8,Thread 1056 for sequence message handle
+2016-01-25 10:33:35,999 [0x00000420] INFO   - id=8,Thread 1056,queue:0X56cf6ed0
+2016-01-25 10:33:35,999 [0x000016ec] INFO   - id=8,Thread 5868,queue:0X56cf6f30
+2016-01-25 10:33:36,019 [0x000015ac] INFO   - id=8,AppServer reg:type: 1 name: "QMMonitor" group: 1 uuid: "rywyetyu24535" auth: "test" starttime: 1453689215 serviceid: 500 ip: "00000000000000000000000"
+2016-01-25 10:33:36,019 [0x000015ac] INFO   - id=8,Begin logining
+2016-01-25 10:33:36,019 [0x000015ac] INFO   - id=8,Thread #5556 has been created to send heart beat
+2016-01-25 10:33:36,033 [0x000015b4] INFO   - id=8,Start heartbeat
+2016-01-25 10:33:36,058 [0x00001550] INFO   - id=8,Login success, appServer address:0xb6
+2016-01-25 10:33:36,060 [0x00001550] INFO   - id=8,subscribe success:sub { subid: 10000 topic: 11534337 } sub { subid: 10001 topic: 11534338 } sub { subid: 10002 topic: 11534339 } sub { subid: 10003 topic: 11534340 } sub { subid: 10004 topic: 11534341 } sub { subid: 10005 topic: 11534342 }
+2016-02-01 16:25:52,527 [0x000004cc] INFO   - config file:clientcfg.xml
+
+2016-02-01 16:25:52,538 [0x000004cc] INFO   - xml path: D:\cocos_ws\MonitorServer\config\clientcfg.xml
+2016-02-01 16:25:52,581 [0x000004cc] INFO   - Parse xml file,ip=172.16.17.178,port=9999
+2016-02-01 16:25:52,581 [0x000004cc] INFO   - load xml config file success,xml:clientcfg.xml
+2016-02-01 16:25:52,581 [0x000004cc] INFO   - id=39,Initailize,libVersion=20150610
+2016-02-01 16:25:52,581 [0x000004cc] INFO   - xml path: D:\cocos_ws\MonitorServer\config\Command.xml
+2016-02-01 16:25:52,601 [0x000004cc] INFO   - id=39,client connect to Data Bus Server(172.16.17.178:9999)
+2016-02-01 16:25:52,610 [0x000004cc] INFO   - id=39,connect Server,IP: 172.16.17.178,Port: 9999
+2016-02-01 16:25:52,615 [0x000004cc] INFO   - id=39,client connect to Data Bus Server success
+2016-02-01 16:25:52,615 [0x000004cc] INFO   - id=39,Sequence queue: 0X5613da20,none sequence queue:0X5613da80
+2016-02-01 16:25:52,615 [0x000004cc] INFO   - id=39,Thread #5376 has been created to read socket
+2016-02-01 16:25:52,615 [0x000004cc] INFO   - id=39,Thread #3576 has been created to send message
+2016-02-01 16:25:52,616 [0x000004cc] INFO   - id=39,Thread #4672 has been created to timeout message
+2016-02-01 16:25:52,616 [0x000004cc] INFO   - id=39,Thread #2388 has been created to process message
+2016-02-01 16:25:52,616 [0x000004cc] INFO   - id=39,Thread #3564 has been created to process message
+2016-02-01 16:25:52,616 [0x000004cc] INFO   - id=39,Thread #4260 has been created to process message
+2016-02-01 16:25:52,616 [0x000004cc] INFO   - id=39,Thread #1044 has been created to process message
+2016-02-01 16:25:52,616 [0x000004cc] INFO   - id=39,AppServer appname:QMMonitor
+2016-02-01 16:25:52,617 [0x000004cc] INFO   - id=39,AppServer reg:type: 1 name: "QMMonitor" group: 1 uuid: "rywyetyu24535" auth: "test" starttime: 1454315152 serviceid: 500 ip: "00000000000000000000000"
+2016-02-01 16:25:52,618 [0x000004cc] INFO   - id=39,Begin logining
+2016-02-01 16:25:52,618 [0x000004cc] INFO   - id=39,Thread #4300 has been created to send heart beat
+2016-02-01 16:25:52,619 [0x000010cc] INFO   - id=39,Start heartbeat
+2016-02-01 16:25:52,621 [0x00000dec] INFO   - id=39,Thread 3564,queue:0X5613da80
+2016-02-01 16:25:52,623 [0x00000414] INFO   - id=39,Thread 1044,queue:0X5613da80
+2016-02-01 16:25:52,623 [0x000010a4] INFO   - id=39,Thread 4260,queue:0X5613da80
+2016-02-01 16:25:52,623 [0x00000954] INFO   - id=39,Thread 2388 for sequence message handle
+2016-02-01 16:25:52,623 [0x00000dec] INFO   - id=39,Login success, appServer address:0x7c
+2016-02-01 16:25:52,623 [0x00000954] INFO   - id=39,Thread 2388,queue:0X5613da20
+2016-02-01 16:25:52,624 [0x00000dec] INFO   - id=39,subscribe success:sub { subid: 10000 topic: 11534337 } sub { subid: 10001 topic: 11534338 } sub { subid: 10002 topic: 11534339 } sub { subid: 10003 topic: 11534340 } sub { subid: 10004 topic: 11534341 } sub { subid: 10005 topic: 11534342 }
+2016-02-01 16:26:01,772 [0x00001500] WARN   - Big msg,body size=521556,header:Response-serial:65540,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:521556,src:0x6a,dst:0x7c,code:0,options:0,seq:0,codeinfo:0
+2016-02-01 16:26:01,815 [0x00001500] WARN   - Finished receive Big msg,body size=521556,header:Response-serial:65540,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:521556,src:0x6a,dst:0x7c,code:0,options:0,seq:0,codeinfo:0
+2016-02-01 16:30:14,409 [0x00001500] WARN   - Big msg,body size=171972,header:Response-serial:65628,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:171972,src:0x6a,dst:0x7c,code:0,options:0,seq:0,codeinfo:0
+2016-02-01 16:30:14,428 [0x00001500] WARN   - Finished receive Big msg,body size=171972,header:Response-serial:65628,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:171972,src:0x6a,dst:0x7c,code:0,options:0,seq:0,codeinfo:0
+2016-02-01 16:30:33,377 [0x000019ac] INFO   - config file:clientcfg.xml
+
+2016-02-01 16:30:33,377 [0x000019ac] INFO   - xml path: D:\cocos_ws\MonitorServer\config\clientcfg.xml
+2016-02-01 16:30:33,386 [0x000019ac] INFO   - Parse xml file,ip=172.16.17.178,port=9999
+2016-02-01 16:30:33,386 [0x000019ac] INFO   - load xml config file success,xml:clientcfg.xml
+2016-02-01 16:30:33,386 [0x000019ac] INFO   - id=57,Initailize,libVersion=20150610
+2016-02-01 16:30:33,386 [0x000019ac] INFO   - xml path: D:\cocos_ws\MonitorServer\config\Command.xml
+2016-02-01 16:30:33,402 [0x000019ac] INFO   - id=57,client connect to Data Bus Server(172.16.17.178:9999)
+2016-02-01 16:30:33,402 [0x000019ac] INFO   - id=57,connect Server,IP: 172.16.17.178,Port: 9999
+2016-02-01 16:30:33,406 [0x000019ac] INFO   - id=57,client connect to Data Bus Server success
+2016-02-01 16:30:33,406 [0x000019ac] INFO   - id=57,Sequence queue: 0X5713a0c0,none sequence queue:0X5713a120
+2016-02-01 16:30:33,407 [0x000019ac] INFO   - id=57,Thread #6616 has been created to read socket
+2016-02-01 16:30:33,407 [0x000019ac] INFO   - id=57,Thread #6620 has been created to send message
+2016-02-01 16:30:33,407 [0x000019ac] INFO   - id=57,Thread #6592 has been created to timeout message
+2016-02-01 16:30:33,407 [0x000019ac] INFO   - id=57,Thread #6588 has been created to process message
+2016-02-01 16:30:33,407 [0x000019ac] INFO   - id=57,Thread #6644 has been created to process message
+2016-02-01 16:30:33,407 [0x000019ac] INFO   - id=57,Thread #6316 has been created to process message
+2016-02-01 16:30:33,407 [0x000019ac] INFO   - id=57,Thread #760 has been created to process message
+2016-02-01 16:30:33,407 [0x000019ac] INFO   - id=57,AppServer appname:QMMonitor
+2016-02-01 16:30:33,408 [0x000019ac] INFO   - id=57,AppServer reg:type: 1 name: "QMMonitor" group: 1 uuid: "rywyetyu24535" auth: "test" starttime: 1454315433 serviceid: 500 ip: "00000000000000000000000"
+2016-02-01 16:30:33,408 [0x000019ac] INFO   - id=57,Begin logining
+2016-02-01 16:30:33,408 [0x000019ac] INFO   - id=57,Thread #4708 has been created to send heart beat
+2016-02-01 16:30:33,409 [0x000019f4] INFO   - id=57,Thread 6644,queue:0X5713a120
+2016-02-01 16:30:33,409 [0x000002f8] INFO   - id=57,Thread 760,queue:0X5713a120
+2016-02-01 16:30:33,412 [0x000019bc] INFO   - id=57,Thread 6588 for sequence message handle
+2016-02-01 16:30:33,412 [0x000019bc] INFO   - id=57,Thread 6588,queue:0X5713a0c0
+2016-02-01 16:30:33,412 [0x000018ac] INFO   - id=57,Thread 6316,queue:0X5713a120
+2016-02-01 16:30:33,412 [0x00001264] INFO   - id=57,Start heartbeat
+2016-02-01 16:30:33,418 [0x000019f4] INFO   - id=57,Login success, appServer address:0x7d
+2016-02-01 16:30:33,421 [0x000019f4] INFO   - id=57,subscribe success:sub { subid: 10000 topic: 11534337 } sub { subid: 10001 topic: 11534338 } sub { subid: 10002 topic: 11534339 } sub { subid: 10003 topic: 11534340 } sub { subid: 10004 topic: 11534341 } sub { subid: 10005 topic: 11534342 }
+2016-02-01 16:31:01,637 [0x000019d8] WARN   - Big msg,body size=171972,header:Response-serial:65545,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:171972,src:0x6a,dst:0x7d,code:0,options:0,seq:0,codeinfo:0
+2016-02-01 16:31:01,652 [0x000019d8] WARN   - Finished receive Big msg,body size=171972,header:Response-serial:65545,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:171972,src:0x6a,dst:0x7d,code:0,options:0,seq:0,codeinfo:0
+2016-02-01 16:31:52,392 [0x00000cf8] INFO   - config file:clientcfg.xml
+
+2016-02-01 16:31:52,395 [0x00000cf8] INFO   - xml path: D:\cocos_ws\MonitorServer\config\clientcfg.xml
+2016-02-01 16:31:52,396 [0x00000cf8] INFO   - Parse xml file,ip=172.16.17.178,port=9999
+2016-02-01 16:31:52,396 [0x00000cf8] INFO   - load xml config file success,xml:clientcfg.xml
+2016-02-01 16:31:52,396 [0x00000cf8] INFO   - id=15,Initailize,libVersion=20150610
+2016-02-01 16:31:52,396 [0x00000cf8] INFO   - xml path: D:\cocos_ws\MonitorServer\config\Command.xml
+2016-02-01 16:31:52,399 [0x00000cf8] INFO   - id=15,client connect to Data Bus Server(172.16.17.178:9999)
+2016-02-01 16:31:52,399 [0x00000cf8] INFO   - id=15,connect Server,IP: 172.16.17.178,Port: 9999
+2016-02-01 16:31:52,402 [0x00000cf8] INFO   - id=15,client connect to Data Bus Server success
+2016-02-01 16:31:52,403 [0x00000cf8] INFO   - id=15,Sequence queue: 0X570cd300,none sequence queue:0X570cd360
+2016-02-01 16:31:52,403 [0x00000cf8] INFO   - id=15,Thread #5820 has been created to read socket
+2016-02-01 16:31:52,403 [0x00000cf8] INFO   - id=15,Thread #5676 has been created to send message
+2016-02-01 16:31:52,403 [0x00000cf8] INFO   - id=15,Thread #4484 has been created to timeout message
+2016-02-01 16:31:52,403 [0x00000cf8] INFO   - id=15,Thread #2096 has been created to process message
+2016-02-01 16:31:52,403 [0x00000cf8] INFO   - id=15,Thread #6080 has been created to process message
+2016-02-01 16:31:52,403 [0x00000cf8] INFO   - id=15,Thread #6744 has been created to process message
+2016-02-01 16:31:52,403 [0x00000cf8] INFO   - id=15,Thread #6752 has been created to process message
+2016-02-01 16:31:52,403 [0x00000cf8] INFO   - id=15,AppServer appname:QMMonitor
+2016-02-01 16:31:52,404 [0x00000cf8] INFO   - id=15,AppServer reg:type: 1 name: "QMMonitor" group: 1 uuid: "rywyetyu24535" auth: "test" starttime: 1454315512 serviceid: 500 ip: "00000000000000000000000"
+2016-02-01 16:31:52,404 [0x00000cf8] INFO   - id=15,Begin logining
+2016-02-01 16:31:52,404 [0x00000cf8] INFO   - id=15,Thread #6748 has been created to send heart beat
+2016-02-01 16:31:52,405 [0x000017c0] INFO   - id=15,Thread 6080,queue:0X570cd360
+2016-02-01 16:31:52,405 [0x00001a60] INFO   - id=15,Thread 6752,queue:0X570cd360
+2016-02-01 16:31:52,408 [0x00000830] INFO   - id=15,Thread 2096 for sequence message handle
+2016-02-01 16:31:52,410 [0x00000830] INFO   - id=15,Thread 2096,queue:0X570cd300
+2016-02-01 16:31:52,410 [0x00001a58] INFO   - id=15,Thread 6744,queue:0X570cd360
+2016-02-01 16:31:52,410 [0x000017c0] INFO   - id=15,Login success, appServer address:0x7e
+2016-02-01 16:31:52,412 [0x00001a5c] INFO   - id=15,Start heartbeat
+2016-02-01 16:31:52,414 [0x000017c0] INFO   - id=15,subscribe success:sub { subid: 10000 topic: 11534337 } sub { subid: 10001 topic: 11534338 } sub { subid: 10002 topic: 11534339 } sub { subid: 10003 topic: 11534340 } sub { subid: 10004 topic: 11534341 } sub { subid: 10005 topic: 11534342 }
+2016-02-01 16:31:57,627 [0x000016bc] WARN   - Big msg,body size=171972,header:Response-serial:65540,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:171972,src:0x6a,dst:0x7e,code:0,options:0,seq:0,codeinfo:0
+2016-02-01 16:31:57,642 [0x000016bc] WARN   - Finished receive Big msg,body size=171972,header:Response-serial:65540,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:171972,src:0x6a,dst:0x7e,code:0,options:0,seq:0,codeinfo:0
+2016-02-01 16:36:26,212 [0x00001a74] INFO   - config file:clientcfg.xml
+
+2016-02-01 16:36:26,212 [0x00001a74] INFO   - xml path: D:\cocos_ws\MonitorServer\config\clientcfg.xml
+2016-02-01 16:36:26,213 [0x00001a74] INFO   - Parse xml file,ip=172.16.17.178,port=9999
+2016-02-01 16:36:26,213 [0x00001a74] INFO   - load xml config file success,xml:clientcfg.xml
+2016-02-01 16:36:26,213 [0x00001a74] INFO   - id=9,Initailize,libVersion=20150610
+2016-02-01 16:36:26,213 [0x00001a74] INFO   - xml path: D:\cocos_ws\MonitorServer\config\Command.xml
+2016-02-01 16:36:26,215 [0x00001a74] INFO   - id=9,client connect to Data Bus Server(172.16.17.178:9999)
+2016-02-01 16:36:26,215 [0x00001a74] INFO   - id=9,connect Server,IP: 172.16.17.178,Port: 9999
+2016-02-01 16:36:26,216 [0x00001a74] INFO   - id=9,client connect to Data Bus Server success
+2016-02-01 16:36:26,217 [0x00001a74] INFO   - id=9,Sequence queue: 0X570f3ec0,none sequence queue:0X570f3f20
+2016-02-01 16:36:26,217 [0x00001a74] INFO   - id=9,Thread #6416 has been created to read socket
+2016-02-01 16:36:26,217 [0x00001a74] INFO   - id=9,Thread #6420 has been created to send message
+2016-02-01 16:36:26,217 [0x00001a74] INFO   - id=9,Thread #6296 has been created to timeout message
+2016-02-01 16:36:26,217 [0x00001a74] INFO   - id=9,Thread #4772 has been created to process message
+2016-02-01 16:36:26,217 [0x00001a74] INFO   - id=9,Thread #6320 has been created to process message
+2016-02-01 16:36:26,217 [0x00001a74] INFO   - id=9,Thread #6520 has been created to process message
+2016-02-01 16:36:26,217 [0x000012a4] INFO   - id=9,Thread 4772 for sequence message handle
+2016-02-01 16:36:26,217 [0x00001a74] INFO   - id=9,Thread #4016 has been created to process message
+2016-02-01 16:36:26,217 [0x000012a4] INFO   - id=9,Thread 4772,queue:0X570f3ec0
+2016-02-01 16:36:26,217 [0x00001a74] INFO   - id=9,AppServer appname:QMMonitor
+2016-02-01 16:36:26,217 [0x00001978] INFO   - id=9,Thread 6520,queue:0X570f3f20
+2016-02-01 16:36:26,218 [0x00001a74] INFO   - id=9,AppServer reg:type: 1 name: "QMMonitor" group: 1 uuid: "rywyetyu24535" auth: "test" starttime: 1454315786 serviceid: 500 ip: "00000000000000000000000"
+2016-02-01 16:36:26,218 [0x00001a74] INFO   - id=9,Begin logining
+2016-02-01 16:36:26,218 [0x00001a74] INFO   - id=9,Thread #6400 has been created to send heart beat
+2016-02-01 16:36:26,218 [0x000018b0] INFO   - id=9,Thread 6320,queue:0X570f3f20
+2016-02-01 16:36:26,218 [0x00000fb0] INFO   - id=9,Thread 4016,queue:0X570f3f20
+2016-02-01 16:36:26,222 [0x00001900] INFO   - id=9,Start heartbeat
+2016-02-01 16:36:26,223 [0x00001978] INFO   - id=9,Login success, appServer address:0x7f
+2016-02-01 16:36:26,227 [0x00001978] INFO   - id=9,subscribe success:sub { subid: 10000 topic: 11534337 } sub { subid: 10001 topic: 11534338 } sub { subid: 10002 topic: 11534339 } sub { subid: 10003 topic: 11534340 } sub { subid: 10004 topic: 11534341 } sub { subid: 10005 topic: 11534342 }
+2016-02-01 16:36:32,178 [0x00001910] WARN   - Big msg,body size=171972,header:Response-serial:65539,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:171972,src:0x6a,dst:0x7f,code:0,options:0,seq:0,codeinfo:0
+2016-02-01 16:36:32,195 [0x00001910] WARN   - Finished receive Big msg,body size=171972,header:Response-serial:65539,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:171972,src:0x6a,dst:0x7f,code:0,options:0,seq:0,codeinfo:0
+2016-02-24 10:08:35,093 [0x00000600] INFO   - config file:clientcfg.xml
+
+2016-02-24 10:08:35,103 [0x00000600] INFO   - xml path: D:\cocos_ws\MonitorServer\config\clientcfg.xml
+2016-02-24 10:08:35,139 [0x00000600] INFO   - Parse xml file,ip=172.16.17.178,port=9999
+2016-02-24 10:08:35,139 [0x00000600] INFO   - load xml config file success,xml:clientcfg.xml
+2016-02-24 10:08:35,141 [0x00000600] INFO   - id=47,Initailize,libVersion=20150610
+2016-02-24 10:08:35,141 [0x00000600] INFO   - xml path: D:\cocos_ws\MonitorServer\config\Command.xml
+2016-02-24 10:08:35,168 [0x00000600] INFO   - id=47,client connect to Data Bus Server(172.16.17.178:9999)
+2016-02-24 10:08:35,200 [0x00000600] INFO   - id=47,connect Server,IP: 172.16.17.178,Port: 9999
+2016-02-24 10:08:35,204 [0x00000600] INFO   - id=47,client connect to Data Bus Server success
+2016-02-24 10:08:35,204 [0x00000600] INFO   - id=47,Sequence queue: 0X564d9690,none sequence queue:0X564d96f0
+2016-02-24 10:08:35,206 [0x00000600] INFO   - id=47,Thread #5264 has been created to read socket
+2016-02-24 10:08:35,207 [0x00000600] INFO   - id=47,Thread #5952 has been created to send message
+2016-02-24 10:08:35,207 [0x00000600] INFO   - id=47,Thread #3952 has been created to timeout message
+2016-02-24 10:08:35,208 [0x00000600] INFO   - id=47,Thread #3124 has been created to process message
+2016-02-24 10:08:35,208 [0x00000600] INFO   - id=47,Thread #812 has been created to process message
+2016-02-24 10:08:35,208 [0x00000600] INFO   - id=47,Thread #4816 has been created to process message
+2016-02-24 10:08:35,208 [0x00000600] INFO   - id=47,Thread #1364 has been created to process message
+2016-02-24 10:08:35,208 [0x00000600] INFO   - id=47,AppServer appname:QMMonitor
+2016-02-24 10:08:35,211 [0x00000c34] INFO   - id=47,Thread 3124 for sequence message handle
+2016-02-24 10:08:35,211 [0x00000c34] INFO   - id=47,Thread 3124,queue:0X564d9690
+2016-02-24 10:08:35,211 [0x000012d0] INFO   - id=47,Thread 4816,queue:0X564d96f0
+2016-02-24 10:08:35,213 [0x00000600] INFO   - id=47,AppServer reg:type: 1 name: "QMMonitor" group: 1 uuid: "rywyetyu24535" auth: "test" starttime: 1456279715 serviceid: 500 ip: "00000000000000000000000"
+2016-02-24 10:08:35,216 [0x0000032c] INFO   - id=47,Thread 812,queue:0X564d96f0
+2016-02-24 10:08:35,216 [0x00000554] INFO   - id=47,Thread 1364,queue:0X564d96f0
+2016-02-24 10:08:35,216 [0x00000600] INFO   - id=47,Begin logining
+2016-02-24 10:08:35,217 [0x00000600] INFO   - id=47,Thread #5420 has been created to send heart beat
+2016-02-24 10:08:35,217 [0x0000152c] INFO   - id=47,Start heartbeat
+2016-02-24 10:08:35,220 [0x000012d0] INFO   - id=47,Login success, appServer address:0x7e
+2016-02-24 10:08:35,223 [0x000012d0] INFO   - id=47,subscribe success:sub { subid: 10000 topic: 11534337 } sub { subid: 10001 topic: 11534338 } sub { subid: 10002 topic: 11534339 } sub { subid: 10003 topic: 11534340 } sub { subid: 10004 topic: 11534341 } sub { subid: 10005 topic: 11534342 }
+2016-02-24 10:28:29,575 [0x00001490] WARN   - Big msg,body size=441042,header:Response-serial:66013,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0x65,dst:0x7e,code:0,options:0,seq:0,codeinfo:0
+2016-02-24 10:28:29,612 [0x00001490] WARN   - Finished receive Big msg,body size=441042,header:Response-serial:66013,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0x65,dst:0x7e,code:0,options:0,seq:0,codeinfo:0
+2016-02-24 10:28:29,752 [0x00001740] WARN   - id=47,Prepare sending big message,size=441072
+
+2016-02-24 10:28:29,756 [0x00001740] WARN   - id=47,Finished sending big message,size=441072
+
+2016-02-24 10:41:20,225 [0x00001490] WARN   - Big msg,body size=441042,header:Response-serial:66277,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0x65,dst:0x7e,code:0,options:0,seq:0,codeinfo:0
+2016-02-24 10:41:20,261 [0x00001490] WARN   - Finished receive Big msg,body size=441042,header:Response-serial:66277,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0x65,dst:0x7e,code:0,options:0,seq:0,codeinfo:0
+2016-02-24 10:41:20,279 [0x00001740] WARN   - id=47,Prepare sending big message,size=441072
+
+2016-02-24 10:41:20,285 [0x00001740] WARN   - id=47,Finished sending big message,size=441072
+
+2016-02-24 10:57:32,363 [0x00001490] WARN   - Big msg,body size=441042,header:Response-serial:66616,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0x65,dst:0x7e,code:0,options:0,seq:0,codeinfo:0
+2016-02-24 10:57:32,401 [0x00001490] WARN   - Finished receive Big msg,body size=441042,header:Response-serial:66616,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0x65,dst:0x7e,code:0,options:0,seq:0,codeinfo:0
+2016-02-24 10:57:32,437 [0x00001740] WARN   - id=47,Prepare sending big message,size=441072
+
+2016-02-24 10:57:32,444 [0x00001740] WARN   - id=47,Finished sending big message,size=441072
+
+2016-02-24 10:58:04,661 [0x00001740] WARN   - id=47,Prepare sending big message,size=119696
+
+2016-02-24 10:58:04,663 [0x00001740] WARN   - id=47,Finished sending big message,size=119696
+
+2016-02-24 10:58:44,228 [0x00001490] WARN   - Big msg,body size=441042,header:Response-serial:66652,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0x65,dst:0x7e,code:0,options:0,seq:0,codeinfo:0
+2016-02-24 10:58:44,259 [0x00001490] WARN   - Finished receive Big msg,body size=441042,header:Response-serial:66652,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0x65,dst:0x7e,code:0,options:0,seq:0,codeinfo:0
+2016-02-24 10:58:44,271 [0x00001740] WARN   - id=47,Prepare sending big message,size=441072
+
+2016-02-24 10:58:44,278 [0x00001740] WARN   - id=47,Finished sending big message,size=441072
+
+2016-02-24 10:58:56,038 [0x00001740] WARN   - id=47,Prepare sending big message,size=90788
+
+2016-02-24 10:58:56,041 [0x00001740] WARN   - id=47,Finished sending big message,size=90788
+
+2016-02-24 10:58:58,947 [0x00001490] WARN   - Big msg,body size=542815,header:Response-serial:66667,type:2,cmd:0x4000016,app:64,funcIdx:22,bodysize:542815,src:0x65,dst:0x7e,code:0,options:0,seq:0,codeinfo:0
+2016-02-24 10:58:58,994 [0x00001490] WARN   - Finished receive Big msg,body size=542815,header:Response-serial:66667,type:2,cmd:0x4000016,app:64,funcIdx:22,bodysize:542815,src:0x65,dst:0x7e,code:0,options:0,seq:0,codeinfo:0
+2016-02-24 10:58:58,995 [0x00001490] WARN   - Big msg,body size=157246,header:Response-serial:66668,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:157246,src:0x65,dst:0x7e,code:0,options:0,seq:0,codeinfo:0
+2016-02-24 10:58:59,007 [0x00001490] WARN   - Finished receive Big msg,body size=157246,header:Response-serial:66668,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:157246,src:0x65,dst:0x7e,code:0,options:0,seq:0,codeinfo:0
+2016-02-24 10:59:29,881 [0x00001740] WARN   - id=47,Prepare sending big message,size=111109
+
+2016-02-24 10:59:29,883 [0x00001740] WARN   - id=47,Finished sending big message,size=111109
+
+2016-02-24 11:00:22,393 [0x00001740] WARN   - id=47,Prepare sending big message,size=134312
+
+2016-02-24 11:00:22,395 [0x00001740] WARN   - id=47,Finished sending big message,size=134312
+
+2016-02-24 11:00:28,927 [0x00001740] WARN   - id=47,Prepare sending big message,size=134319
+
+2016-02-24 11:00:28,929 [0x00001740] WARN   - id=47,Finished sending big message,size=134319
+
+2016-02-24 11:00:48,186 [0x00001740] WARN   - id=47,Prepare sending big message,size=106666
+
+2016-02-24 11:00:48,187 [0x00001740] WARN   - id=47,Finished sending big message,size=106666
+
+2016-02-24 11:00:50,166 [0x00001740] WARN   - id=47,Prepare sending big message,size=106666
+
+2016-02-24 11:00:50,168 [0x00001740] WARN   - id=47,Finished sending big message,size=106666
+
+2016-02-24 11:02:39,648 [0x00001740] WARN   - id=47,Prepare sending big message,size=106666
+
+2016-02-24 11:02:39,650 [0x00001740] WARN   - id=47,Finished sending big message,size=106666
+
+2016-02-24 11:02:41,520 [0x00001740] WARN   - id=47,Prepare sending big message,size=106666
+
+2016-02-24 11:02:41,522 [0x00001740] WARN   - id=47,Finished sending big message,size=106666
+
+2016-02-24 11:02:43,724 [0x00001740] WARN   - id=47,Prepare sending big message,size=106666
+
+2016-02-24 11:02:43,726 [0x00001740] WARN   - id=47,Finished sending big message,size=106666
+
+2016-02-24 11:02:45,809 [0x00001740] WARN   - id=47,Prepare sending big message,size=106666
+
+2016-02-24 11:02:45,813 [0x00001740] WARN   - id=47,Finished sending big message,size=106666
+
+2016-02-24 11:02:48,016 [0x00001740] WARN   - id=47,Prepare sending big message,size=106666
+
+2016-02-24 11:02:48,018 [0x00001740] WARN   - id=47,Finished sending big message,size=106666
+
+2016-02-24 11:04:43,010 [0x00001740] WARN   - id=47,Prepare sending big message,size=106666
+
+2016-02-24 11:04:43,012 [0x00001740] WARN   - id=47,Finished sending big message,size=106666
+
+2016-02-24 11:06:10,070 [0x00001490] WARN   - Big msg,body size=441042,header:Response-serial:66841,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0x65,dst:0x7e,code:0,options:0,seq:0,codeinfo:0
+2016-02-24 11:06:10,107 [0x00001490] WARN   - Finished receive Big msg,body size=441042,header:Response-serial:66841,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0x65,dst:0x7e,code:0,options:0,seq:0,codeinfo:0
+2016-02-24 11:06:10,128 [0x00001740] WARN   - id=47,Prepare sending big message,size=441072
+
+2016-02-24 11:06:10,135 [0x00001740] WARN   - id=47,Finished sending big message,size=441072
+
+2016-02-24 11:07:44,148 [0x00001740] WARN   - id=47,Prepare sending big message,size=106666
+
+2016-02-24 11:07:44,151 [0x00001740] WARN   - id=47,Finished sending big message,size=106666
+
+2016-02-24 11:12:08,382 [0x00001740] WARN   - id=47,Prepare sending big message,size=106666
+
+2016-02-24 11:12:08,385 [0x00001740] WARN   - id=47,Finished sending big message,size=106666
+
+2016-02-24 11:13:07,978 [0x00001740] WARN   - id=47,Prepare sending big message,size=106666
+
+2016-02-24 11:13:07,979 [0x00001740] WARN   - id=47,Finished sending big message,size=106666
+
+2016-02-24 11:13:50,300 [0x00001740] WARN   - id=47,Prepare sending big message,size=106666
+
+2016-02-24 11:13:50,303 [0x00001740] WARN   - id=47,Finished sending big message,size=106666
+
+2016-02-24 11:16:50,411 [0x00001490] WARN   - Big msg,body size=441042,header:Response-serial:67072,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0x65,dst:0x7e,code:0,options:0,seq:0,codeinfo:0
+2016-02-24 11:16:50,448 [0x00001490] WARN   - Finished receive Big msg,body size=441042,header:Response-serial:67072,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0x65,dst:0x7e,code:0,options:0,seq:0,codeinfo:0
+2016-02-24 11:16:50,455 [0x00001740] WARN   - id=47,Prepare sending big message,size=441072
+
+2016-02-24 11:16:50,465 [0x00001740] WARN   - id=47,Finished sending big message,size=441072
+
+2016-02-24 11:16:57,917 [0x00001740] WARN   - id=47,Prepare sending big message,size=90790
+
+2016-02-24 11:16:57,918 [0x00001740] WARN   - id=47,Finished sending big message,size=90790
+
+2016-02-24 11:17:09,689 [0x00001740] WARN   - id=47,Prepare sending big message,size=111109
+
+2016-02-24 11:17:09,691 [0x00001740] WARN   - id=47,Finished sending big message,size=111109
+
+2016-02-24 11:17:12,018 [0x00001740] WARN   - id=47,Prepare sending big message,size=134312
+
+2016-02-24 11:17:12,020 [0x00001740] WARN   - id=47,Finished sending big message,size=134312
+
+2016-02-24 11:17:14,096 [0x00001740] WARN   - id=47,Prepare sending big message,size=134319
+
+2016-02-24 11:17:14,098 [0x00001740] WARN   - id=47,Finished sending big message,size=134319
+
+2016-02-24 11:17:18,005 [0x00001740] WARN   - id=47,Prepare sending big message,size=106666
+
+2016-02-24 11:17:18,007 [0x00001740] WARN   - id=47,Finished sending big message,size=106666
+
+2016-02-24 11:17:22,701 [0x00001740] WARN   - id=47,Prepare sending big message,size=106666
+
+2016-02-24 11:17:22,702 [0x00001740] WARN   - id=47,Finished sending big message,size=106666
+
+2016-02-24 11:22:15,046 [0x00001740] WARN   - id=47,Prepare sending big message,size=126410
+
+2016-02-24 11:22:15,049 [0x00001740] WARN   - id=47,Finished sending big message,size=126410
+
+2016-02-24 11:22:44,441 [0x00001740] WARN   - id=47,Prepare sending big message,size=106666
+
+2016-02-24 11:22:44,446 [0x00001740] WARN   - id=47,Finished sending big message,size=106666
+
+2016-02-24 11:23:13,740 [0x00001740] WARN   - id=47,Prepare sending big message,size=106666
+
+2016-02-24 11:23:13,742 [0x00001740] WARN   - id=47,Finished sending big message,size=106666
+
+2016-02-24 11:23:22,035 [0x00001740] WARN   - id=47,Prepare sending big message,size=106666
+
+2016-02-24 11:23:22,037 [0x00001740] WARN   - id=47,Finished sending big message,size=106666
+
+2016-02-24 11:23:24,924 [0x00001740] WARN   - id=47,Prepare sending big message,size=106666
+
+2016-02-24 11:23:24,926 [0x00001740] WARN   - id=47,Finished sending big message,size=106666
+
+2016-02-24 11:23:44,549 [0x00001740] WARN   - id=47,Prepare sending big message,size=106666
+
+2016-02-24 11:23:44,551 [0x00001740] WARN   - id=47,Finished sending big message,size=106666
+
+2016-02-24 11:25:10,425 [0x00001490] WARN   - Big msg,body size=441042,header:Response-serial:67272,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0x65,dst:0x7e,code:0,options:0,seq:0,codeinfo:0
+2016-02-24 11:25:10,462 [0x00001490] WARN   - Finished receive Big msg,body size=441042,header:Response-serial:67272,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0x65,dst:0x7e,code:0,options:0,seq:0,codeinfo:0
+2016-02-24 11:25:10,466 [0x00001740] WARN   - id=47,Prepare sending big message,size=441072
+
+2016-02-24 11:25:10,472 [0x00001740] WARN   - id=47,Finished sending big message,size=441072
+
+2016-02-24 11:26:55,194 [0x00001bdc] INFO   - config file:clientcfg.xml
+
+2016-02-24 11:26:55,194 [0x00001bdc] INFO   - xml path: D:\cocos_ws\MonitorServer\config\clientcfg.xml
+2016-02-24 11:26:55,195 [0x00001bdc] INFO   - Parse xml file,ip=172.16.17.178,port=9999
+2016-02-24 11:26:55,195 [0x00001bdc] INFO   - load xml config file success,xml:clientcfg.xml
+2016-02-24 11:26:55,195 [0x00001bdc] INFO   - id=95,Initailize,libVersion=20150610
+2016-02-24 11:26:55,195 [0x00001bdc] INFO   - xml path: D:\cocos_ws\MonitorServer\config\Command.xml
+2016-02-24 11:26:55,209 [0x00001bdc] INFO   - id=95,client connect to Data Bus Server(172.16.17.178:9999)
+2016-02-24 11:26:55,210 [0x00001bdc] INFO   - id=95,connect Server,IP: 172.16.17.178,Port: 9999
+2016-02-24 11:26:55,211 [0x00001bdc] INFO   - id=95,client connect to Data Bus Server success
+2016-02-24 11:26:55,211 [0x00001bdc] INFO   - id=95,Sequence queue: 0X56f4bad0,none sequence queue:0X56f4bb30
+2016-02-24 11:26:55,212 [0x00001bdc] INFO   - id=95,Thread #6296 has been created to read socket
+2016-02-24 11:26:55,212 [0x00001bdc] INFO   - id=95,Thread #6652 has been created to send message
+2016-02-24 11:26:55,212 [0x00001bdc] INFO   - id=95,Thread #976 has been created to timeout message
+2016-02-24 11:26:55,212 [0x00001bdc] INFO   - id=95,Thread #6432 has been created to process message
+2016-02-24 11:26:55,212 [0x00001bdc] INFO   - id=95,Thread #5644 has been created to process message
+2016-02-24 11:26:55,212 [0x00001bdc] INFO   - id=95,Thread #4060 has been created to process message
+2016-02-24 11:26:55,212 [0x00001920] INFO   - id=95,Thread 6432 for sequence message handle
+2016-02-24 11:26:55,212 [0x00001bdc] INFO   - id=95,Thread #4944 has been created to process message
+2016-02-24 11:26:55,212 [0x00001920] INFO   - id=95,Thread 6432,queue:0X56f4bad0
+2016-02-24 11:26:55,212 [0x00001bdc] INFO   - id=95,AppServer appname:QMMonitor
+2016-02-24 11:26:55,212 [0x00000fdc] INFO   - id=95,Thread 4060,queue:0X56f4bb30
+2016-02-24 11:26:55,213 [0x00001bdc] INFO   - id=95,AppServer reg:type: 1 name: "QMMonitor" group: 1 uuid: "rywyetyu24535" auth: "test" starttime: 1456284415 serviceid: 500 ip: "00000000000000000000000"
+2016-02-24 11:26:55,213 [0x00001bdc] INFO   - id=95,Begin logining
+2016-02-24 11:26:55,213 [0x00001bdc] INFO   - id=95,Thread #4568 has been created to send heart beat
+2016-02-24 11:26:55,214 [0x000011d8] INFO   - id=95,Start heartbeat
+2016-02-24 11:26:55,215 [0x0000160c] INFO   - id=95,Thread 5644,queue:0X56f4bb30
+2016-02-24 11:26:55,215 [0x00001350] INFO   - id=95,Thread 4944,queue:0X56f4bb30
+2016-02-24 11:26:55,216 [0x00000fdc] INFO   - id=95,Login success, appServer address:0x7f
+2016-02-24 11:26:55,218 [0x00000fdc] INFO   - id=95,subscribe success:sub { subid: 10000 topic: 11534337 } sub { subid: 10001 topic: 11534338 } sub { subid: 10002 topic: 11534339 } sub { subid: 10003 topic: 11534340 } sub { subid: 10004 topic: 11534341 } sub { subid: 10005 topic: 11534342 }
+2016-02-24 11:27:02,094 [0x00001898] WARN   - Big msg,body size=441042,header:Response-serial:65542,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0x65,dst:0x7f,code:0,options:0,seq:0,codeinfo:0
+2016-02-24 11:27:02,131 [0x00001898] WARN   - Finished receive Big msg,body size=441042,header:Response-serial:65542,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0x65,dst:0x7f,code:0,options:0,seq:0,codeinfo:0
+2016-02-24 11:27:02,337 [0x000019fc] WARN   - id=95,Prepare sending big message,size=441072
+
+2016-02-24 11:27:02,340 [0x000019fc] WARN   - id=95,Finished sending big message,size=441072
+
+2016-02-24 11:32:25,098 [0x00001898] WARN   - Big msg,body size=441042,header:Response-serial:65660,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0x65,dst:0x7f,code:0,options:0,seq:0,codeinfo:0
+2016-02-24 11:32:25,136 [0x00001898] WARN   - Finished receive Big msg,body size=441042,header:Response-serial:65660,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0x65,dst:0x7f,code:0,options:0,seq:0,codeinfo:0
+2016-02-24 11:32:25,157 [0x000019fc] WARN   - id=95,Prepare sending big message,size=441072
+
+2016-02-24 11:32:25,162 [0x000019fc] WARN   - id=95,Finished sending big message,size=441072
+
+2016-02-24 11:33:13,629 [0x00001898] WARN   - Big msg,body size=441042,header:Response-serial:65693,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0x65,dst:0x7f,code:0,options:0,seq:0,codeinfo:0
+2016-02-24 11:33:13,665 [0x00001898] WARN   - Finished receive Big msg,body size=441042,header:Response-serial:65693,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0x65,dst:0x7f,code:0,options:0,seq:0,codeinfo:0
+2016-02-24 11:33:13,705 [0x000019fc] WARN   - id=95,Prepare sending big message,size=441072
+
+2016-02-24 11:33:13,712 [0x000019fc] WARN   - id=95,Finished sending big message,size=441072
+
+2016-02-24 11:37:30,708 [0x00000e8c] INFO   - config file:clientcfg.xml
+
+2016-02-24 11:37:30,709 [0x00000e8c] INFO   - xml path: D:\cocos_ws\MonitorServer\config\clientcfg.xml
+2016-02-24 11:37:30,709 [0x00000e8c] INFO   - Parse xml file,ip=172.16.17.178,port=9999
+2016-02-24 11:37:30,709 [0x00000e8c] INFO   - load xml config file success,xml:clientcfg.xml
+2016-02-24 11:37:30,709 [0x00000e8c] INFO   - id=69,Initailize,libVersion=20150610
+2016-02-24 11:37:30,709 [0x00000e8c] INFO   - xml path: D:\cocos_ws\MonitorServer\config\Command.xml
+2016-02-24 11:37:30,711 [0x00000e8c] INFO   - id=69,client connect to Data Bus Server(172.16.17.178:9999)
+2016-02-24 11:37:30,712 [0x00000e8c] INFO   - id=69,connect Server,IP: 172.16.17.178,Port: 9999
+2016-02-24 11:37:30,716 [0x00000e8c] INFO   - id=69,client connect to Data Bus Server success
+2016-02-24 11:37:30,716 [0x00000e8c] INFO   - id=69,Sequence queue: 0X56e16ca0,none sequence queue:0X56e16d00
+2016-02-24 11:37:30,717 [0x00000e8c] INFO   - id=69,Thread #6788 has been created to read socket
+2016-02-24 11:37:30,717 [0x00000e8c] INFO   - id=69,Thread #5256 has been created to send message
+2016-02-24 11:37:30,717 [0x00000e8c] INFO   - id=69,Thread #5340 has been created to timeout message
+2016-02-24 11:37:30,717 [0x00000e8c] INFO   - id=69,Thread #5912 has been created to process message
+2016-02-24 11:37:30,717 [0x00000e8c] INFO   - id=69,Thread #4484 has been created to process message
+2016-02-24 11:37:30,717 [0x00000e8c] INFO   - id=69,Thread #2300 has been created to process message
+2016-02-24 11:37:30,717 [0x00000e8c] INFO   - id=69,Thread #4624 has been created to process message
+2016-02-24 11:37:30,717 [0x00000e8c] INFO   - id=69,AppServer appname:QMMonitor
+2016-02-24 11:37:30,718 [0x00001718] INFO   - id=69,Thread 5912 for sequence message handle
+2016-02-24 11:37:30,718 [0x00000e8c] INFO   - id=69,AppServer reg:type: 1 name: "QMMonitor" group: 1 uuid: "rywyetyu24535" auth: "test" starttime: 1456285050 serviceid: 500 ip: "00000000000000000000000"
+2016-02-24 11:37:30,718 [0x00000e8c] INFO   - id=69,Begin logining
+2016-02-24 11:37:30,718 [0x00000e8c] INFO   - id=69,Thread #5088 has been created to send heart beat
+2016-02-24 11:37:30,718 [0x00001718] INFO   - id=69,Thread 5912,queue:0X56e16ca0
+2016-02-24 11:37:30,718 [0x000008fc] INFO   - id=69,Thread 2300,queue:0X56e16d00
+2016-02-24 11:37:30,720 [0x000013e0] INFO   - id=69,Start heartbeat
+2016-02-24 11:37:30,719 [0x00001184] INFO   - id=69,Thread 4484,queue:0X56e16d00
+2016-02-24 11:37:30,719 [0x00001210] INFO   - id=69,Thread 4624,queue:0X56e16d00
+2016-02-24 11:37:30,722 [0x000008fc] INFO   - id=69,Login success, appServer address:0x80
+2016-02-24 11:37:30,725 [0x000008fc] INFO   - id=69,subscribe success:sub { subid: 10000 topic: 11534337 } sub { subid: 10001 topic: 11534338 } sub { subid: 10002 topic: 11534339 } sub { subid: 10003 topic: 11534340 } sub { subid: 10004 topic: 11534341 } sub { subid: 10005 topic: 11534342 }
+2016-02-24 11:37:37,108 [0x00001a84] WARN   - Big msg,body size=441042,header:Response-serial:65541,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0x65,dst:0x80,code:0,options:0,seq:0,codeinfo:0
+2016-02-24 11:37:37,145 [0x00001a84] WARN   - Finished receive Big msg,body size=441042,header:Response-serial:65541,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0x65,dst:0x80,code:0,options:0,seq:0,codeinfo:0
+2016-02-24 11:37:37,213 [0x00001488] WARN   - id=69,Prepare sending big message,size=441072
+
+2016-02-24 11:37:37,216 [0x00001488] WARN   - id=69,Finished sending big message,size=441072
+
+2016-02-24 15:47:45,215 [0x00001874] INFO   - config file:clientcfg.xml
+
+2016-02-24 15:47:45,235 [0x00001874] INFO   - xml path: D:\cocos_ws\MonitorServer\config\clientcfg.xml
+2016-02-24 15:47:45,240 [0x00001874] INFO   - Parse xml file,ip=172.16.17.178,port=9999
+2016-02-24 15:47:45,240 [0x00001874] INFO   - load xml config file success,xml:clientcfg.xml
+2016-02-24 15:47:45,240 [0x00001874] INFO   - id=66,Initailize,libVersion=20150610
+2016-02-24 15:47:45,240 [0x00001874] INFO   - xml path: D:\cocos_ws\MonitorServer\config\Command.xml
+2016-02-24 15:47:45,257 [0x00001874] INFO   - id=66,client connect to Data Bus Server(172.16.17.178:9999)
+2016-02-24 15:47:45,257 [0x00001874] INFO   - id=66,connect Server,IP: 172.16.17.178,Port: 9999
+2016-02-24 15:47:45,258 [0x00001874] INFO   - id=66,client connect to Data Bus Server success
+2016-02-24 15:47:45,258 [0x00001874] INFO   - id=66,Sequence queue: 0X571505b0,none sequence queue:0X57150610
+2016-02-24 15:47:45,259 [0x00001874] INFO   - id=66,Thread #5620 has been created to read socket
+2016-02-24 15:47:45,261 [0x00001874] INFO   - id=66,Thread #4908 has been created to send message
+2016-02-24 15:47:45,263 [0x00001874] INFO   - id=66,Thread #6880 has been created to timeout message
+2016-02-24 15:47:45,263 [0x00001874] INFO   - id=66,Thread #5500 has been created to process message
+2016-02-24 15:47:45,263 [0x00001874] INFO   - id=66,Thread #2996 has been created to process message
+2016-02-24 15:47:45,263 [0x00001874] INFO   - id=66,Thread #6056 has been created to process message
+2016-02-24 15:47:45,263 [0x00001874] INFO   - id=66,Thread #3824 has been created to process message
+2016-02-24 15:47:45,263 [0x00001874] INFO   - id=66,AppServer appname:QMMonitor
+2016-02-24 15:47:45,265 [0x000017a8] INFO   - id=66,Thread 6056,queue:0X57150610
+2016-02-24 15:47:45,265 [0x00000bb4] INFO   - id=66,Thread 2996,queue:0X57150610
+2016-02-24 15:47:45,265 [0x00000ef0] INFO   - id=66,Thread 3824,queue:0X57150610
+2016-02-24 15:47:45,265 [0x0000157c] INFO   - id=66,Thread 5500 for sequence message handle
+2016-02-24 15:47:45,266 [0x00001874] INFO   - id=66,AppServer reg:type: 1 name: "QMMonitor" group: 1 uuid: "rywyetyu24535" auth: "test" starttime: 1456300065 serviceid: 500 ip: "00000000000000000000000"
+2016-02-24 15:47:45,266 [0x0000157c] INFO   - id=66,Thread 5500,queue:0X571505b0
+2016-02-24 15:47:45,266 [0x00001874] INFO   - id=66,Begin logining
+2016-02-24 15:47:45,266 [0x00001874] INFO   - id=66,Thread #6612 has been created to send heart beat
+2016-02-24 15:47:45,270 [0x000019d4] INFO   - id=66,Start heartbeat
+2016-02-24 15:47:45,274 [0x000017a8] INFO   - id=66,Login success, appServer address:0x85
+2016-02-24 15:47:45,276 [0x000017a8] INFO   - id=66,subscribe success:sub { subid: 10000 topic: 11534337 } sub { subid: 10001 topic: 11534338 } sub { subid: 10002 topic: 11534339 } sub { subid: 10003 topic: 11534340 } sub { subid: 10004 topic: 11534341 } sub { subid: 10005 topic: 11534342 }
+2016-02-24 15:48:07,914 [0x000015f4] WARN   - Big msg,body size=441042,header:Response-serial:65546,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0x65,dst:0x85,code:0,options:0,seq:0,codeinfo:0
+2016-02-24 15:48:07,951 [0x000015f4] WARN   - Finished receive Big msg,body size=441042,header:Response-serial:65546,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0x65,dst:0x85,code:0,options:0,seq:0,codeinfo:0
+2016-02-24 15:48:07,992 [0x0000132c] WARN   - id=66,Prepare sending big message,size=441072
+
+2016-02-24 15:48:07,994 [0x0000132c] WARN   - id=66,Finished sending big message,size=441072
+
+2016-02-24 15:50:35,738 [0x000015f4] WARN   - Big msg,body size=441042,header:Response-serial:65606,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0x65,dst:0x85,code:0,options:0,seq:0,codeinfo:0
+2016-02-24 15:50:35,775 [0x000015f4] WARN   - Finished receive Big msg,body size=441042,header:Response-serial:65606,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0x65,dst:0x85,code:0,options:0,seq:0,codeinfo:0
+2016-02-24 15:50:35,821 [0x0000132c] WARN   - id=66,Prepare sending big message,size=441072
+
+2016-02-24 15:50:35,828 [0x0000132c] WARN   - id=66,Finished sending big message,size=441072
+
+2016-02-24 15:51:09,227 [0x0000132c] WARN   - id=66,Prepare sending big message,size=111109
+
+2016-02-24 15:51:09,229 [0x0000132c] WARN   - id=66,Finished sending big message,size=111109
+
+2016-02-24 15:51:12,514 [0x0000132c] WARN   - id=66,Prepare sending big message,size=134319
+
+2016-02-24 15:51:12,517 [0x0000132c] WARN   - id=66,Finished sending big message,size=134319
+
+2016-02-24 15:51:15,542 [0x0000132c] WARN   - id=66,Prepare sending big message,size=106803
+
+2016-02-24 15:51:15,543 [0x0000132c] WARN   - id=66,Finished sending big message,size=106803
+
+2016-02-24 15:51:19,349 [0x0000132c] WARN   - id=66,Prepare sending big message,size=106803
+
+2016-02-24 15:51:19,350 [0x0000132c] WARN   - id=66,Finished sending big message,size=106803
+
+2016-02-25 10:30:57,617 [0x000003b8] INFO   - config file:clientcfg.xml
+
+2016-02-25 10:30:57,628 [0x000003b8] INFO   - xml path: D:\cocos_ws\MonitorServer\config\clientcfg.xml
+2016-02-25 10:30:57,645 [0x000003b8] INFO   - Parse xml file,ip=172.16.17.178,port=9999
+2016-02-25 10:30:57,645 [0x000003b8] INFO   - load xml config file success,xml:clientcfg.xml
+2016-02-25 10:30:57,645 [0x000003b8] INFO   - id=64,Initailize,libVersion=20150610
+2016-02-25 10:30:57,645 [0x000003b8] INFO   - xml path: D:\cocos_ws\MonitorServer\config\Command.xml
+2016-02-25 10:30:57,659 [0x000003b8] INFO   - id=64,client connect to Data Bus Server(172.16.17.178:9999)
+2016-02-25 10:30:57,683 [0x000003b8] INFO   - id=64,connect Server,IP: 172.16.17.178,Port: 9999
+2016-02-25 10:30:57,688 [0x000003b8] INFO   - id=64,client connect to Data Bus Server success
+2016-02-25 10:30:57,688 [0x000003b8] INFO   - id=64,Sequence queue: 0X5650fea0,none sequence queue:0X5650ff00
+2016-02-25 10:30:57,688 [0x000003b8] INFO   - id=64,Thread #5428 has been created to read socket
+2016-02-25 10:30:57,688 [0x000003b8] INFO   - id=64,Thread #3684 has been created to send message
+2016-02-25 10:30:57,688 [0x000003b8] INFO   - id=64,Thread #4608 has been created to timeout message
+2016-02-25 10:30:57,689 [0x000003b8] INFO   - id=64,Thread #5756 has been created to process message
+2016-02-25 10:30:57,689 [0x000003b8] INFO   - id=64,Thread #4216 has been created to process message
+2016-02-25 10:30:57,689 [0x000003b8] INFO   - id=64,Thread #6080 has been created to process message
+2016-02-25 10:30:57,689 [0x000003b8] INFO   - id=64,Thread #1676 has been created to process message
+2016-02-25 10:30:57,689 [0x000003b8] INFO   - id=64,AppServer appname:QMMonitor
+2016-02-25 10:30:57,717 [0x0000167c] INFO   - id=64,Thread 5756 for sequence message handle
+2016-02-25 10:30:57,717 [0x0000167c] INFO   - id=64,Thread 5756,queue:0X5650fea0
+2016-02-25 10:30:57,717 [0x00001078] INFO   - id=64,Thread 4216,queue:0X5650ff00
+2016-02-25 10:30:57,717 [0x000017c0] INFO   - id=64,Thread 6080,queue:0X5650ff00
+2016-02-25 10:30:57,717 [0x0000068c] INFO   - id=64,Thread 1676,queue:0X5650ff00
+2016-02-25 10:30:57,730 [0x000003b8] INFO   - id=64,AppServer reg:type: 1 name: "QMMonitor" group: 1 uuid: "rywyetyu24535" auth: "test" starttime: 1456367457 serviceid: 500 ip: "00000000000000000000000"
+2016-02-25 10:30:57,734 [0x000003b8] INFO   - id=64,Begin logining
+2016-02-25 10:30:57,734 [0x000003b8] INFO   - id=64,Thread #5180 has been created to send heart beat
+2016-02-25 10:30:57,735 [0x0000143c] INFO   - id=64,Start heartbeat
+2016-02-25 10:30:57,737 [0x00001078] INFO   - id=64,Login success, appServer address:0x9c
+2016-02-25 10:30:57,739 [0x00001078] INFO   - id=64,subscribe success:sub { subid: 10000 topic: 11534337 } sub { subid: 10001 topic: 11534338 } sub { subid: 10002 topic: 11534339 } sub { subid: 10003 topic: 11534340 } sub { subid: 10004 topic: 11534341 } sub { subid: 10005 topic: 11534342 }
+2016-02-25 10:32:11,429 [0x00000c7c] INFO   - config file:clientcfg.xml
+
+2016-02-25 10:32:11,431 [0x00000c7c] INFO   - xml path: D:\cocos_ws\MonitorServer\config\clientcfg.xml
+2016-02-25 10:32:11,433 [0x00000c7c] INFO   - Parse xml file,ip=172.16.17.178,port=9999
+2016-02-25 10:32:11,433 [0x00000c7c] INFO   - load xml config file success,xml:clientcfg.xml
+2016-02-25 10:32:11,433 [0x00000c7c] INFO   - id=5,Initailize,libVersion=20150610
+2016-02-25 10:32:11,433 [0x00000c7c] INFO   - xml path: D:\cocos_ws\MonitorServer\config\Command.xml
+2016-02-25 10:32:11,437 [0x00000c7c] INFO   - id=5,client connect to Data Bus Server(172.16.17.178:9999)
+2016-02-25 10:32:11,437 [0x00000c7c] INFO   - id=5,connect Server,IP: 172.16.17.178,Port: 9999
+2016-02-25 10:32:11,439 [0x00000c7c] INFO   - id=5,client connect to Data Bus Server success
+2016-02-25 10:32:11,439 [0x00000c7c] INFO   - id=5,Sequence queue: 0X56f53740,none sequence queue:0X56f537a0
+2016-02-25 10:32:11,441 [0x00000c7c] INFO   - id=5,Thread #4456 has been created to read socket
+2016-02-25 10:32:11,441 [0x00000c7c] INFO   - id=5,Thread #2960 has been created to send message
+2016-02-25 10:32:11,441 [0x00000c7c] INFO   - id=5,Thread #5032 has been created to timeout message
+2016-02-25 10:32:11,442 [0x00000c7c] INFO   - id=5,Thread #5668 has been created to process message
+2016-02-25 10:32:11,442 [0x00000c7c] INFO   - id=5,Thread #4968 has been created to process message
+2016-02-25 10:32:11,442 [0x00000c7c] INFO   - id=5,Thread #4464 has been created to process message
+2016-02-25 10:32:11,442 [0x00000c7c] INFO   - id=5,Thread #4620 has been created to process message
+2016-02-25 10:32:11,442 [0x00000c7c] INFO   - id=5,AppServer appname:QMMonitor
+2016-02-25 10:32:11,442 [0x00000c7c] INFO   - id=5,AppServer reg:type: 1 name: "QMMonitor" group: 1 uuid: "rywyetyu24535" auth: "test" starttime: 1456367531 serviceid: 500 ip: "00000000000000000000000"
+2016-02-25 10:32:11,443 [0x00000c7c] INFO   - id=5,Begin logining
+2016-02-25 10:32:11,443 [0x00000c7c] INFO   - id=5,Thread #6008 has been created to send heart beat
+2016-02-25 10:32:11,444 [0x00001368] INFO   - id=5,Thread 4968,queue:0X56f537a0
+2016-02-25 10:32:11,444 [0x0000120c] INFO   - id=5,Thread 4620,queue:0X56f537a0
+2016-02-25 10:32:11,448 [0x00001624] INFO   - id=5,Thread 5668 for sequence message handle
+2016-02-25 10:32:11,448 [0x00001624] INFO   - id=5,Thread 5668,queue:0X56f53740
+2016-02-25 10:32:11,448 [0x00001170] INFO   - id=5,Thread 4464,queue:0X56f537a0
+2016-02-25 10:32:11,448 [0x00001778] INFO   - id=5,Start heartbeat
+2016-02-25 10:32:11,450 [0x00001368] INFO   - id=5,Login success, appServer address:0x9d
+2016-02-25 10:32:11,452 [0x00001368] INFO   - id=5,subscribe success:sub { subid: 10000 topic: 11534337 } sub { subid: 10001 topic: 11534338 } sub { subid: 10002 topic: 11534339 } sub { subid: 10003 topic: 11534340 } sub { subid: 10004 topic: 11534341 } sub { subid: 10005 topic: 11534342 }
+2016-02-25 10:33:13,320 [0x00000fb8] INFO   - config file:clientcfg.xml
+
+2016-02-25 10:33:13,320 [0x00000fb8] INFO   - xml path: D:\cocos_ws\MonitorServer\config\clientcfg.xml
+2016-02-25 10:33:13,320 [0x00000fb8] INFO   - Parse xml file,ip=172.16.17.178,port=9999
+2016-02-25 10:33:13,321 [0x00000fb8] INFO   - load xml config file success,xml:clientcfg.xml
+2016-02-25 10:33:13,321 [0x00000fb8] INFO   - id=8,Initailize,libVersion=20150610
+2016-02-25 10:33:13,321 [0x00000fb8] INFO   - xml path: D:\cocos_ws\MonitorServer\config\Command.xml
+2016-02-25 10:33:13,325 [0x00000fb8] INFO   - id=8,client connect to Data Bus Server(172.16.17.178:9999)
+2016-02-25 10:33:13,326 [0x00000fb8] INFO   - id=8,connect Server,IP: 172.16.17.178,Port: 9999
+2016-02-25 10:33:13,343 [0x00000fb8] INFO   - id=8,client connect to Data Bus Server success
+2016-02-25 10:33:13,343 [0x00000fb8] INFO   - id=8,Sequence queue: 0X5727c610,none sequence queue:0X5727c670
+2016-02-25 10:33:13,344 [0x00000fb8] INFO   - id=8,Thread #6040 has been created to read socket
+2016-02-25 10:33:13,344 [0x00000fb8] INFO   - id=8,Thread #5936 has been created to send message
+2016-02-25 10:33:13,344 [0x00000fb8] INFO   - id=8,Thread #3132 has been created to timeout message
+2016-02-25 10:33:13,344 [0x00000fb8] INFO   - id=8,Thread #948 has been created to process message
+2016-02-25 10:33:13,344 [0x00000fb8] INFO   - id=8,Thread #4172 has been created to process message
+2016-02-25 10:33:13,344 [0x00000fb8] INFO   - id=8,Thread #1304 has been created to process message
+2016-02-25 10:33:13,344 [0x00000fb8] INFO   - id=8,Thread #676 has been created to process message
+2016-02-25 10:33:13,344 [0x00000fb8] INFO   - id=8,AppServer appname:QMMonitor
+2016-02-25 10:33:13,345 [0x00000fb8] INFO   - id=8,AppServer reg:type: 1 name: "QMMonitor" group: 1 uuid: "rywyetyu24535" auth: "test" starttime: 1456367593 serviceid: 500 ip: "00000000000000000000000"
+2016-02-25 10:33:13,345 [0x00000fb8] INFO   - id=8,Begin logining
+2016-02-25 10:33:13,345 [0x00000fb8] INFO   - id=8,Thread #5940 has been created to send heart beat
+2016-02-25 10:33:13,364 [0x000003b4] INFO   - id=8,Thread 948 for sequence message handle
+2016-02-25 10:33:13,364 [0x000003b4] INFO   - id=8,Thread 948,queue:0X5727c610
+2016-02-25 10:33:13,364 [0x00000518] INFO   - id=8,Thread 1304,queue:0X5727c670
+2016-02-25 10:33:13,364 [0x00001734] INFO   - id=8,Start heartbeat
+2016-02-25 10:33:13,370 [0x0000104c] INFO   - id=8,Thread 4172,queue:0X5727c670
+2016-02-25 10:33:13,370 [0x00000518] INFO   - id=8,Login success, appServer address:0x9e
+2016-02-25 10:33:13,371 [0x000002a4] INFO   - id=8,Thread 676,queue:0X5727c670
+2016-02-25 10:33:13,382 [0x00000518] INFO   - id=8,subscribe success:sub { subid: 10000 topic: 11534337 } sub { subid: 10001 topic: 11534338 } sub { subid: 10002 topic: 11534339 } sub { subid: 10003 topic: 11534340 } sub { subid: 10004 topic: 11534341 } sub { subid: 10005 topic: 11534342 }
+2016-02-25 10:51:20,149 [0x000013d8] INFO   - config file:clientcfg.xml
+
+2016-02-25 10:51:20,150 [0x000013d8] INFO   - xml path: D:\cocos_ws\MonitorServer\config\clientcfg.xml
+2016-02-25 10:51:20,150 [0x000013d8] INFO   - Parse xml file,ip=172.16.17.178,port=6666
+2016-02-25 10:51:20,150 [0x000013d8] INFO   - load xml config file success,xml:clientcfg.xml
+2016-02-25 10:51:20,150 [0x000013d8] INFO   - id=57,Initailize,libVersion=20150610
+2016-02-25 10:51:20,150 [0x000013d8] INFO   - xml path: D:\cocos_ws\MonitorServer\config\Command.xml
+2016-02-25 10:51:20,153 [0x000013d8] INFO   - id=57,client connect to Data Bus Server(172.16.17.178:6666)
+2016-02-25 10:51:20,153 [0x000013d8] INFO   - id=57,connect Server,IP: 172.16.17.178,Port: 6666
+2016-02-25 10:51:20,156 [0x000013d8] INFO   - id=57,client connect to Data Bus Server success
+2016-02-25 10:51:20,156 [0x000013d8] INFO   - id=57,Sequence queue: 0X56c677d0,none sequence queue:0X56c67830
+2016-02-25 10:51:20,157 [0x000013d8] INFO   - id=57,Thread #3052 has been created to read socket
+2016-02-25 10:51:20,157 [0x000013d8] INFO   - id=57,Thread #4644 has been created to send message
+2016-02-25 10:51:20,157 [0x000013d8] INFO   - id=57,Thread #5904 has been created to timeout message
+2016-02-25 10:51:20,157 [0x000013d8] INFO   - id=57,Thread #6060 has been created to process message
+2016-02-25 10:51:20,157 [0x000017ac] INFO   - id=57,Thread 6060 for sequence message handle
+2016-02-25 10:51:20,158 [0x000017ac] INFO   - id=57,Thread 6060,queue:0X56c677d0
+2016-02-25 10:51:20,158 [0x000013d8] INFO   - id=57,Thread #5656 has been created to process message
+2016-02-25 10:51:20,158 [0x000013d8] INFO   - id=57,Thread #3796 has been created to process message
+2016-02-25 10:51:20,158 [0x00000ed4] INFO   - id=57,Thread 3796,queue:0X56c67830
+2016-02-25 10:51:20,158 [0x000013d8] INFO   - id=57,Thread #5396 has been created to process message
+2016-02-25 10:51:20,158 [0x000013d8] INFO   - id=57,AppServer appname:QMMonitor
+2016-02-25 10:51:20,159 [0x000013d8] INFO   - id=57,AppServer reg:type: 1 name: "QMMonitor" group: 1 uuid: "rywyetyu24535" auth: "test" starttime: 1456368680 serviceid: 500 ip: "00000000000000000000000"
+2016-02-25 10:51:20,159 [0x000013d8] INFO   - id=57,Begin logining
+2016-02-25 10:51:20,159 [0x000013d8] INFO   - id=57,Thread #2960 has been created to send heart beat
+2016-02-25 10:51:20,160 [0x00000b90] INFO   - id=57,Start heartbeat
+2016-02-25 10:51:20,163 [0x00001618] INFO   - id=57,Thread 5656,queue:0X56c67830
+2016-02-25 10:51:20,163 [0x00001514] INFO   - id=57,Thread 5396,queue:0X56c67830
+2016-02-25 10:51:20,167 [0x00000ed4] INFO   - id=57,Login success, appServer address:0xa4
+2016-02-25 10:51:20,170 [0x00000ed4] INFO   - id=57,subscribe success:sub { subid: 10000 topic: 11534337 } sub { subid: 10001 topic: 11534338 } sub { subid: 10002 topic: 11534339 } sub { subid: 10003 topic: 11534340 } sub { subid: 10004 topic: 11534341 } sub { subid: 10005 topic: 11534342 }
+2016-02-25 10:52:09,532 [0x00000d24] INFO   - config file:clientcfg.xml
+
+2016-02-25 10:52:09,533 [0x00000d24] INFO   - xml path: D:\cocos_ws\MonitorServer\config\clientcfg.xml
+2016-02-25 10:52:09,533 [0x00000d24] INFO   - Parse xml file,ip=172.16.17.178,port=9999
+2016-02-25 10:52:09,533 [0x00000d24] INFO   - load xml config file success,xml:clientcfg.xml
+2016-02-25 10:52:09,533 [0x00000d24] INFO   - id=17,Initailize,libVersion=20150610
+2016-02-25 10:52:09,534 [0x00000d24] INFO   - xml path: D:\cocos_ws\MonitorServer\config\Command.xml
+2016-02-25 10:52:09,536 [0x00000d24] INFO   - id=17,client connect to Data Bus Server(172.16.17.178:9999)
+2016-02-25 10:52:09,541 [0x00000d24] INFO   - id=17,connect Server,IP: 172.16.17.178,Port: 9999
+2016-02-25 10:52:09,545 [0x00000d24] INFO   - id=17,client connect to Data Bus Server success
+2016-02-25 10:52:09,545 [0x00000d24] INFO   - id=17,Sequence queue: 0X563e0530,none sequence queue:0X563e0590
+2016-02-25 10:52:09,553 [0x00000d24] INFO   - id=17,Thread #4556 has been created to read socket
+2016-02-25 10:52:09,555 [0x00000d24] INFO   - id=17,Thread #4404 has been created to send message
+2016-02-25 10:52:09,557 [0x00000d24] INFO   - id=17,Thread #4656 has been created to timeout message
+2016-02-25 10:52:09,558 [0x00000d24] INFO   - id=17,Thread #5792 has been created to process message
+2016-02-25 10:52:09,559 [0x00000d24] INFO   - id=17,Thread #3028 has been created to process message
+2016-02-25 10:52:09,560 [0x00000d24] INFO   - id=17,Thread #2860 has been created to process message
+2016-02-25 10:52:09,560 [0x00000d24] INFO   - id=17,Thread #5896 has been created to process message
+2016-02-25 10:52:09,560 [0x00000d24] INFO   - id=17,AppServer appname:QMMonitor
+2016-02-25 10:52:09,560 [0x00000d24] INFO   - id=17,AppServer reg:type: 1 name: "QMMonitor" group: 1 uuid: "rywyetyu24535" auth: "test" starttime: 1456368729 serviceid: 500 ip: "00000000000000000000000"
+2016-02-25 10:52:09,560 [0x00000d24] INFO   - id=17,Begin logining
+2016-02-25 10:52:09,561 [0x00000d24] INFO   - id=17,Thread #6032 has been created to send heart beat
+2016-02-25 10:52:09,561 [0x000016a0] INFO   - id=17,Thread 5792 for sequence message handle
+2016-02-25 10:52:09,561 [0x000016a0] INFO   - id=17,Thread 5792,queue:0X563e0530
+2016-02-25 10:52:09,561 [0x00000b2c] INFO   - id=17,Thread 2860,queue:0X563e0590
+2016-02-25 10:52:09,562 [0x00001790] INFO   - id=17,Start heartbeat
+2016-02-25 10:52:09,562 [0x00000bd4] INFO   - id=17,Thread 3028,queue:0X563e0590
+2016-02-25 10:52:09,562 [0x00001708] INFO   - id=17,Thread 5896,queue:0X563e0590
+2016-02-25 10:52:09,564 [0x00000b2c] INFO   - id=17,Login success, appServer address:0x9f
+2016-02-25 10:52:09,565 [0x00000b2c] INFO   - id=17,subscribe success:sub { subid: 10000 topic: 11534337 } sub { subid: 10001 topic: 11534338 } sub { subid: 10002 topic: 11534339 } sub { subid: 10003 topic: 11534340 } sub { subid: 10004 topic: 11534341 } sub { subid: 10005 topic: 11534342 }
+2016-02-25 11:03:28,734 [0x000011cc] WARN   - Big msg,body size=441042,header:Response-serial:65786,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0xa1,dst:0x9f,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 11:03:28,771 [0x000011cc] WARN   - Finished receive Big msg,body size=441042,header:Response-serial:65786,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0xa1,dst:0x9f,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 11:03:28,826 [0x00001134] WARN   - id=17,Prepare sending big message,size=441072
+
+2016-02-25 11:03:28,828 [0x00001134] WARN   - id=17,Finished sending big message,size=441072
+
+2016-02-25 11:03:32,074 [0x000011cc] WARN   - Big msg,body size=441042,header:Response-serial:65798,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0xa0,dst:0x9f,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 11:03:32,111 [0x000011cc] WARN   - Finished receive Big msg,body size=441042,header:Response-serial:65798,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0xa0,dst:0x9f,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 11:03:32,141 [0x00001134] WARN   - id=17,Prepare sending big message,size=441072
+
+2016-02-25 11:03:32,146 [0x00001134] WARN   - id=17,Finished sending big message,size=441072
+
+2016-02-25 11:04:54,266 [0x000011cc] WARN   - Big msg,body size=441042,header:Response-serial:65836,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0xa1,dst:0x9f,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 11:04:54,303 [0x000011cc] WARN   - Finished receive Big msg,body size=441042,header:Response-serial:65836,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0xa1,dst:0x9f,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 11:04:54,323 [0x00001134] WARN   - id=17,Prepare sending big message,size=441072
+
+2016-02-25 11:04:54,330 [0x00001134] WARN   - id=17,Finished sending big message,size=441072
+
+2016-02-25 14:16:01,887 [0x00000b6c] INFO   - config file:clientcfg.xml
+
+2016-02-25 14:16:01,905 [0x00000b6c] INFO   - xml path: D:\cocos_ws\MonitorServer\config\clientcfg.xml
+2016-02-25 14:16:01,955 [0x00000b6c] INFO   - Parse xml file,ip=172.16.17.178,port=9999
+2016-02-25 14:16:01,955 [0x00000b6c] INFO   - load xml config file success,xml:clientcfg.xml
+2016-02-25 14:16:01,955 [0x00000b6c] INFO   - id=94,Initailize,libVersion=20150610
+2016-02-25 14:16:01,955 [0x00000b6c] INFO   - xml path: D:\cocos_ws\MonitorServer\config\Command.xml
+2016-02-25 14:16:01,965 [0x00000b6c] INFO   - id=94,client connect to Data Bus Server(172.16.17.178:9999)
+2016-02-25 14:16:01,965 [0x00000b6c] INFO   - id=94,connect Server,IP: 172.16.17.178,Port: 9999
+2016-02-25 14:16:01,966 [0x00000b6c] INFO   - id=94,client connect to Data Bus Server success
+2016-02-25 14:16:01,966 [0x00000b6c] INFO   - id=94,Sequence queue: 0X5714a490,none sequence queue:0X5714a4f0
+2016-02-25 14:16:01,967 [0x00000b6c] INFO   - id=94,Thread #6804 has been created to read socket
+2016-02-25 14:16:01,967 [0x00000b6c] INFO   - id=94,Thread #6840 has been created to send message
+2016-02-25 14:16:01,967 [0x00000b6c] INFO   - id=94,Thread #6288 has been created to timeout message
+2016-02-25 14:16:01,967 [0x00000b6c] INFO   - id=94,Thread #6828 has been created to process message
+2016-02-25 14:16:01,967 [0x00000b6c] INFO   - id=94,Thread #7164 has been created to process message
+2016-02-25 14:16:01,967 [0x00000b6c] INFO   - id=94,Thread #4368 has been created to process message
+2016-02-25 14:16:01,967 [0x00000b6c] INFO   - id=94,Thread #5704 has been created to process message
+2016-02-25 14:16:01,967 [0x00000b6c] INFO   - id=94,AppServer appname:QMMonitor
+2016-02-25 14:16:01,968 [0x00001110] INFO   - id=94,Thread 4368,queue:0X5714a4f0
+2016-02-25 14:16:01,968 [0x00001648] INFO   - id=94,Thread 5704,queue:0X5714a4f0
+2016-02-25 14:16:01,968 [0x00001bfc] INFO   - id=94,Thread 7164,queue:0X5714a4f0
+2016-02-25 14:16:01,968 [0x00001aac] INFO   - id=94,Thread 6828 for sequence message handle
+2016-02-25 14:16:01,969 [0x00001aac] INFO   - id=94,Thread 6828,queue:0X5714a490
+2016-02-25 14:16:01,982 [0x00000b6c] INFO   - id=94,AppServer reg:type: 1 name: "QMMonitor" group: 1 uuid: "rywyetyu24535" auth: "test" starttime: 1456380961 serviceid: 500 ip: "00000000000000000000000"
+2016-02-25 14:16:01,982 [0x00000b6c] INFO   - id=94,Begin logining
+2016-02-25 14:16:01,982 [0x00000b6c] INFO   - id=94,Thread #5624 has been created to send heart beat
+2016-02-25 14:16:01,984 [0x000015f8] INFO   - id=94,Start heartbeat
+2016-02-25 14:16:01,987 [0x00001110] INFO   - id=94,Login success, appServer address:0xa6
+2016-02-25 14:16:01,989 [0x00001110] INFO   - id=94,subscribe success:sub { subid: 10000 topic: 11534337 } sub { subid: 10001 topic: 11534338 } sub { subid: 10002 topic: 11534339 } sub { subid: 10003 topic: 11534340 } sub { subid: 10004 topic: 11534341 } sub { subid: 10005 topic: 11534342 }
+2016-02-25 14:16:49,012 [0x00001ab8] WARN   - id=94,Prepare sending big message,size=144570
+
+2016-02-25 14:16:49,015 [0x00001ab8] WARN   - id=94,Finished sending big message,size=144570
+
+2016-02-25 14:17:44,961 [0x00001ab8] WARN   - id=94,Prepare sending big message,size=144570
+
+2016-02-25 14:17:44,964 [0x00001ab8] WARN   - id=94,Finished sending big message,size=144570
+
+2016-02-25 14:19:25,786 [0x00001a94] WARN   - Big msg,body size=441042,header:Response-serial:65606,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0xa0,dst:0xa6,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 14:19:25,824 [0x00001a94] WARN   - Finished receive Big msg,body size=441042,header:Response-serial:65606,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0xa0,dst:0xa6,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 14:20:20,419 [0x00001ab8] WARN   - id=94,Prepare sending big message,size=441072
+
+2016-02-25 14:20:20,424 [0x00001ab8] WARN   - id=94,Finished sending big message,size=441072
+
+2016-02-25 14:22:29,346 [0x00001ab8] WARN   - id=94,Prepare sending big message,size=130886
+
+2016-02-25 14:22:29,348 [0x00001ab8] WARN   - id=94,Finished sending big message,size=130886
+
+2016-02-25 14:23:45,056 [0x00001ab8] WARN   - id=94,Prepare sending big message,size=130886
+
+2016-02-25 14:23:45,059 [0x00001ab8] WARN   - id=94,Finished sending big message,size=130886
+
+2016-02-25 14:24:33,542 [0x00001ab8] WARN   - id=94,Prepare sending big message,size=144570
+
+2016-02-25 14:24:33,544 [0x00001ab8] WARN   - id=94,Finished sending big message,size=144570
+
+2016-02-25 14:24:34,946 [0x00001ab8] WARN   - id=94,Prepare sending big message,size=131359
+
+2016-02-25 14:24:34,948 [0x00001ab8] WARN   - id=94,Finished sending big message,size=131359
+
+2016-02-25 14:24:36,307 [0x00001ab8] WARN   - id=94,Prepare sending big message,size=131359
+
+2016-02-25 14:24:36,308 [0x00001ab8] WARN   - id=94,Finished sending big message,size=131359
+
+2016-02-25 14:24:36,969 [0x00001ab8] WARN   - id=94,Prepare sending big message,size=144570
+
+2016-02-25 14:24:37,024 [0x00001ab8] WARN   - id=94,Finished sending big message,size=144570
+
+2016-02-25 14:25:09,449 [0x00001a94] WARN   - Big msg,body size=173129,header:Response-serial:65739,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:173129,src:0xa0,dst:0xa6,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 14:25:09,464 [0x00001a94] WARN   - Finished receive Big msg,body size=173129,header:Response-serial:65739,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:173129,src:0xa0,dst:0xa6,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 14:25:28,568 [0x00001ab8] WARN   - id=94,Prepare sending big message,size=144570
+
+2016-02-25 14:25:28,570 [0x00001ab8] WARN   - id=94,Finished sending big message,size=144570
+
+2016-02-25 14:26:06,344 [0x00001ab8] WARN   - id=94,Prepare sending big message,size=144570
+
+2016-02-25 14:26:06,346 [0x00001ab8] WARN   - id=94,Finished sending big message,size=144570
+
+2016-02-25 14:26:17,908 [0x00001ab8] WARN   - id=94,Prepare sending big message,size=144570
+
+2016-02-25 14:26:17,911 [0x00001ab8] WARN   - id=94,Finished sending big message,size=144570
+
+2016-02-25 14:26:38,298 [0x00001ab8] WARN   - id=94,Prepare sending big message,size=144570
+
+2016-02-25 14:26:38,300 [0x00001ab8] WARN   - id=94,Finished sending big message,size=144570
+
+2016-02-25 14:27:06,080 [0x00001ab8] WARN   - id=94,Prepare sending big message,size=144570
+
+2016-02-25 14:27:06,083 [0x00001ab8] WARN   - id=94,Finished sending big message,size=144570
+
+2016-02-25 14:28:02,849 [0x00001ab8] WARN   - id=94,Prepare sending big message,size=144570
+
+2016-02-25 14:28:02,852 [0x00001ab8] WARN   - id=94,Finished sending big message,size=144570
+
+2016-02-25 14:28:18,263 [0x00001a94] WARN   - Big msg,body size=441042,header:Response-serial:65821,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0xa1,dst:0xa6,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 14:28:18,300 [0x00001a94] WARN   - Finished receive Big msg,body size=441042,header:Response-serial:65821,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0xa1,dst:0xa6,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 14:28:18,351 [0x00001ab8] WARN   - id=94,Prepare sending big message,size=441072
+
+2016-02-25 14:28:18,356 [0x00001ab8] WARN   - id=94,Finished sending big message,size=441072
+
+2016-02-25 14:29:08,382 [0x00001ab8] WARN   - id=94,Prepare sending big message,size=144570
+
+2016-02-25 14:29:08,384 [0x00001ab8] WARN   - id=94,Finished sending big message,size=144570
+
+2016-02-25 14:29:58,845 [0x00001a94] WARN   - Big msg,body size=173129,header:Response-serial:65866,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:173129,src:0xa1,dst:0xa6,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 14:29:58,866 [0x00001a94] WARN   - Finished receive Big msg,body size=173129,header:Response-serial:65866,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:173129,src:0xa1,dst:0xa6,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 14:32:05,517 [0x000016a0] INFO   - config file:clientcfg.xml
+
+2016-02-25 14:32:05,517 [0x000016a0] INFO   - xml path: D:\cocos_ws\MonitorServer\config\clientcfg.xml
+2016-02-25 14:32:05,518 [0x000016a0] INFO   - Parse xml file,ip=172.16.17.178,port=9999
+2016-02-25 14:32:05,518 [0x000016a0] INFO   - load xml config file success,xml:clientcfg.xml
+2016-02-25 14:32:05,518 [0x000016a0] INFO   - id=42,Initailize,libVersion=20150610
+2016-02-25 14:32:05,518 [0x000016a0] INFO   - xml path: D:\cocos_ws\MonitorServer\config\Command.xml
+2016-02-25 14:32:05,520 [0x000016a0] INFO   - id=42,client connect to Data Bus Server(172.16.17.178:9999)
+2016-02-25 14:32:05,521 [0x000016a0] INFO   - id=42,connect Server,IP: 172.16.17.178,Port: 9999
+2016-02-25 14:32:05,522 [0x000016a0] INFO   - id=42,client connect to Data Bus Server success
+2016-02-25 14:32:05,522 [0x000016a0] INFO   - id=42,Sequence queue: 0X56d5d370,none sequence queue:0X56d5d3d0
+2016-02-25 14:32:05,522 [0x000016a0] INFO   - id=42,Thread #6608 has been created to read socket
+2016-02-25 14:32:05,522 [0x000016a0] INFO   - id=42,Thread #4800 has been created to send message
+2016-02-25 14:32:05,522 [0x000016a0] INFO   - id=42,Thread #6364 has been created to timeout message
+2016-02-25 14:32:05,523 [0x000016a0] INFO   - id=42,Thread #6460 has been created to process message
+2016-02-25 14:32:05,523 [0x0000193c] INFO   - id=42,Thread 6460 for sequence message handle
+2016-02-25 14:32:05,523 [0x0000193c] INFO   - id=42,Thread 6460,queue:0X56d5d370
+2016-02-25 14:32:05,523 [0x000016a0] INFO   - id=42,Thread #1068 has been created to process message
+2016-02-25 14:32:05,523 [0x000016a0] INFO   - id=42,Thread #6676 has been created to process message
+2016-02-25 14:32:05,523 [0x00001a14] INFO   - id=42,Thread 6676,queue:0X56d5d3d0
+2016-02-25 14:32:05,523 [0x000016a0] INFO   - id=42,Thread #6912 has been created to process message
+2016-02-25 14:32:05,523 [0x000016a0] INFO   - id=42,AppServer appname:QMMonitor
+2016-02-25 14:32:05,523 [0x0000042c] INFO   - id=42,Thread 1068,queue:0X56d5d3d0
+2016-02-25 14:32:05,524 [0x00001b00] INFO   - id=42,Thread 6912,queue:0X56d5d3d0
+2016-02-25 14:32:05,524 [0x000016a0] INFO   - id=42,AppServer reg:type: 1 name: "QMMonitor" group: 1 uuid: "rywyetyu24535" auth: "test" starttime: 1456381925 serviceid: 500 ip: "00000000000000000000000"
+2016-02-25 14:32:05,524 [0x000016a0] INFO   - id=42,Begin logining
+2016-02-25 14:32:05,524 [0x000016a0] INFO   - id=42,Thread #6500 has been created to send heart beat
+2016-02-25 14:32:05,525 [0x00001964] INFO   - id=42,Start heartbeat
+2016-02-25 14:32:05,527 [0x00001a14] INFO   - id=42,Login success, appServer address:0xa7
+2016-02-25 14:32:05,529 [0x00001a14] INFO   - id=42,subscribe success:sub { subid: 10000 topic: 11534337 } sub { subid: 10001 topic: 11534338 } sub { subid: 10002 topic: 11534339 } sub { subid: 10003 topic: 11534340 } sub { subid: 10004 topic: 11534341 } sub { subid: 10005 topic: 11534342 }
+2016-02-25 14:33:42,401 [0x000019d0] WARN   - Big msg,body size=441042,header:Response-serial:65572,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0xa0,dst:0xa7,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 14:33:42,438 [0x000019d0] WARN   - Finished receive Big msg,body size=441042,header:Response-serial:65572,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0xa0,dst:0xa7,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 14:33:42,481 [0x000012c0] WARN   - id=42,Prepare sending big message,size=441072
+
+2016-02-25 14:33:42,484 [0x000012c0] WARN   - id=42,Finished sending big message,size=441072
+
+2016-02-25 14:33:55,037 [0x000012c0] WARN   - id=42,Prepare sending big message,size=144570
+
+2016-02-25 14:33:55,040 [0x000012c0] WARN   - id=42,Finished sending big message,size=144570
+
+2016-02-25 14:38:43,065 [0x00000d74] INFO   - config file:clientcfg.xml
+
+2016-02-25 14:38:43,065 [0x00000d74] INFO   - xml path: D:\cocos_ws\MonitorServer\config\clientcfg.xml
+2016-02-25 14:38:43,065 [0x00000d74] INFO   - Parse xml file,ip=172.16.17.178,port=9999
+2016-02-25 14:38:43,066 [0x00000d74] INFO   - load xml config file success,xml:clientcfg.xml
+2016-02-25 14:38:43,066 [0x00000d74] INFO   - id=42,Initailize,libVersion=20150610
+2016-02-25 14:38:43,066 [0x00000d74] INFO   - xml path: D:\cocos_ws\MonitorServer\config\Command.xml
+2016-02-25 14:38:43,068 [0x00000d74] INFO   - id=42,client connect to Data Bus Server(172.16.17.178:9999)
+2016-02-25 14:38:43,068 [0x00000d74] INFO   - id=42,connect Server,IP: 172.16.17.178,Port: 9999
+2016-02-25 14:38:43,070 [0x00000d74] INFO   - id=42,client connect to Data Bus Server success
+2016-02-25 14:38:43,070 [0x00000d74] INFO   - id=42,Sequence queue: 0X56db3ee0,none sequence queue:0X56db3f40
+2016-02-25 14:38:43,072 [0x00000d74] INFO   - id=42,Thread #6024 has been created to read socket
+2016-02-25 14:38:43,072 [0x00000d74] INFO   - id=42,Thread #6652 has been created to send message
+2016-02-25 14:38:43,073 [0x00000d74] INFO   - id=42,Thread #6376 has been created to timeout message
+2016-02-25 14:38:43,073 [0x00000d74] INFO   - id=42,Thread #1132 has been created to process message
+2016-02-25 14:38:43,073 [0x00000d74] INFO   - id=42,Thread #6004 has been created to process message
+2016-02-25 14:38:43,073 [0x00000d74] INFO   - id=42,Thread #5796 has been created to process message
+2016-02-25 14:38:43,073 [0x00000d74] INFO   - id=42,Thread #6624 has been created to process message
+2016-02-25 14:38:43,073 [0x00000d74] INFO   - id=42,AppServer appname:QMMonitor
+2016-02-25 14:38:43,074 [0x00000d74] INFO   - id=42,AppServer reg:type: 1 name: "QMMonitor" group: 1 uuid: "rywyetyu24535" auth: "test" starttime: 1456382323 serviceid: 500 ip: "00000000000000000000000"
+2016-02-25 14:38:43,074 [0x00000d74] INFO   - id=42,Begin logining
+2016-02-25 14:38:43,074 [0x00000d74] INFO   - id=42,Thread #456 has been created to send heart beat
+2016-02-25 14:38:43,076 [0x00001774] INFO   - id=42,Thread 6004,queue:0X56db3f40
+2016-02-25 14:38:43,076 [0x000019e0] INFO   - id=42,Thread 6624,queue:0X56db3f40
+2016-02-25 14:38:43,081 [0x0000046c] INFO   - id=42,Thread 1132 for sequence message handle
+2016-02-25 14:38:43,081 [0x0000046c] INFO   - id=42,Thread 1132,queue:0X56db3ee0
+2016-02-25 14:38:43,081 [0x000016a4] INFO   - id=42,Thread 5796,queue:0X56db3f40
+2016-02-25 14:38:43,081 [0x000001c8] INFO   - id=42,Start heartbeat
+2016-02-25 14:38:43,088 [0x00001774] INFO   - id=42,Login success, appServer address:0xa8
+2016-02-25 14:38:43,095 [0x00001774] INFO   - id=42,subscribe success:sub { subid: 10000 topic: 11534337 } sub { subid: 10001 topic: 11534338 } sub { subid: 10002 topic: 11534339 } sub { subid: 10003 topic: 11534340 } sub { subid: 10004 topic: 11534341 } sub { subid: 10005 topic: 11534342 }
+2016-02-25 14:42:19,083 [0x00001788] WARN   - Big msg,body size=441042,header:Response-serial:65611,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0xa0,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 14:42:19,119 [0x00001788] WARN   - Finished receive Big msg,body size=441042,header:Response-serial:65611,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0xa0,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 14:42:19,159 [0x000019fc] WARN   - id=42,Prepare sending big message,size=441072
+
+2016-02-25 14:42:19,162 [0x000019fc] WARN   - id=42,Finished sending big message,size=441072
+
+2016-02-25 14:42:26,738 [0x00001788] WARN   - Big msg,body size=441042,header:Response-serial:65625,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0xa0,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 14:42:26,877 [0x00001788] WARN   - Finished receive Big msg,body size=441042,header:Response-serial:65625,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0xa0,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 14:42:26,921 [0x000019fc] WARN   - id=42,Prepare sending big message,size=441072
+
+2016-02-25 14:42:26,927 [0x000019fc] WARN   - id=42,Finished sending big message,size=441072
+
+2016-02-25 14:42:39,740 [0x000019fc] WARN   - id=42,Prepare sending big message,size=144570
+
+2016-02-25 14:42:39,742 [0x000019fc] WARN   - id=42,Finished sending big message,size=144570
+
+2016-02-25 14:43:54,747 [0x000019fc] WARN   - id=42,Prepare sending big message,size=144570
+
+2016-02-25 14:43:54,749 [0x000019fc] WARN   - id=42,Finished sending big message,size=144570
+
+2016-02-25 14:45:16,849 [0x000019fc] WARN   - id=42,Prepare sending big message,size=144570
+
+2016-02-25 14:45:16,853 [0x000019fc] WARN   - id=42,Finished sending big message,size=144570
+
+2016-02-25 14:46:02,465 [0x00001788] WARN   - Big msg,body size=173129,header:Response-serial:65705,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:173129,src:0xa0,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 14:46:02,480 [0x00001788] WARN   - Finished receive Big msg,body size=173129,header:Response-serial:65705,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:173129,src:0xa0,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 14:52:19,087 [0x00001788] WARN   - Big msg,body size=441042,header:Response-serial:65837,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0xa1,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 14:52:19,104 [0x00001788] WARN   - Finished receive Big msg,body size=441042,header:Response-serial:65837,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0xa1,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 14:52:19,119 [0x000019fc] WARN   - id=42,Prepare sending big message,size=441072
+
+2016-02-25 14:52:19,125 [0x000019fc] WARN   - id=42,Finished sending big message,size=441072
+
+2016-02-25 14:53:36,939 [0x00001788] WARN   - Big msg,body size=147058,header:Response-serial:65871,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:147058,src:0xa1,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 14:53:36,952 [0x00001788] WARN   - Finished receive Big msg,body size=147058,header:Response-serial:65871,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:147058,src:0xa1,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 14:54:18,332 [0x000019fc] WARN   - id=42,Prepare sending big message,size=144570
+
+2016-02-25 14:54:18,334 [0x000019fc] WARN   - id=42,Finished sending big message,size=144570
+
+2016-02-25 14:54:18,678 [0x00001788] WARN   - Big msg,body size=441042,header:Response-serial:65894,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0xa0,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 14:54:18,715 [0x00001788] WARN   - Finished receive Big msg,body size=441042,header:Response-serial:65894,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0xa0,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 14:54:18,722 [0x000019fc] WARN   - id=42,Prepare sending big message,size=441072
+
+2016-02-25 14:54:18,729 [0x000019fc] WARN   - id=42,Finished sending big message,size=441072
+
+2016-02-25 14:54:39,740 [0x00001788] WARN   - Big msg,body size=441042,header:Response-serial:65917,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0xa0,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 14:54:39,776 [0x00001788] WARN   - Finished receive Big msg,body size=441042,header:Response-serial:65917,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0xa0,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 14:54:39,781 [0x000019fc] WARN   - id=42,Prepare sending big message,size=441072
+
+2016-02-25 14:54:39,787 [0x000019fc] WARN   - id=42,Finished sending big message,size=441072
+
+2016-02-25 14:54:56,659 [0x00001788] WARN   - Big msg,body size=441042,header:Response-serial:65934,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0xa1,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 14:54:56,697 [0x00001788] WARN   - Finished receive Big msg,body size=441042,header:Response-serial:65934,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0xa1,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 14:54:56,703 [0x000019fc] WARN   - id=42,Prepare sending big message,size=441072
+
+2016-02-25 14:54:56,713 [0x000019fc] WARN   - id=42,Finished sending big message,size=441072
+
+2016-02-25 14:55:00,470 [0x000019fc] WARN   - id=42,Prepare sending big message,size=131359
+
+2016-02-25 14:55:00,473 [0x000019fc] WARN   - id=42,Finished sending big message,size=131359
+
+2016-02-25 14:55:31,582 [0x000019fc] WARN   - id=42,Prepare sending big message,size=144570
+
+2016-02-25 14:55:31,585 [0x000019fc] WARN   - id=42,Finished sending big message,size=144570
+
+2016-02-25 14:55:52,803 [0x00001788] WARN   - Big msg,body size=173129,header:Response-serial:65966,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:173129,src:0xa0,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 14:55:52,817 [0x00001788] WARN   - Finished receive Big msg,body size=173129,header:Response-serial:65966,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:173129,src:0xa0,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 15:06:19,692 [0x00001788] WARN   - Big msg,body size=441042,header:Response-serial:66176,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0xa1,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 15:06:19,729 [0x00001788] WARN   - Finished receive Big msg,body size=441042,header:Response-serial:66176,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0xa1,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 15:06:19,735 [0x000019fc] WARN   - id=42,Prepare sending big message,size=441072
+
+2016-02-25 15:06:19,746 [0x000019fc] WARN   - id=42,Finished sending big message,size=441072
+
+2016-02-25 15:06:35,829 [0x00001788] WARN   - Big msg,body size=173129,header:Response-serial:66190,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:173129,src:0xa1,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 15:06:35,990 [0x00001788] WARN   - Finished receive Big msg,body size=173129,header:Response-serial:66190,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:173129,src:0xa1,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 15:06:38,448 [0x00001788] WARN   - Big msg,body size=173129,header:Response-serial:66196,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:173129,src:0xa0,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 15:06:38,462 [0x00001788] WARN   - Finished receive Big msg,body size=173129,header:Response-serial:66196,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:173129,src:0xa0,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 15:06:40,133 [0x000019fc] WARN   - id=42,Prepare sending big message,size=144570
+
+2016-02-25 15:06:40,136 [0x000019fc] WARN   - id=42,Finished sending big message,size=144570
+
+2016-02-25 15:08:31,177 [0x000019fc] WARN   - id=42,Prepare sending big message,size=144570
+
+2016-02-25 15:08:31,181 [0x000019fc] WARN   - id=42,Finished sending big message,size=144570
+
+2016-02-25 15:11:30,199 [0x000019fc] WARN   - id=42,Prepare sending big message,size=144570
+
+2016-02-25 15:11:30,201 [0x000019fc] WARN   - id=42,Finished sending big message,size=144570
+
+2016-02-25 15:14:08,125 [0x00001788] WARN   - Big msg,body size=173129,header:Response-serial:66356,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:173129,src:0xa1,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 15:14:08,139 [0x00001788] WARN   - Finished receive Big msg,body size=173129,header:Response-serial:66356,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:173129,src:0xa1,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 15:14:19,201 [0x00001788] WARN   - Big msg,body size=173129,header:Response-serial:66365,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:173129,src:0xa0,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 15:14:19,216 [0x00001788] WARN   - Finished receive Big msg,body size=173129,header:Response-serial:66365,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:173129,src:0xa0,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 15:14:29,508 [0x000019fc] WARN   - id=42,Prepare sending big message,size=144570
+
+2016-02-25 15:14:29,510 [0x000019fc] WARN   - id=42,Finished sending big message,size=144570
+
+2016-02-25 15:19:41,526 [0x00001788] WARN   - Big msg,body size=441042,header:Response-serial:66478,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0xa0,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 15:19:41,564 [0x00001788] WARN   - Finished receive Big msg,body size=441042,header:Response-serial:66478,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0xa0,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 15:19:41,577 [0x000019fc] WARN   - id=42,Prepare sending big message,size=441072
+
+2016-02-25 15:19:41,588 [0x000019fc] WARN   - id=42,Finished sending big message,size=441072
+
+2016-02-25 15:20:35,988 [0x00001788] WARN   - Big msg,body size=173628,header:Response-serial:66505,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:173628,src:0xa0,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 15:20:35,993 [0x00001788] WARN   - Finished receive Big msg,body size=173628,header:Response-serial:66505,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:173628,src:0xa0,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 15:20:36,098 [0x00001788] WARN   - Big msg,body size=563962,header:Response-serial:66504,type:2,cmd:0x4000016,app:64,funcIdx:22,bodysize:563962,src:0xa1,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 15:20:36,146 [0x00001788] WARN   - Finished receive Big msg,body size=563962,header:Response-serial:66504,type:2,cmd:0x4000016,app:64,funcIdx:22,bodysize:563962,src:0xa1,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 15:20:39,459 [0x00001788] WARN   - Big msg,body size=563962,header:Response-serial:66512,type:2,cmd:0x4000016,app:64,funcIdx:22,bodysize:563962,src:0xa0,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 15:20:39,507 [0x00001788] WARN   - Finished receive Big msg,body size=563962,header:Response-serial:66512,type:2,cmd:0x4000016,app:64,funcIdx:22,bodysize:563962,src:0xa0,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 15:20:39,507 [0x00001788] WARN   - Big msg,body size=173628,header:Response-serial:66513,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:173628,src:0xa1,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 15:20:39,534 [0x00001788] WARN   - Finished receive Big msg,body size=173628,header:Response-serial:66513,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:173628,src:0xa1,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 15:25:29,376 [0x00001788] WARN   - Big msg,body size=441042,header:Response-serial:66615,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0xa0,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 15:25:29,414 [0x00001788] WARN   - Finished receive Big msg,body size=441042,header:Response-serial:66615,type:2,cmd:0x4000001,app:64,funcIdx:1,bodysize:441042,src:0xa0,dst:0xa8,code:0,options:0,seq:0,codeinfo:0
+2016-02-25 15:25:29,422 [0x000019fc] WARN   - id=42,Prepare sending big message,size=441072
+
+2016-02-25 15:25:29,429 [0x000019fc] WARN   - id=42,Finished sending big message,size=441072
+
+2016-04-11 16:49:06,296 [0x000017e4] INFO   - config file:clientcfg.xml
+
+2016-04-11 16:49:06,304 [0x000017e4] INFO   - xml path: D:\cocos_ws\MonitorServer\config\clientcfg.xml
+2016-04-11 16:49:06,305 [0x000017e4] INFO   - Parse xml file,ip=172.16.17.178,port=9999
+2016-04-11 16:49:06,305 [0x000017e4] INFO   - load xml config file success,xml:clientcfg.xml
+2016-04-11 16:49:06,305 [0x000017e4] INFO   - id=10,Initailize,libVersion=20150610
+2016-04-11 16:49:06,305 [0x000017e4] INFO   - xml path: D:\cocos_ws\MonitorServer\config\Command.xml
+2016-04-11 16:49:06,306 [0x000017e4] INFO   - id=10,client connect to Data Bus Server(172.16.17.178:9999)
+2016-04-11 16:49:06,309 [0x000017e4] INFO   - id=10,connect Server,IP: 172.16.17.178,Port: 9999
+2016-04-12 13:12:18,436 [0x000015bc] INFO   - config file:clientcfg.xml
+
+2016-04-12 13:12:18,447 [0x000015bc] INFO   - xml path: D:\cocos_ws\MonitorServer\config\clientcfg.xml
+2016-04-12 13:12:18,448 [0x000015bc] INFO   - Parse xml file,ip=172.16.17.178,port=9999
+2016-04-12 13:12:18,448 [0x000015bc] INFO   - load xml config file success,xml:clientcfg.xml
+2016-04-12 13:12:18,448 [0x000015bc] INFO   - id=2,Initailize,libVersion=20150610
+2016-04-12 13:12:18,448 [0x000015bc] INFO   - xml path: D:\cocos_ws\MonitorServer\config\Command.xml
+2016-04-12 13:12:18,491 [0x000015bc] INFO   - id=2,client connect to Data Bus Server(172.16.17.178:9999)
+2016-04-12 13:12:18,494 [0x000015bc] INFO   - id=2,connect Server,IP: 172.16.17.178,Port: 9999

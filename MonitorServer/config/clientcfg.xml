@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 配置AppServer 和 AppClient 的配置文件 -->
+<configuration>
+	<!-- appName 的基本信息 -->
+	<client>
+		<appName>QMMonitor</appName>
+		<appType>1</appType>
+		<appGroup>1</appGroup>
+		<uuid>rywyetyu24535</uuid>
+		<auth>test</auth>
+		<!--<auth>sumscope_auth</auth> -->
+		<!-- 请求区间在[950,1000)的服务不需认证 -->
+		<serviceList>
+			<service>500</service>
+		</serviceList>
+		<subscribeList>
+			<topic desc="TOPIC_SM">11534337</topic>
+			<topic desc="">11534338</topic>
+			<topic desc="">11534339</topic>
+			<topic desc="">11534340</topic>
+			<topic desc="">11534341</topic>
+			<topic desc="TOPIC_CLIENT_NOTIFY">11534342</topic>
+		</subscribeList>
+	</client>
+	<serverGroup>
+		<!-- 消息总线的地址和端口 （broker） -->
+		<server port="9999" IP="172.16.17.178"/>
+	</serverGroup>
+	<heartbeat>
+		<maxHeartBeatTick>5</maxHeartBeatTick>
+		<hearbeatinterval>3000</hearbeatinterval>
+		<brokeninterval>3000</brokeninterval>
+		<switch>1</switch>
+	</heartbeat>
+	<zlib>
+		<switch>0</switch>
+		<threshold>30</threshold>
+	</zlib>
+	<connection>
+		<timeout>6000</timeout>
+	</connection>
+	<performance>
+		<threadNum>4</threadNum>
+		<buffersize>10000</buffersize>
+		<recvqueuesize>10000</recvqueuesize>
+		<sendqueuesize>10000</sendqueuesize>
+	</performance>
+	<log>
+		<level>2</level>
+		<filename>log</filename>
+		<report>1</report>
+	</log>
+</configuration>

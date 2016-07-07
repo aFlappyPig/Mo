@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<library>
+	<faces width="28" height="28" columns="8" describe="默认">
+		<face name=":/face/1.png" pathname="1.png" shortcut="/wx" order="1" describe="微笑" />
+		<face name=":/face/2.png" pathname="2.png" shortcut="/dx" order="2" describe="大笑" />
+		<face name=":/face/3.png" pathname="3.png" shortcut="/hx" order="3" describe="害羞" />
+		<face name=":/face/4.png" pathname="4.png" shortcut="/zk" order="4" describe="装酷" />
+		<face name=":/face/5.png" pathname="5.png" shortcut="/xa" order="5" describe="喜爱" />
+		<face name=":/face/6.png" pathname="6.png" shortcut="/hx" order="6" describe="坏笑" />
+		<face name=":/face/7.png" pathname="7.png" shortcut="/qq" order="7" describe="亲亲" />
+		<face name=":/face/8.png" pathname="8.png" shortcut="/zm" order="8" describe="皱眉" />
+		<face name=":/face/9.png" pathname="9.png" shortcut="/kbs" order="9" describe="扣鼻屎" />
+		<face name=":/face/10.png" pathname="10.png" shortcut="/zk" order="10" describe="抓狂" />
+		<face name=":/face/11.png" pathname="11.png" shortcut="/jx" order="11" describe="惊吓" />
+		<face name=":/face/12.png" pathname="12.png" shortcut="/hd" order="12" describe="昏倒" />
+		<face name=":/face/13.png" pathname="13.png" shortcut="/sw" order="13" describe="失望" />
+		<face name=":/face/14.png" pathname="14.png" shortcut="/cq" order="14" describe="抽泣" />
+		<face name=":/face/15.png" pathname="15.png" shortcut="/ll" order="15" describe="流泪" />
+		<face name=":/face/16.png" pathname="16.png" shortcut="/dk" order="16" describe="大哭" />
+		<face name=":/face/17.png" pathname="17.png" shortcut="/han" order="17" describe="汗" />
+		<face name=":/face/18.png" pathname="18.png" shortcut="/dq" order="18" describe="叹气" />
+		<face name=":/face/19.png" pathname="19.png" shortcut="/bf" order="19" describe="拜佛" />
+		<face name=":/face/20.png" pathname="20.png" shortcut="/jy" order="20" describe="禁言" />
+		<face name=":/face/21.png" pathname="21.png" shortcut="/ot" order="21" describe="呕吐" />
+		<face name=":/face/22.png" pathname="22.png" shortcut="/gm" order="22" describe="感冒" />
+		<face name=":/face/23.png" pathname="23.png" shortcut="/yw" order="23" describe="疑问" />
+		<face name=":/face/24.png" pathname="24.png" shortcut="/yd" order="24" describe="晕倒" />
+		<face name=":/face/25.png" pathname="25.png" shortcut="/dn" order="25" describe="大怒" />
+		<face name=":/face/26.png" pathname="26.png" shortcut="/xs" order="26" describe="熊市" />
+		<face name=":/face/27.png" pathname="27.png" shortcut="/ns" order="27" describe="牛市" />
+		<face name=":/face/28.png" pathname="28.png" shortcut="/qiang" order="28" describe="强" />
+		<face name=":/face/29.png" pathname="29.png" shortcut="/ruo" order="29" describe="弱" />
+		<face name=":/face/30.png" pathname="30.png" shortcut="/ok" order="30" describe="OK" />
+		<face name=":/face/31.png" pathname="31.png" shortcut="/sl" order="31" describe="胜利" />
+		<face name=":/face/32.png" pathname="32.png" shortcut="/gz" order="32" describe="鼓掌" />
+		<face name=":/face/33.png" pathname="33.png" shortcut="/zq" order="33" describe="重拳" />
+		<face name=":/face/34.png" pathname="34.png" shortcut="/jr" order="34" describe="肌肉" />
+		<face name=":/face/35.png" pathname="35.png" shortcut="/sa" order="35" describe="示爱" />
+		<face name=":/face/36.png" pathname="36.png" shortcut="/ax" order="36" describe="爱心" />
+		<face name=":/face/37.png" pathname="37.png" shortcut="/xs" order="37" describe="心碎" />
+		<face name=":/face/38.png" pathname="38.png" shortcut="/xx" order="38" describe="星星" />
+		<face name=":/face/39.png" pathname="39.png" shortcut="/dl" order="39" describe="地雷" />
+		<face name=":/face/40.png" pathname="40.png" shortcut="/qz" order="40" describe="庆祝" />
+		<face name=":/face/41.png" pathname="41.png" shortcut="/shi" order="41" describe="屎" />
+		<face name=":/face/42.png" pathname="42.png" shortcut="/hua" order="42" describe="花" />
+		<face name=":/face/43.png" pathname="43.png" shortcut="/gb" order="43" describe="干杯" />
+		<face name=":/face/44.png" pathname="44.png" shortcut="/xg" order="44" describe="西瓜" />
+		<face name=":/face/45.png" pathname="45.png" shortcut="/qd" order="45" describe="钱袋" />
+		<face name=":/face/46.png" pathname="46.png" shortcut="/msyq" order="46" describe="元宝" />
+		<face name=":/face/47.png" pathname="47.png" shortcut="/cq" order="47" describe="存钱" />
+		<face name=":/face/48.png" pathname="48.png" shortcut="/zs" order="48" describe="钻石" />
+	</faces>
+</library>
